@@ -5,33 +5,53 @@
   "source": "Source : notaire.be, 06/10/2026 (mesure annoncée, pas encore votée)",
   "scenes": [
     {
-      "text": "Tu veux acheter en Flandre ? Attention : les droits d'enregistrement pourraient augmenter dès le premier janvier deux mille vingt-sept !",
+      "text": "Tu veux acheter en Flandre ? Attention : les droits d'enregistrement pourraient augmenter dès le 1er janvier 2027 !",
       "bg": "img/antwerpen.jpg",
       "kicker": "FLANDRE · 2027",
       "big": "2 % → 3 %",
       "sub": "droits d'enregistrement sur ton logement"
     },
     {
-      "text": "Pour ton habitation propre et unique, le taux réduit passerait de deux à trois pour cent. C'est prévu dans l'accord budgétaire flamand, mais ce n'est pas encore voté.",
+      "text": "Pour ton habitation propre et unique, le taux réduit passerait de 2 % à 3 %. C'est prévu dans l'accord budgétaire flamand, mais ce n'est pas encore voté.",
       "bg": "img/gent.jpg",
       "kicker": "TAUX RÉDUIT",
       "items": [
-        {"label": "Aujourd'hui", "value": "2 %", "pct": 66},
-        {"label": "Dès 2027 (si voté)", "value": "3 %", "pct": 100}
+        {
+          "label": "Aujourd'hui",
+          "value": "2 %",
+          "pct": 66
+        },
+        {
+          "label": "Dès 2027 (si voté)",
+          "value": "3 %",
+          "pct": 100
+        }
       ]
     },
     {
-      "text": "Concrètement, pour un logement de trois cent cinquante mille euros : sept mille euros de droits aujourd'hui, dix mille cinq cents en deux mille vingt-sept. Trois mille cinq cents euros de plus !",
+      "text": "Concrètement, pour un logement de 350.000 € : 7.000 € de droits aujourd'hui, 10.500 € en 2027. Soit 3.500 € de plus !",
       "bg": "img/antwerpen.jpg",
       "kicker": "LOGEMENT DE 350.000 €",
       "items": [
-        {"label": "À 2 %", "value": "7.000 €", "pct": 67},
-        {"label": "À 3 %", "value": "10.500 €", "pct": 100},
-        {"label": "Différence", "value": "+3.500 €", "pct": 0}
+        {
+          "label": "À 2 %",
+          "value": "7.000 €",
+          "pct": 67
+        },
+        {
+          "label": "À 3 %",
+          "value": "10.500 €",
+          "pct": 100
+        },
+        {
+          "label": "Différence",
+          "value": "+3.500 €",
+          "pct": 0
+        }
       ]
     },
     {
-      "text": "La bonne nouvelle ? C'est la date du compromis qui compterait. Compromis signé en deux mille vingt-six, même avec l'acte chez le notaire en deux mille vingt-sept : tu garderais les deux pour cent.",
+      "text": "La bonne nouvelle ? C'est la date du compromis qui compterait. Compromis signé en 2026, même avec l'acte chez le notaire en 2027 : tu garderais les 2 %.",
       "bg": "img/gent.jpg",
       "kicker": "✅ LE BON PLAN",
       "big": "Compromis 2026",
@@ -45,7 +65,7 @@
       "sub": "c'est la date de l'acte notarié qui compte"
     },
     {
-      "text": "Tu signes avant ou après le premier janvier ? Parles-en à ton notaire avant de t'engager, et abonne-toi pour l'actu immo belge, chaque jour !",
+      "text": "Tu signes avant ou après le 1er janvier ? Parles-en à ton notaire avant de t'engager, et abonne-toi pour suivre l'actu immo belge chaque jour !",
       "bg": "img/gent.jpg",
       "cta": "Tu signes avant 2027 ?"
     }

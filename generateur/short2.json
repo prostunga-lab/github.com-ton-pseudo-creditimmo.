@@ -1,6 +1,6 @@
 {
   "slug": "prix-immo-belgique-vs-europe",
-  "voice": "fr-BE-CharlineNeural",
+  "voice": "fr-FR-VivienneMultilingualNeural",
   "source": "Source : Eurostat / Statbel via Sudinfo, 25/10/2026",
   "scenes": [
     {
@@ -11,35 +11,52 @@
       "sub": "Qui grimpe le plus vite ?"
     },
     {
-      "text": "Sur un an, entre mi-deux-mille-vingt-cinq et mi-deux-mille-vingt-six, les prix ont grimpé de quatre virgule sept pour cent dans l'Union européenne, et de quatre pour cent dans la zone euro.",
+      "text": "Sur un an, entre mi-2025 et mi-2026, les prix ont grimpé de 4,7 % dans l'Union européenne et de 4 % dans la zone euro.",
       "bg": "img/gent.jpg",
       "kicker": "EUROSTAT · SUR 1 AN",
       "items": [
-        {"label": "Union européenne", "value": "+4,7 %", "pct": 100},
-        {"label": "Zone euro", "value": "+4,0 %", "pct": 85}
+        {
+          "label": "Union européenne",
+          "value": "+4,7 %",
+          "pct": 100
+        },
+        {
+          "label": "Zone euro",
+          "value": "+4,0 %",
+          "pct": 85
+        }
       ]
     },
     {
-      "text": "Et en Belgique ? Seulement deux virgule un pour cent, selon Statbel. Moins de la moitié de la hausse européenne !",
+      "text": "Et en Belgique ? Seulement 2,1 %, selon Statbel. Moins de la moitié de la hausse européenne !",
       "bg": "img/bxl_grandplace.jpg",
       "kicker": "STATBEL · BELGIQUE",
       "big": "+2,1 %",
       "sub": "moins de la moitié de la hausse européenne"
     },
     {
-      "text": "Ce que ça veut dire ? Un marché belge plus stable, sans emballement. Mais acheter reste un vrai défi, surtout pour un premier achat.",
+      "text": "Qu'est-ce que ça veut dire ? Un marché belge plus stable, sans emballement. Mais acheter reste un vrai défi, surtout pour un premier achat.",
       "bg": "img/wallonie.jpg",
       "kicker": "CE QU'IL FAUT RETENIR",
       "items": [
-        {"label": "✅ Marché stable", "value": "", "pct": 0},
-        {"label": "⚠️ Accès difficile", "value": "", "pct": 0}
+        {
+          "label": "✅ Marché stable",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "❗ Accès difficile",
+          "value": "",
+          "pct": 0
+        }
       ]
     },
     {
-      "text": "Alors, tu achètes maintenant, ou tu attends ? Dis-le en commentaire, et abonne-toi pour l'actu immo belge, chaque jour !",
+      "text": "Alors, tu achètes maintenant ou tu attends ? Dis-le en commentaire et abonne-toi pour suivre l'actu immo belge chaque jour !",
       "bg": "img/bxl_panorama.jpg",
       "cta": "Acheter maintenant ou attendre ?"
     }
   ],
-  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Fred Romero (CC BY 2.0) ; Julian Lupyan (CC0) ; Jean-Pol Grandmont (CC BY 2.5) – Wikimedia Commons"
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Fred Romero (CC BY 2.0) ; Julian Lupyan (CC0) ; Jean-Pol Grandmont (CC BY 2.5) – Wikimedia Commons",
+  "rate": "+5%"
 }

@@ -6,187 +6,307 @@
   "source": "Sources : Fednot / notaire.be (13/10 et 06/10/2026), Eurostat, Statbel, BRUZZ, Sudinfo",
   "scenes": [
     {
-      "text": "En Belgique, il faut désormais près de quatre mille sept cents euros de revenus par mois pour acheter une maison à Bruxelles. Et ce n'est même pas le chiffre le plus inquiétant.",
+      "text": "En Belgique, il faut désormais 4.656 € de revenus par mois pour acheter une maison à Bruxelles. Et ce n'est même pas le chiffre le plus inquiétant…",
       "bg": "img/bxl_grandplace.jpg",
       "kicker": "BRUXELLES · REVENU NÉCESSAIRE",
       "big": "4.656 €/mois",
       "sub": "pour acheter une maison à Bruxelles"
     },
     {
-      "text": "Les prix montent, les ventes baissent, et en deux mille vingt-sept, acheter en Flandre pourrait coûter des milliers d'euros de plus. Voici les sept chiffres de l'immobilier belge que tu dois connaître avant de signer quoi que ce soit. Le numéro un risque de changer tes plans.",
+      "text": "Les prix montent, les ventes baissent et, en 2027, acheter en Flandre pourrait coûter des milliers d'euros de plus. Voici les 7 chiffres de l'immobilier belge à connaître avant de signer quoi que ce soit. Le numéro 1 risque de changer tes plans.",
       "bg": "img/bxl_panorama.jpg",
       "kicker": "AVANT DE SIGNER",
       "big": "7 chiffres",
       "sub": "que tout acheteur belge doit connaître"
     },
     {
-      "text": "Chiffre numéro sept : les ventes reculent.",
+      "text": "Chiffre n°7 : les ventes reculent.",
       "bg": "img/gent.jpg",
       "chapter": "CHIFFRE N°7",
       "title": "Le marché se refroidit"
     },
     {
-      "text": "Au troisième trimestre deux mille vingt-six, les ventes de logements ont baissé de deux virgule deux pour cent en Belgique, par rapport à l'an dernier. Ce sont surtout les maisons qui reculent : moins deux virgule huit pour cent. Les appartements, eux, restent quasi stables.",
+      "text": "Au T3 2026, les ventes de logements ont baissé de 2,2 % en Belgique par rapport à l'an dernier. Ce sont surtout les maisons qui reculent : -2,8 %. Les appartements, eux, restent quasi stables.",
       "bg": "img/gent.jpg",
       "kicker": "VENTES · T3 2026 VS T3 2025",
       "items": [
-        {"label": "Belgique", "value": "-2,2 %", "pct": 44},
-        {"label": "Maisons", "value": "-2,8 %", "pct": 56},
-        {"label": "Appartements", "value": "-0,4 %", "pct": 8}
+        {
+          "label": "Belgique",
+          "value": "-2,2 %",
+          "pct": 44
+        },
+        {
+          "label": "Maisons",
+          "value": "-2,8 %",
+          "pct": 56
+        },
+        {
+          "label": "Appartements",
+          "value": "-0,4 %",
+          "pct": 8
+        }
       ]
     },
     {
-      "text": "Et c'est la Wallonie qui freine le plus : moins cinq virgule un pour cent. La Flandre recule d'un virgule un pour cent, et Bruxelles reste stable. La raison principale, selon les notaires ? Le crédit est devenu plus cher ces derniers mois.",
+      "text": "Et c'est la Wallonie qui freine le plus : -5,1 %. La Flandre recule de 1,1 % et Bruxelles reste stable. La raison principale, selon les notaires ? Le crédit est devenu plus cher ces derniers mois.",
       "bg": "img/wallonie.jpg",
       "kicker": "PAR RÉGION",
       "items": [
-        {"label": "Wallonie", "value": "-5,1 %", "pct": 100},
-        {"label": "Flandre", "value": "-1,1 %", "pct": 22},
-        {"label": "Bruxelles", "value": "-0,1 %", "pct": 2}
+        {
+          "label": "Wallonie",
+          "value": "-5,1 %",
+          "pct": 100
+        },
+        {
+          "label": "Flandre",
+          "value": "-1,1 %",
+          "pct": 22
+        },
+        {
+          "label": "Bruxelles",
+          "value": "-0,1 %",
+          "pct": 2
+        }
       ]
     },
     {
-      "text": "Moins de ventes… donc des prix en baisse ? Eh bien non. Et c'est le chiffre numéro six.",
+      "text": "Moins de ventes… donc des prix en baisse ? Eh bien, non. Et c'est le chiffre n°6.",
       "bg": "img/antwerpen.jpg",
       "chapter": "CHIFFRE N°6",
       "title": "Les prix montent quand même"
     },
     {
-      "text": "Sur les neuf premiers mois de deux mille vingt-six, une maison coûte en moyenne trois cent soixante mille six cent treize euros en Belgique. C'est trois pour cent de plus qu'en deux mille vingt-cinq. Un appartement : deux cent quatre-vingt-sept mille six cent seize euros, plus deux pour cent.",
+      "text": "Sur les 9 premiers mois de 2026, une maison coûte en moyenne 360.613 € en Belgique, soit 3 % de plus qu'en 2025. Un appartement : 287.616 €, soit +2 %.",
       "bg": "img/antwerpen.jpg",
       "kicker": "PRIX MOYEN · 9 MOIS 2026",
       "items": [
-        {"label": "Maison", "value": "360.613 € (+3 %)", "pct": 100},
-        {"label": "Appartement", "value": "287.616 € (+2 %)", "pct": 80}
+        {
+          "label": "Maison",
+          "value": "360.613 € (+3 %)",
+          "pct": 100
+        },
+        {
+          "label": "Appartement",
+          "value": "287.616 € (+2 %)",
+          "pct": 80
+        }
       ]
     },
     {
-      "text": "Mais attention au piège : l'inflation était de quatre virgule six neuf pour cent fin septembre. Les prix montent donc moins vite que la vie. En réalité, corrigée de l'inflation, la maison belge est même un peu moins chère qu'en deux mille vingt-cinq.",
+      "text": "Mais attention au piège : l'inflation atteignait 4,69 % fin septembre. Les prix montent donc moins vite que le coût de la vie. Corrigée de l'inflation, la maison belge est même un peu moins chère qu'en 2025.",
       "bg": "img/bxl_panorama.jpg",
       "kicker": "LE DÉTAIL QUE PERSONNE NE VOIT",
       "items": [
-        {"label": "Prix des maisons", "value": "+3,0 %", "pct": 64},
-        {"label": "Inflation (fin sept.)", "value": "+4,69 %", "pct": 100}
+        {
+          "label": "Prix des maisons",
+          "value": "+3,0 %",
+          "pct": 64
+        },
+        {
+          "label": "Inflation (fin sept.)",
+          "value": "+4,69 %",
+          "pct": 100
+        }
       ]
     },
     {
-      "text": "Chiffre numéro cinq : l'écart entre les régions est énorme.",
+      "text": "Chiffre n°5 : l'écart entre les régions est énorme.",
       "bg": "img/bxl_grandplace.jpg",
       "chapter": "CHIFFRE N°5",
       "title": "Bruxelles, Flandre, Wallonie : le grand écart"
     },
     {
-      "text": "À Bruxelles, une maison coûte en moyenne six cent neuf mille deux cent vingt-sept euros, en hausse de quatre virgule huit pour cent. En Flandre, trois cent nonante-huit mille cent quatre-vingt-deux euros. Et en Wallonie, deux cent septante mille deux cent trente-neuf euros. Plus de deux fois moins cher qu'à Bruxelles !",
+      "text": "À Bruxelles, une maison coûte en moyenne 609.227 €, en hausse de 4,8 %. En Flandre, 398.182 €. Et en Wallonie, 270.239 € : plus de deux fois moins cher qu'à Bruxelles !",
       "bg": "img/bxl_grandplace.jpg",
       "kicker": "PRIX MOYEN D'UNE MAISON · 2026",
       "items": [
-        {"label": "Bruxelles", "value": "609.227 €", "pct": 100},
-        {"label": "Flandre", "value": "398.182 €", "pct": 65},
-        {"label": "Wallonie", "value": "270.239 €", "pct": 44}
+        {
+          "label": "Bruxelles",
+          "value": "609.227 €",
+          "pct": 100
+        },
+        {
+          "label": "Flandre",
+          "value": "398.182 €",
+          "pct": 65
+        },
+        {
+          "label": "Wallonie",
+          "value": "270.239 €",
+          "pct": 44
+        }
       ]
     },
     {
-      "text": "Et en Wallonie, ça varie encore beaucoup : près de quatre cent septante-huit mille euros dans le Brabant wallon, contre deux cent quinze mille dans le Hainaut, la province la moins chère.",
+      "text": "Et en Wallonie, les écarts restent importants : près de 478.000 € dans le Brabant wallon, contre à peine plus de 215.000 € dans le Hainaut, la province la moins chère.",
       "bg": "img/wallonie.jpg",
       "kicker": "MAISONS · PROVINCES WALLONNES",
       "items": [
-        {"label": "Brabant wallon", "value": "477.816 €", "pct": 100},
-        {"label": "Namur", "value": "272.201 €", "pct": 57},
-        {"label": "Liège", "value": "263.112 €", "pct": 55},
-        {"label": "Hainaut", "value": "215.339 €", "pct": 45}
+        {
+          "label": "Brabant wallon",
+          "value": "477.816 €",
+          "pct": 100
+        },
+        {
+          "label": "Namur",
+          "value": "272.201 €",
+          "pct": 57
+        },
+        {
+          "label": "Liège",
+          "value": "263.112 €",
+          "pct": 55
+        },
+        {
+          "label": "Hainaut",
+          "value": "215.339 €",
+          "pct": 45
+        }
       ]
     },
     {
-      "text": "Résultat ? Les Bruxellois partent. Chiffre numéro quatre.",
+      "text": "Résultat ? Les Bruxellois partent. Chiffre n°4.",
       "bg": "img/bxl_panorama.jpg",
       "chapter": "CHIFFRE N°4",
       "title": "L'exode des Bruxellois"
     },
     {
-      "text": "En deux mille vingt-cinq, quarante-trois virgule six pour cent des Bruxellois ont acheté leur logement en dehors de Bruxelles. Pour une maison, seulement trente-deux pour cent sont restés. Quarante-trois pour cent sont partis en Flandre, et vingt-cinq pour cent en Wallonie.",
+      "text": "En 2025, 43,6 % des Bruxellois ont acheté leur logement en dehors de Bruxelles. Pour une maison, seuls 32 % sont restés : 43 % sont partis en Flandre et 25 % en Wallonie.",
       "bg": "img/gent.jpg",
       "kicker": "FEDNOT · ACHATS 2025",
       "items": [
-        {"label": "Restent à Bruxelles", "value": "32 %", "pct": 32},
-        {"label": "Partent en Flandre", "value": "43 %", "pct": 43},
-        {"label": "Partent en Wallonie", "value": "25 %", "pct": 25}
+        {
+          "label": "Restent à Bruxelles",
+          "value": "32 %",
+          "pct": 32
+        },
+        {
+          "label": "Partent en Flandre",
+          "value": "43 %",
+          "pct": 43
+        },
+        {
+          "label": "Partent en Wallonie",
+          "value": "25 %",
+          "pct": 25
+        }
       ]
     },
     {
-      "text": "Ceux qui partent le plus ? Les trente et un à trente-cinq ans, souvent en couple. Ils cherchent un prix plus doux, du vert, et des droits d'enregistrement plus légers. Et toi, tu partirais ? Dis-le-moi en commentaire.",
+      "text": "Ceux qui partent le plus ? Les 31-35 ans, souvent en couple. Ils cherchent des prix plus doux, de la verdure et des droits d'enregistrement plus légers. Et toi, tu partirais ? Dis-le-moi en commentaire.",
       "bg": "img/wallonie.jpg",
       "kicker": "QUI PART ?",
       "big": "31–35 ans",
       "sub": "les plus nombreux à changer de région"
     },
     {
-      "text": "Chiffre numéro trois : la Belgique, une exception en Europe.",
+      "text": "Chiffre n°3 : la Belgique, une exception en Europe.",
       "bg": "img/antwerpen.jpg",
       "chapter": "CHIFFRE N°3",
       "title": "La Belgique résiste à la flambée"
     },
     {
-      "text": "Selon Eurostat, entre mi-deux-mille-vingt-cinq et mi-deux-mille-vingt-six, les prix des logements ont pris quatre virgule sept pour cent dans l'Union européenne. En Belgique, selon Statbel : seulement deux virgule un pour cent. Moins de la moitié.",
+      "text": "Selon Eurostat, entre mi-2025 et mi-2026, les prix des logements ont augmenté de 4,7 % dans l'Union européenne. En Belgique, selon Statbel : seulement 2,1 %. Moins de la moitié !",
       "bg": "img/antwerpen.jpg",
       "kicker": "PRIX DES LOGEMENTS · SUR 1 AN",
       "items": [
-        {"label": "Union européenne", "value": "+4,7 %", "pct": 100},
-        {"label": "Zone euro", "value": "+4,0 %", "pct": 85},
-        {"label": "Belgique", "value": "+2,1 %", "pct": 45}
+        {
+          "label": "Union européenne",
+          "value": "+4,7 %",
+          "pct": 100
+        },
+        {
+          "label": "Zone euro",
+          "value": "+4,0 %",
+          "pct": 85
+        },
+        {
+          "label": "Belgique",
+          "value": "+2,1 %",
+          "pct": 45
+        }
       ]
     },
     {
-      "text": "Chiffre numéro deux. Combien faut-il gagner pour acheter ?",
+      "text": "Chiffre n°2 : combien faut-il gagner pour acheter ?",
       "bg": "img/bxl_grandplace.jpg",
       "chapter": "CHIFFRE N°2",
       "title": "Combien faut-il gagner ?"
     },
     {
-      "text": "Selon une analyse relayée par Sudinfo, un ménage doit disposer de quatre mille six cent cinquante-six euros de revenus par mois pour acheter une maison à Bruxelles. À Ixelles, il faut même compter dix mille sept cent dix-huit euros par mois !",
+      "text": "Selon une analyse relayée par Sudinfo, un ménage doit disposer de 4.656 € de revenus par mois pour acheter une maison à Bruxelles. À Ixelles, il faut même compter 10.718 € par mois !",
       "bg": "img/bxl_grandplace.jpg",
       "kicker": "REVENU MENSUEL NÉCESSAIRE",
       "items": [
-        {"label": "Maison à Bruxelles", "value": "4.656 €", "pct": 43},
-        {"label": "Bien à Ixelles", "value": "10.718 €", "pct": 100}
+        {
+          "label": "Maison à Bruxelles",
+          "value": "4.656 €",
+          "pct": 43
+        },
+        {
+          "label": "Bien à Ixelles",
+          "value": "10.718 €",
+          "pct": 100
+        }
       ]
     },
     {
-      "text": "Et selon cette même analyse, dans aucune des dix-huit communes bruxelloises étudiées, un couple au revenu médian de sa commune ne peut s'offrir la maison médiane. Aucune.",
+      "text": "Et selon cette même analyse, dans aucune des 18 communes bruxelloises étudiées, un couple disposant du revenu médian de sa commune ne peut s'offrir la maison médiane. Aucune.",
       "bg": "img/bxl_panorama.jpg",
       "kicker": "LE CHIFFRE QUI FAIT MAL",
       "big": "0 sur 18",
       "sub": "communes accessibles avec le revenu médian (maison)"
     },
     {
-      "text": "Et maintenant, le chiffre numéro un. Celui qui peut te coûter le plus cher si tu achètes en Flandre.",
+      "text": "Et maintenant, le chiffre n°1 : celui qui peut te coûter le plus cher si tu achètes en Flandre.",
       "bg": "img/gent.jpg",
       "chapter": "CHIFFRE N°1",
       "title": "Flandre : 3 % dès 2027 ?"
     },
     {
-      "text": "Aujourd'hui, en Flandre, l'achat de ton habitation propre et unique bénéficie d'un taux réduit de deux pour cent de droits d'enregistrement. Selon l'accord budgétaire flamand, ce taux pourrait passer à trois pour cent pour les ventes conclues à partir du premier janvier deux mille vingt-sept. Attention : ce n'est pas encore voté.",
+      "text": "Aujourd'hui, en Flandre, l'achat de ton habitation propre et unique bénéficie d'un taux réduit de 2 % de droits d'enregistrement. Selon l'accord budgétaire flamand, ce taux pourrait passer à 3 % pour les ventes conclues à partir du 1er janvier 2027. Attention : ce n'est pas encore voté.",
       "bg": "img/gent.jpg",
       "kicker": "DROITS D'ENREGISTREMENT · FLANDRE",
       "big": "2 % → 3 %",
       "sub": "dès le 1er janvier 2027 (si la mesure est votée)"
     },
     {
-      "text": "Pour un logement de trois cent cinquante mille euros, ça fait sept mille euros aujourd'hui, et dix mille cinq cents demain. Trois mille cinq cents euros de plus, juste en taxes.",
+      "text": "Pour un logement de 350.000 €, cela fait 7.000 € aujourd'hui et 10.500 € demain. Soit 3.500 € de plus, rien qu'en taxes.",
       "bg": "img/antwerpen.jpg",
       "kicker": "LOGEMENT DE 350.000 €",
       "items": [
-        {"label": "À 2 %", "value": "7.000 €", "pct": 67},
-        {"label": "À 3 %", "value": "10.500 €", "pct": 100},
-        {"label": "Différence", "value": "+3.500 €", "pct": 0}
+        {
+          "label": "À 2 %",
+          "value": "7.000 €",
+          "pct": 67
+        },
+        {
+          "label": "À 3 %",
+          "value": "10.500 €",
+          "pct": 100
+        },
+        {
+          "label": "Différence",
+          "value": "+3.500 €",
+          "pct": 0
+        }
       ]
     },
     {
-      "text": "Le bon plan : c'est la date du compromis qui compterait. Un compromis signé en deux mille vingt-six garderait les deux pour cent, même si l'acte est signé chez le notaire en deux mille vingt-sept. Mais attention : avec une promesse réciproque d'achat et de vente, c'est la date de l'acte qui compte.",
+      "text": "Le bon plan : c'est la date du compromis qui compterait. Un compromis signé en 2026 garderait les 2 %, même si l'acte est signé chez le notaire en 2027. Mais attention : avec une promesse réciproque d'achat et de vente, c'est la date de l'acte qui compte.",
       "bg": "img/gent.jpg",
       "kicker": "COMPROMIS OU PROMESSE ?",
       "items": [
-        {"label": "✅ Compromis signé en 2026", "value": "2 %", "pct": 0},
-        {"label": "🚨 Promesse réciproque", "value": "date de l'acte", "pct": 0}
+        {
+          "label": "✅ Compromis signé en 2026",
+          "value": "2 %",
+          "pct": 0
+        },
+        {
+          "label": "🚨 Promesse réciproque",
+          "value": "date de l'acte",
+          "pct": 0
+        }
       ]
     },
     {
@@ -194,13 +314,25 @@
       "bg": "img/bxl_panorama.jpg",
       "kicker": "À RETENIR",
       "items": [
-        {"label": "📉 Ventes en baisse", "value": "-2,2 %", "pct": 0},
-        {"label": "📈 Prix maison", "value": "+3 %", "pct": 0},
-        {"label": "🗓️ Flandre 2027", "value": "+3.500 €", "pct": 0}
+        {
+          "label": "📉 Ventes en baisse",
+          "value": "-2,2 %",
+          "pct": 0
+        },
+        {
+          "label": "📈 Prix maison",
+          "value": "+3 %",
+          "pct": 0
+        },
+        {
+          "label": "🗓️ Flandre 2027",
+          "value": "+3.500 €",
+          "pct": 0
+        }
       ]
     },
     {
-      "text": "Et toi, tu achètes avant deux mille vingt-sept, ou tu attends ? Dis-le en commentaire, partage cette vidéo à quelqu'un qui cherche une maison, et abonne-toi : chaque jour, l'actu immo belge en clair, sur CréditImmo.",
+      "text": "Et toi, tu achètes avant 2027 ou tu attends ? Dis-le en commentaire, partage cette vidéo avec quelqu'un qui cherche une maison et abonne-toi : chaque jour, l'actu immo belge en clair, sur CréditImmo.",
       "bg": "img/bxl_grandplace.jpg",
       "cta": "Tu achètes avant 2027, ou tu attends ?"
     }

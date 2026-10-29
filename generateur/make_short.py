@@ -3,6 +3,8 @@ Usage : python3 make_short.py <scenes.json> [AAAA-MM-JJ]
 La vidéo est écrite dans videos/<date>/<slug>.mp4 à la racine du dépôt.
 """
 import datetime, json, os, re, subprocess, sys
+
+from texte import aligner, decouper
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -13,35 +15,10 @@ GAP = 0.25  # silence entre deux scènes (s)
 VOICE_FX = "highpass=f=70,equalizer=f=180:t=q:w=1:g=2,equalizer=f=3500:t=q:w=1.2:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=5:release=120:makeup=2,aecho=0.85:0.5:25:0.05,loudnorm=I=-14:TP=-1.5"
 
 
-# Prononciations forcées : orthographe affichée (sous-titres) -> texte envoyé à la voix
-PRONONCIATION = {
-    "Parles-en": "Parle zan",
-    "parles-en": "parle zan",
-    "Penses-y": "Pense zi",
-    "penses-y": "pense zi",
-    "Vas-y": "Va zi",
-    "vas-y": "va zi",
-}
-
-
-def dire(text):
-    for ecrit, dit in PRONONCIATION.items():
-        text = text.replace(ecrit, dit)
-    return text
-
-
-def remettre_orthographe(mots):
-    """Fusionne les mots prononcés (« Parle » « zan ») en leur orthographe (« Parles-en »)."""
-    for ecrit, dit in PRONONCIATION.items():
-        cible = dit.split()
-        i = 0
-        while i <= len(mots) - len(cible):
-            if [m["w"].strip(",.!?…") for m in mots[i:i + len(cible)]] == cible:
-                fin = mots[i + len(cible) - 1]
-                ponct = fin["w"][len(fin["w"].rstrip(",.!?…")):]
-                mots[i:i + len(cible)] = [{"w": ecrit + ponct, "s": mots[i]["s"], "e": fin["e"]}]
-            i += 1
-    return mots
+def typo(s):
+    """Espaces insécables de la typographie française (avant ? ! : ; % € et après «)."""
+    s = re.sub(r" ([?!:;%€»])", "\u00a0\\1", s)
+    return s.replace("« ", "«\u00a0")
 
 
 def dur(path):
@@ -58,18 +35,18 @@ def main(spec_path, day=None):
     t, words, parts = 0.0, [], []
     for i, sc in enumerate(spec["scenes"]):
         mp3, wj = f"{work}/s{i}.mp3", f"{work}/s{i}.json"
-        subprocess.check_call(["python3", f"{HERE}/tts.py", spec["voice"], dire(sc["text"]), mp3, wj, spec.get("rate", "+5%")])
+        # sous-titres = texte écrit (chiffres, ponctuation) ; voix = version prononcée
+        mots = decouper(sc["text"])
+        dit = " ".join(d for _, d in mots)
+        subprocess.check_call(["python3", f"{HERE}/tts.py", spec["voice"], dit, mp3, wj, spec.get("rate", "+5%")])
         d = dur(mp3)
         sc["start"], sc["end"] = t, t + d
-        # captions: drop pure punctuation, group by 3 words, break on punctuation
+        # sous-titres : 3 mots max, coupure après chaque signe de ponctuation
         chunk, n = len({w.get("chunk") for w in words if "chunk" in w}), 0
-        for w in remettre_orthographe(json.load(open(wj))):
-            txt = w["w"].strip()
-            if not re.search(r"\w", txt):
-                continue
-            words.append({"w": txt, "s": t + w["s"], "e": t + w["e"], "chunk": chunk})
+        for w in aligner(mots, json.load(open(wj))):
+            words.append({"w": w["w"], "s": t + w["s"], "e": t + w["e"], "chunk": chunk})
             n += 1
-            if n == 3 or re.search(r"[.,!?…]$", txt):
+            if n == 3 or re.search(r"[.,!?…:;»)]$", w["w"]):
                 chunk, n = chunk + 1, 0
         if n:
             chunk += 1
@@ -80,6 +57,12 @@ def main(spec_path, day=None):
         w["next"] = words[k + 1]["s"] if k + 1 < len(words) else total
         # keep a chunk on screen until the next chunk starts
     spec["words"], spec["total"] = words, total
+    for sc in spec["scenes"]:
+        for k in ("kicker", "big", "sub", "cta", "title"):
+            if sc.get(k):
+                sc[k] = typo(sc[k])
+        for it in sc.get("items", []):
+            it["label"], it["value"] = typo(it["label"]), typo(it["value"])
 
     # audio: concatenate scenes with gaps
     filt, inputs = "", []
@@ -100,7 +83,7 @@ def main(spec_path, day=None):
     os.makedirs(out_dir, exist_ok=True)
     out = f"{out_dir}/{spec['slug']}.mp4"
     subprocess.check_call(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(fps), "-i", f"{frames}/f%05d.jpg", "-i", audio,
-                           "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "medium", "-crf", "20", "-c:a", "copy", "-shortest", "-movflags", "+faststart", out])
+                           "-c:v", "libx264", "-pix_fmt", "yuv420p", *(["-preset", "slow", "-crf", "25", "-maxrate", "3M", "-bufsize", "6M"] if spec.get("format") == "long" else ["-preset", "medium", "-crf", "20"]), "-c:a", "copy", "-shortest", "-movflags", "+faststart", out])
     print(out, f"{total:.1f}s")
 
 

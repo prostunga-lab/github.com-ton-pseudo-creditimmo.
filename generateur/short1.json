@@ -1,6 +1,6 @@
 {
   "slug": "bruxellois-achetent-hors-bruxelles",
-  "voice": "fr-BE-CharlineNeural",
+  "voice": "fr-FR-VivienneMultilingualNeural",
   "source": "Source : Fednot via BRUZZ, 29/10/2026",
   "scenes": [
     {
@@ -11,44 +11,69 @@
       "sub": "des Bruxellois achètent hors de Bruxelles"
     },
     {
-      "text": "C'est ce que révèlent les derniers chiffres de la Fédération des Notaires.",
+      "text": "C'est ce que révèlent les derniers chiffres de la Fédération des notaires.",
       "bg": "img/bxl_panorama.jpg",
       "kicker": "NOUVEAUX CHIFFRES",
       "big": "Fednot",
-      "sub": "Fédération des Notaires"
+      "sub": "Fédération des notaires"
     },
     {
-      "text": "Pour une maison, seuls trente-deux pour cent restent à Bruxelles. Quarante-trois pour cent partent en Flandre, et vingt-cinq pour cent en Wallonie.",
+      "text": "Pour une maison, seuls 32 % des Bruxellois restent à Bruxelles. Ils sont 43 % à partir en Flandre et 25 % en Wallonie.",
       "bg": "img/gent.jpg",
       "kicker": "ACHAT D'UNE MAISON",
       "items": [
-        {"label": "Bruxelles", "value": "32 %", "pct": 32},
-        {"label": "Flandre", "value": "43 %", "pct": 43},
-        {"label": "Wallonie", "value": "25 %", "pct": 25}
+        {
+          "label": "Bruxelles",
+          "value": "32 %",
+          "pct": 32
+        },
+        {
+          "label": "Flandre",
+          "value": "43 %",
+          "pct": 43
+        },
+        {
+          "label": "Wallonie",
+          "value": "25 %",
+          "pct": 25
+        }
       ]
     },
     {
-      "text": "La raison ? Le prix. En moyenne, cinq cent quatre-vingt-trois mille euros à Bruxelles, contre trois cent quatre-vingt mille en Flandre, et deux cent septante mille en Wallonie.",
+      "text": "La raison ? Le prix. En moyenne, 583.000 € à Bruxelles, contre 380.000 € en Flandre et 270.000 € en Wallonie.",
       "bg": "img/wallonie.jpg",
       "kicker": "PRIX MOYEN",
       "items": [
-        {"label": "Bruxelles", "value": "583.000 €", "pct": 100},
-        {"label": "Flandre", "value": "380.000 €", "pct": 65},
-        {"label": "Wallonie", "value": "270.000 €", "pct": 46}
+        {
+          "label": "Bruxelles",
+          "value": "583.000 €",
+          "pct": 100
+        },
+        {
+          "label": "Flandre",
+          "value": "380.000 €",
+          "pct": 65
+        },
+        {
+          "label": "Wallonie",
+          "value": "270.000 €",
+          "pct": 46
+        }
       ]
     },
     {
-      "text": "Et ceux qui partent le plus ? Les couples de trente et un à trente-cinq ans.",
+      "text": "Et ceux qui partent le plus ? Les couples de 31 à 35 ans.",
       "bg": "img/bxl_panorama.jpg",
       "kicker": "QUI PART ?",
       "big": "31–35 ans",
       "sub": "les plus nombreux à quitter leur région"
     },
     {
-      "text": "Et toi, Bruxelles ou en dehors ? Dis-le en commentaire, et abonne-toi pour l'actu immo belge, chaque jour !",
+      "text": "Et toi, Bruxelles ou ailleurs ? Dis-le en commentaire et abonne-toi pour suivre l'actu immo belge chaque jour !",
       "bg": "img/bxl_grandplace.jpg",
-      "cta": "Bruxelles ou en dehors ?"
+      "cta": "Bruxelles ou ailleurs ?"
     }
   ],
-  "credits": "Photos : Julian Lupyan (CC0) ; Celuici (CC BY-SA 4.0) ; Fred Romero (CC BY 2.0) ; Jean-Pol Grandmont (CC BY 2.5) – Wikimedia Commons"
+  "credits": "Photos : Julian Lupyan (CC0) ; Celuici (CC BY-SA 4.0) ; Fred Romero (CC BY 2.0) ; Jean-Pol Grandmont (CC BY 2.5) – Wikimedia Commons",
+  "rate": "+5%"
 }
