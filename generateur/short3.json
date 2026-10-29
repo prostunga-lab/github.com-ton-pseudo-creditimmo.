@@ -1,0 +1,53 @@
+{
+  "slug": "flandre-droits-enregistrement-3-pourcent-2027",
+  "voice": "fr-BE-CharlineNeural",
+  "source": "Source : notaire.be, 06/10/2026 (mesure annoncée, pas encore votée)",
+  "scenes": [
+    {
+      "text": "Tu veux acheter en Flandre ? Attention : les droits d'enregistrement pourraient augmenter dès le premier janvier deux mille vingt-sept !",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "FLANDRE · 2027",
+      "big": "2 % → 3 %",
+      "sub": "droits d'enregistrement sur ton logement"
+    },
+    {
+      "text": "Pour ton habitation propre et unique, le taux réduit passerait de deux à trois pour cent. C'est prévu dans l'accord budgétaire flamand, mais ce n'est pas encore voté.",
+      "bg": "img/gent.jpg",
+      "kicker": "TAUX RÉDUIT",
+      "items": [
+        {"label": "Aujourd'hui", "value": "2 %", "pct": 66},
+        {"label": "Dès 2027 (si voté)", "value": "3 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Concrètement, pour un logement de trois cent cinquante mille euros : sept mille euros de droits aujourd'hui, dix mille cinq cents en deux mille vingt-sept. Trois mille cinq cents euros de plus !",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "LOGEMENT DE 350.000 €",
+      "items": [
+        {"label": "À 2 %", "value": "7.000 €", "pct": 67},
+        {"label": "À 3 %", "value": "10.500 €", "pct": 100},
+        {"label": "Différence", "value": "+3.500 €", "pct": 0}
+      ]
+    },
+    {
+      "text": "La bonne nouvelle ? C'est la date du compromis qui compterait. Compromis signé en deux mille vingt-six, même avec l'acte chez le notaire en deux mille vingt-sept : tu garderais les deux pour cent.",
+      "bg": "img/gent.jpg",
+      "kicker": "✅ LE BON PLAN",
+      "big": "Compromis 2026",
+      "sub": "= taux de 2 %, même si l'acte est signé en 2027"
+    },
+    {
+      "text": "Mais attention au piège : avec une promesse réciproque d'achat et de vente, c'est la date de l'acte qui compte.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "🚨 LE PIÈGE",
+      "big": "Promesse réciproque",
+      "sub": "c'est la date de l'acte notarié qui compte"
+    },
+    {
+      "text": "Tu signes avant ou après le premier janvier ? Parles-en à ton notaire avant de t'engager, et abonne-toi pour l'actu immo belge, chaque jour !",
+      "bg": "img/gent.jpg",
+      "cta": "Tu signes avant 2027 ?"
+    }
+  ],
+  "credits": "Photos : TheGoodEndedHappily (CC BY 4.0) ; Fred Romero (CC BY 2.0) – Wikimedia Commons"
+}
