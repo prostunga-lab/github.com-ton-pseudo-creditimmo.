@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="400" height="440">
+  <!-- shadow -->
+  <ellipse cx="200" cy="420" rx="120" ry="12" fill="#000" opacity=".18"/>
+  <!-- chimney -->
+  <rect x="268" y="58" width="34" height="70" rx="4" fill="#6e2a33"/>
+  <rect x="262" y="50" width="46" height="16" rx="4" fill="#5a2129"/>
+  <!-- body -->
+  <rect x="78" y="180" width="244" height="230" rx="28" fill="#fdf6ee"/>
+  <rect x="78" y="180" width="244" height="230" rx="28" fill="none" stroke="#e6d8c8" stroke-width="4"/>
+  <!-- roof -->
+  <path d="M40 200 L200 62 L360 200 Q366 214 350 218 L50 218 Q34 214 40 200 Z" fill="#8e3b46"/>
+  <path d="M200 62 L360 200 Q366 214 350 218 L300 218 Z" fill="#7a313b"/>
+  <!-- roof window: euro badge -->
+  <circle cx="200" cy="152" r="30" fill="#f2c14e"/>
+  <circle cx="200" cy="152" r="23" fill="none" stroke="#d9a42f" stroke-width="3"/>
+  <text x="200" y="166" text-anchor="middle" font-family="DejaVu Sans, Arial" font-weight="700" font-size="38" fill="#8e3b46">€</text>
+  <!-- glasses + eyes -->
+  <g>
+    <circle cx="150" cy="262" r="34" fill="#fff" stroke="#2b2b33" stroke-width="7"/>
+    <circle cx="250" cy="262" r="34" fill="#fff" stroke="#2b2b33" stroke-width="7"/>
+    <path d="M184 258 Q200 248 216 258" fill="none" stroke="#2b2b33" stroke-width="7" stroke-linecap="round"/>
+    <circle class="pupil" cx="156" cy="266" r="13" fill="#2b2b33"/>
+    <circle class="pupil" cx="256" cy="266" r="13" fill="#2b2b33"/>
+    <circle cx="161" cy="260" r="4.5" fill="#fff"/>
+    <circle cx="261" cy="260" r="4.5" fill="#fff"/>
+  </g>
+  <!-- eyebrows -->
+  <path d="M122 214 Q148 202 172 212" fill="none" stroke="#2b2b33" stroke-width="7" stroke-linecap="round"/>
+  <path d="M228 212 Q252 202 278 214" fill="none" stroke="#2b2b33" stroke-width="7" stroke-linecap="round"/>
+  <!-- cheeks -->
+  <ellipse cx="112" cy="312" rx="17" ry="10" fill="#f0a3a3" opacity=".7"/>
+  <ellipse cx="288" cy="312" rx="17" ry="10" fill="#f0a3a3" opacity=".7"/>
+  <!-- mouth (door-shaped smile) -->
+  <path id="mouth" d="M168 316 Q200 352 232 316 Q200 330 168 316 Z" fill="#8e3b46" stroke="#5a2129" stroke-width="4" stroke-linejoin="round"/>
+  <!-- door -->
+  <rect x="176" y="352" width="48" height="58" rx="10" fill="#8e3b46"/>
+  <circle cx="214" cy="384" r="4" fill="#f2c14e"/>
+  <!-- belgian ribbon -->
+  <g transform="translate(96 372)">
+    <rect width="12" height="26" fill="#1d1d1b"/><rect x="12" width="12" height="26" fill="#f6d02f"/><rect x="24" width="12" height="26" fill="#e0262f"/>
+  </g>
+</svg>

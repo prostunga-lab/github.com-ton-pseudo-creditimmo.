@@ -1,0 +1,99 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; background: #111; font-family: "DejaVu Sans", Arial, sans-serif; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+  #bgs { position: absolute; inset: 0; z-index: 0; overflow: hidden; }
+  .bg { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; will-change: transform, opacity; }
+  .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,8,10,.55) 0%, rgba(20,8,10,.15) 30%, rgba(20,8,10,.35) 55%, rgba(20,8,10,.9) 100%); }
+  #brand { position: absolute; top: 70px; left: 60px; right: 60px; display: flex; align-items: center; justify-content: space-between; }
+  #brand .name { background: #8e3b46; color: #fff; font-weight: 700; font-size: 40px; padding: 14px 30px; border-radius: 16px; }
+  #brand .flag { display: flex; height: 44px; border-radius: 6px; overflow: hidden; }
+  #brand .flag i { width: 22px; display: block; }
+  #card { position: absolute; left: 60px; right: 60px; top: 300px; padding: 50px 54px; background: rgba(253,246,238,.96); border-radius: 36px; box-shadow: 0 30px 80px rgba(0,0,0,.35); transform-origin: 50% 0; }
+  #kicker { display: inline-block; background: #f2c14e; color: #5a2129; font-weight: 700; font-size: 38px; letter-spacing: 2px; padding: 10px 22px; border-radius: 12px; }
+  #big { margin-top: 26px; font-size: 190px; line-height: 1; font-weight: 800; color: #8e3b46; letter-spacing: -4px; }
+  #sub { margin-top: 18px; font-size: 52px; line-height: 1.2; color: #2b2b33; font-weight: 700; }
+  .row { margin-top: 34px; }
+  .row .top { display: flex; justify-content: space-between; font-size: 54px; font-weight: 700; color: #2b2b33; }
+  .row .top b { color: #8e3b46; }
+  .row .bar { margin-top: 12px; height: 34px; background: #ead9cb; border-radius: 17px; overflow: hidden; }
+  .row .bar i { display: block; height: 100%; background: linear-gradient(90deg, #8e3b46, #c25563); border-radius: 17px; }
+  #cta { position: absolute; left: 60px; right: 60px; top: 330px; text-align: center; color: #fff; font-size: 92px; font-weight: 800; line-height: 1.1; text-shadow: 0 6px 30px rgba(0,0,0,.6); }
+  #cta .btn { display: inline-block; margin-top: 50px; background: #e0262f; color: #fff; font-size: 56px; padding: 26px 50px; border-radius: 20px; }
+  #caps { position: absolute; left: 50px; right: 50px; top: 1330px; text-align: center; font-size: 84px; font-weight: 800; line-height: 1.15; color: #fff; text-transform: uppercase;
+          text-shadow: 0 0 2px #000, 0 6px 0 #000, 0 0 24px rgba(0,0,0,.8); -webkit-text-stroke: 3px #000; paint-order: stroke fill; }
+  #caps span.on { color: #f2c14e; }
+  #avatar { position: absolute; width: 300px; left: 40px; top: 1560px; transform-origin: 50% 100%; }
+  #source { position: absolute; right: 50px; bottom: 60px; left: 380px; text-align: right; color: rgba(255,255,255,.85); font-size: 28px; }
+  #progress { position: absolute; left: 0; top: 0; height: 12px; background: #f2c14e; }
+</style></head>
+<body><div id="stage">
+  <div id="bgs"></div>
+  <div class="shade"></div>
+  <div id="progress"></div>
+  <div id="brand"><div class="name">CréditImmo</div><div class="flag"><i style="background:#1d1d1b"></i><i style="background:#f6d02f"></i><i style="background:#e0262f"></i></div></div>
+  <div id="card"><div id="kicker"></div><div id="big"></div><div id="sub"></div><div id="rows"></div></div>
+  <div id="cta"></div>
+  <div id="caps"></div>
+  <img id="avatar" src="avatar.svg">
+  <div id="source"></div>
+</div>
+<script>
+const D = window.DATA;
+const $ = id => document.getElementById(id);
+const ease = x => 1 - Math.pow(1 - Math.min(Math.max(x, 0), 1), 3);
+const bgs = D.scenes.map(s => { const d = document.createElement('div'); d.className = 'bg'; d.style.backgroundImage = `url(${s.bg})`; $('bgs').appendChild(d); return d; });
+$('source').textContent = D.source;
+let cur = -1;
+
+function setScene(i) {
+  const s = D.scenes[i];
+  $('card').style.display = s.cta ? 'none' : 'block';
+  $('cta').style.display = s.cta ? 'block' : 'none';
+  $('kicker').textContent = s.kicker || '';
+  $('big').textContent = s.big || ''; $('big').style.fontSize = (s.big || '').length > 7 ? '140px' : '190px'; $('big').style.display = s.big ? 'block' : 'none';
+  $('sub').textContent = s.sub || ''; $('sub').style.display = s.sub ? 'block' : 'none';
+  $('rows').innerHTML = (s.items || []).map(it => `<div class="row"><div class="top"><span>${it.label}</span><b>${it.value}</b></div>${it.pct ? `<div class="bar"><i data-p="${it.pct}"></i></div>` : ""}</div>`).join('');
+  $('cta').innerHTML = s.cta ? `${s.cta}<br><span class="btn">💬 Commente &amp; abonne-toi</span>` : '';
+}
+
+window.render = t => {
+  const T = D.total;
+  let i = D.scenes.findIndex((s, k) => t >= s.start && (k === D.scenes.length - 1 || t < D.scenes[k + 1].start));
+  if (i < 0) i = 0;
+  if (i !== cur) { setScene(i); cur = i; }
+  const s = D.scenes[i], local = t - s.start;
+  // backgrounds: crossfade + slow zoom
+  bgs.forEach((b, k) => {
+    const sk = D.scenes[k];
+    const into = t - sk.start, dur = sk.end - sk.start + 0.4;
+    let o = 0;
+    if (k === i) o = ease(into / 0.35);
+    if (k === i - 1) o = 1;
+    b.style.opacity = o;
+    b.style.zIndex = k === i ? 2 : 1;
+    b.style.transform = `scale(${1.08 + 0.10 * Math.min(Math.max(into / dur, 0), 1)})`;
+  });
+  // card pop-in
+  const p = ease(local / 0.4);
+  $('card').style.transform = `translateY(${(1 - p) * 60}px) scale(${0.92 + 0.08 * p})`;
+  $('card').style.opacity = p;
+  $('cta').style.transform = `scale(${0.85 + 0.15 * ease(local / 0.5)})`;
+  // count-up on big numbers / bars
+  document.querySelectorAll('#rows .bar i').forEach((el, k) => { el.style.width = (el.dataset.p * ease((local - 0.3 - k * 0.35) / 0.7)) + '%'; });
+  // captions: chunks of up to 3 words
+  const ws = D.words.filter(w => w.chunk !== undefined);
+  const w = ws.findIndex(x => t >= x.s - 0.05 && t < x.next);
+  if (w >= 0) {
+    const c = ws[w].chunk;
+    $('caps').innerHTML = ws.filter(x => x.chunk === c).map(x => `<span class="${x === ws[w] ? 'on' : ''}">${x.w}</span>`).join(' ');
+  } else $('caps').innerHTML = '';
+  // avatar talks: bob while a word is spoken
+  const talking = D.words.some(x => t >= x.s && t < x.e);
+  const bob = talking ? Math.abs(Math.sin(t * 14)) : 0;
+  $('avatar').style.transform = `translateY(${-bob * 14}px) scaleY(${1 + bob * 0.04}) rotate(${Math.sin(t * 2) * 3}deg)`;
+  $('progress').style.width = (100 * t / T) + '%';
+};
+</script></body></html>
