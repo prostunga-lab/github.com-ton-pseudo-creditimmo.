@@ -13,6 +13,37 @@ GAP = 0.25  # silence entre deux scènes (s)
 VOICE_FX = "highpass=f=70,equalizer=f=180:t=q:w=1:g=2,equalizer=f=3500:t=q:w=1.2:g=2.5,acompressor=threshold=-20dB:ratio=3:attack=5:release=120:makeup=2,aecho=0.85:0.5:25:0.05,loudnorm=I=-14:TP=-1.5"
 
 
+# Prononciations forcées : orthographe affichée (sous-titres) -> texte envoyé à la voix
+PRONONCIATION = {
+    "Parles-en": "Parle zan",
+    "parles-en": "parle zan",
+    "Penses-y": "Pense zi",
+    "penses-y": "pense zi",
+    "Vas-y": "Va zi",
+    "vas-y": "va zi",
+}
+
+
+def dire(text):
+    for ecrit, dit in PRONONCIATION.items():
+        text = text.replace(ecrit, dit)
+    return text
+
+
+def remettre_orthographe(mots):
+    """Fusionne les mots prononcés (« Parle » « zan ») en leur orthographe (« Parles-en »)."""
+    for ecrit, dit in PRONONCIATION.items():
+        cible = dit.split()
+        i = 0
+        while i <= len(mots) - len(cible):
+            if [m["w"].strip(",.!?…") for m in mots[i:i + len(cible)]] == cible:
+                fin = mots[i + len(cible) - 1]
+                ponct = fin["w"][len(fin["w"].rstrip(",.!?…")):]
+                mots[i:i + len(cible)] = [{"w": ecrit + ponct, "s": mots[i]["s"], "e": fin["e"]}]
+            i += 1
+    return mots
+
+
 def dur(path):
     out = subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path])
     return float(out)
@@ -27,12 +58,12 @@ def main(spec_path, day=None):
     t, words, parts = 0.0, [], []
     for i, sc in enumerate(spec["scenes"]):
         mp3, wj = f"{work}/s{i}.mp3", f"{work}/s{i}.json"
-        subprocess.check_call(["python3", f"{HERE}/tts.py", spec["voice"], sc["text"], mp3, wj, spec.get("rate", "+5%")])
+        subprocess.check_call(["python3", f"{HERE}/tts.py", spec["voice"], dire(sc["text"]), mp3, wj, spec.get("rate", "+5%")])
         d = dur(mp3)
         sc["start"], sc["end"] = t, t + d
         # captions: drop pure punctuation, group by 3 words, break on punctuation
         chunk, n = len({w.get("chunk") for w in words if "chunk" in w}), 0
-        for w in json.load(open(wj)):
+        for w in remettre_orthographe(json.load(open(wj))):
             txt = w["w"].strip()
             if not re.search(r"\w", txt):
                 continue
