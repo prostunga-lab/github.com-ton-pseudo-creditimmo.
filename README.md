@@ -24,9 +24,25 @@ python3 make_short.py short1.json 2026-10-29 # date imposée
 ```
 
 Un fichier de scènes (`short1.json`) contient :
-- `slug`, `voice` (`fr-BE-CharlineNeural`), `source` (affichée à l'écran), `credits` (photos) ;
+- `slug`, `voice` (**`fr-FR-VivienneMultilingualNeural`**, voix retenue), `rate` (débit, ex. `+3%`), `source` (affichée à l'écran), `credits` (photos) ;
+- `format` : absent = Short vertical 1080×1920 ; `"long"` = vidéo YouTube 16:9 1920×1080 (`template_long.html`), avec scènes `chapter` + `title` (écran de chapitre) ;
 - `scenes` : `text` (dit par la voix, nombres écrits en toutes lettres, « septante », « nonante »), `bg` (photo), puis
   `kicker` + `big` + `sub` (gros chiffre), **ou** `kicker` + `items` (barres : `label`, `value`, `pct`), **ou** `cta` (dernière scène).
+
+La voix reçoit un traitement « studio » (EQ, compression, -14 LUFS) défini par `VOICE_FX` dans `make_short.py`.
+
+Miniature (vidéos longues) :
+
+```bash
+node thumb.js img/bxl_grandplace.jpg "7 chiffres choc" "Immo belge&nbsp;: avant 2027" "+3.500 € ?" ../videos/<date>/<slug>-miniature.png
+```
+
+## Ingrédients viraux
+
+- Accroche choc chiffrée dans les 5 premières secondes, puis promesse (« le n°1 va changer tes plans »).
+- Structure en compte à rebours / chapitres : relance de l'attention toutes les 30-60 s.
+- « Tu » direct, questions au spectateur, appel au commentaire au milieu et à la fin.
+- Miniature : 3-4 mots énormes, un chiffre, l'avatar, contraste fort.
 
 ## Règles éditoriales
 

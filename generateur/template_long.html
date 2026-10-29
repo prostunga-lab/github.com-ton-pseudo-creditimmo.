@@ -1,0 +1,109 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: #111; font-family: "DejaVu Sans", Arial, sans-serif; }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; }
+  #bgs { position: absolute; inset: 0; z-index: 0; overflow: hidden; }
+  .bg { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; will-change: transform, opacity; }
+  .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(20,8,10,.75) 0%, rgba(20,8,10,.35) 55%, rgba(20,8,10,.15) 100%), linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(20,8,10,.85) 100%); }
+  #brand { position: absolute; top: 40px; left: 60px; right: 60px; display: flex; align-items: center; justify-content: space-between; }
+  #brand .name { background: #8e3b46; color: #fff; font-weight: 700; font-size: 34px; padding: 10px 24px; border-radius: 14px; }
+  #brand .flag { display: flex; height: 36px; border-radius: 6px; overflow: hidden; }
+  #brand .flag i { width: 18px; display: block; }
+  #chap { position: absolute; top: 46px; left: 330px; color: #fff; font-size: 30px; font-weight: 700; opacity: .9; }
+  #card { position: absolute; left: 80px; width: 980px; top: 150px; padding: 40px 46px; background: rgba(253,246,238,.96); border-radius: 30px; box-shadow: 0 30px 80px rgba(0,0,0,.35); transform-origin: 0 50%; }
+  #kicker { display: inline-block; background: #f2c14e; color: #5a2129; font-weight: 700; font-size: 30px; letter-spacing: 2px; padding: 8px 18px; border-radius: 10px; }
+  #big { margin-top: 18px; font-size: 150px; line-height: 1; font-weight: 800; color: #8e3b46; letter-spacing: -3px; }
+  #sub { margin-top: 14px; font-size: 40px; line-height: 1.2; color: #2b2b33; font-weight: 700; }
+  .row { margin-top: 22px; }
+  .row .top { display: flex; justify-content: space-between; font-size: 40px; font-weight: 700; color: #2b2b33; }
+  .row .top b { color: #8e3b46; }
+  .row .bar { margin-top: 8px; height: 24px; background: #ead9cb; border-radius: 12px; overflow: hidden; }
+  .row .bar i { display: block; height: 100%; background: linear-gradient(90deg, #8e3b46, #c25563); border-radius: 12px; }
+  #cta { position: absolute; left: 80px; right: 80px; top: 260px; text-align: center; color: #fff; font-size: 84px; font-weight: 800; line-height: 1.1; text-shadow: 0 6px 30px rgba(0,0,0,.6); }
+  #cta .btn { display: inline-block; margin-top: 40px; background: #e0262f; color: #fff; font-size: 48px; padding: 22px 44px; border-radius: 18px; }
+  #chapter { position: absolute; inset: 0; display: none; flex-direction: column; justify-content: center; padding-left: 120px; background: linear-gradient(90deg, rgba(142,59,70,.95), rgba(142,59,70,.55)); color: #fff; }
+  #chapter .n { font-size: 40px; font-weight: 700; letter-spacing: 6px; color: #f2c14e; }
+  #chapter .t { margin-top: 16px; font-size: 110px; font-weight: 800; line-height: 1.05; max-width: 1500px; }
+  #caps { position: absolute; left: 380px; right: 80px; top: 880px; text-align: center; font-size: 60px; font-weight: 800; line-height: 1.15; color: #fff; text-transform: uppercase;
+          text-shadow: 0 0 2px #000, 0 5px 0 #000, 0 0 20px rgba(0,0,0,.8); -webkit-text-stroke: 2px #000; paint-order: stroke fill; }
+  #caps span.on { color: #f2c14e; }
+  #avatar { position: absolute; width: 250px; left: 60px; top: 790px; transform-origin: 50% 100%; }
+  #source { position: absolute; right: 60px; bottom: 24px; color: rgba(255,255,255,.8); font-size: 24px; }
+  #progress { position: absolute; left: 0; bottom: 0; height: 10px; background: #f2c14e; }
+</style></head>
+<body><div id="stage">
+  <div id="bgs"></div>
+  <div class="shade"></div>
+  <div id="progress"></div>
+  <div id="brand"><div class="name">CréditImmo</div><div class="flag"><i style="background:#1d1d1b"></i><i style="background:#f6d02f"></i><i style="background:#e0262f"></i></div></div>
+  <div id="card"><div id="kicker"></div><div id="big"></div><div id="sub"></div><div id="rows"></div></div>
+  <div id="cta"></div>
+  <div id="chapter"><div class="n"></div><div class="t"></div></div>
+  <div id="chap"></div>
+  <div id="caps"></div>
+  <img id="avatar" src="avatar.svg">
+  <div id="source"></div>
+</div>
+<script>
+const D = window.DATA;
+const $ = id => document.getElementById(id);
+const ease = x => 1 - Math.pow(1 - Math.min(Math.max(x, 0), 1), 3);
+const bgs = D.scenes.map(s => { const d = document.createElement('div'); d.className = 'bg'; d.style.backgroundImage = `url(${s.bg})`; $('bgs').appendChild(d); return d; });
+$('source').textContent = D.source;
+let cur = -1;
+
+function setScene(i) {
+  const s = D.scenes[i];
+  $('card').style.display = (s.cta || s.chapter) ? 'none' : 'block';
+  $('chapter').style.display = s.chapter ? 'flex' : 'none';
+  if (s.chapter) { $('chapter').querySelector('.n').textContent = s.chapter; $('chapter').querySelector('.t').textContent = s.title; }
+  const ch = D.scenes.slice(0, i + 1).filter(x => x.chapter).pop(); $('chap').textContent = ch && !s.chapter ? ch.chapter + ' · ' + ch.title : '';
+  $('cta').style.display = s.cta ? 'block' : 'none';
+  $('kicker').textContent = s.kicker || '';
+  $('big').textContent = s.big || ''; $('big').style.fontSize = (s.big || '').length > 9 ? '110px' : '150px'; $('big').style.display = s.big ? 'block' : 'none';
+  $('sub').textContent = s.sub || ''; $('sub').style.display = s.sub ? 'block' : 'none';
+  $('rows').innerHTML = (s.items || []).map(it => `<div class="row"><div class="top"><span>${it.label}</span><b>${it.value}</b></div>${it.pct ? `<div class="bar"><i data-p="${it.pct}"></i></div>` : ""}</div>`).join('');
+  $('cta').innerHTML = s.cta ? `${s.cta}<br><span class="btn">💬 Commente &amp; abonne-toi</span>` : '';
+}
+
+window.render = t => {
+  const T = D.total;
+  let i = D.scenes.findIndex((s, k) => t >= s.start && (k === D.scenes.length - 1 || t < D.scenes[k + 1].start));
+  if (i < 0) i = 0;
+  if (i !== cur) { setScene(i); cur = i; }
+  const s = D.scenes[i], local = t - s.start;
+  // backgrounds: crossfade + slow zoom
+  bgs.forEach((b, k) => {
+    const sk = D.scenes[k];
+    const into = t - sk.start, dur = sk.end - sk.start + 0.4;
+    let o = 0;
+    if (k === i) o = ease(into / 0.35);
+    if (k === i - 1) o = 1;
+    b.style.opacity = o;
+    b.style.zIndex = k === i ? 2 : 1;
+    b.style.transform = `scale(${1.08 + 0.10 * Math.min(Math.max(into / dur, 0), 1)})`;
+  });
+  // card pop-in
+  const p = ease(local / 0.4);
+  $('card').style.transform = `translateY(${(1 - p) * 60}px) scale(${0.92 + 0.08 * p})`;
+  $('card').style.opacity = p;
+  $('chapter').querySelector('.t').style.transform = `translateX(${(1 - ease(local / 0.5)) * -80}px)`;
+  $('cta').style.transform = `scale(${0.85 + 0.15 * ease(local / 0.5)})`;
+  // count-up on big numbers / bars
+  document.querySelectorAll('#rows .bar i').forEach((el, k) => { el.style.width = (el.dataset.p * ease((local - 0.3 - k * 0.35) / 0.7)) + '%'; });
+  // captions: chunks of up to 3 words
+  const ws = D.words.filter(w => w.chunk !== undefined);
+  const w = ws.findIndex(x => t >= x.s - 0.05 && t < x.next);
+  if (w >= 0) {
+    const c = ws[w].chunk;
+    $('caps').innerHTML = ws.filter(x => x.chunk === c).map(x => `<span class="${x === ws[w] ? 'on' : ''}">${x.w}</span>`).join(' ');
+  } else $('caps').innerHTML = '';
+  // avatar talks: bob while a word is spoken
+  const talking = D.words.some(x => t >= x.s && t < x.e);
+  const bob = talking ? Math.abs(Math.sin(t * 14)) : 0;
+  $('avatar').style.transform = `translateY(${-bob * 14}px) scaleY(${1 + bob * 0.04}) rotate(${Math.sin(t * 2) * 3}deg)`;
+  $('progress').style.width = (100 * t / T) + '%';
+};
+</script></body></html>

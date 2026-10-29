@@ -1,5 +1,5 @@
 """Synthèse vocale (edge-tts) avec horodatage mot à mot.
-Usage : python3 tts.py <voix> <texte> <sortie.mp3> <sortie_mots.json>
+Usage : python3 tts.py <voix> <texte> <sortie.mp3> <sortie_mots.json> [débit, ex. +0%]
 """
 import asyncio, json, ssl, sys
 
@@ -13,8 +13,8 @@ ssl.create_default_context = _ctx
 import edge_tts
 
 
-async def main(voice, text, out_mp3, out_json):
-    com = edge_tts.Communicate(text, voice, rate="+10%", boundary="WordBoundary")
+async def main(voice, text, out_mp3, out_json, rate="+10%"):
+    com = edge_tts.Communicate(text, voice, rate=rate, boundary="WordBoundary")
     words = []
     with open(out_mp3, "wb") as f:
         async for chunk in com.stream():
@@ -30,4 +30,4 @@ async def main(voice, text, out_mp3, out_json):
         json.dump(words, f, ensure_ascii=False)
 
 
-asyncio.run(main(*sys.argv[1:5]))
+asyncio.run(main(*sys.argv[1:6]))
