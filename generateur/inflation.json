@@ -1,0 +1,62 @@
+{
+  "slug": "inflation-5-26-pourcent-et-immobilier",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Sources : Statbel via L'Echo (29/10/2026) ; Fednot (13/10/2026) ; BNB via Febelfin",
+  "scenes": [
+    {
+      "text": "L'inflation belge vient de dépasser 5 % : 5,26 %, son plus haut niveau depuis trois ans !",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "INFLATION · BELGIQUE",
+      "big": "5,26 %",
+      "sub": "plus haut niveau depuis trois ans"
+    },
+    {
+      "text": "En cause : l'envolée des prix de l'énergie.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "POURQUOI ?",
+      "big": "⚡ Énergie",
+      "sub": "les prix s'envolent"
+    },
+    {
+      "text": "Et ton logement ? Sur les 9 premiers mois de 2026, le prix moyen d'une maison n'a augmenté que de 3 %, selon les notaires.",
+      "bg": "img/gent.jpg",
+      "kicker": "PRIX DES MAISONS VS INFLATION",
+      "items": [
+        {
+          "label": "Inflation",
+          "value": "5,26 %",
+          "pct": 100
+        },
+        {
+          "label": "Prix des maisons",
+          "value": "+3 %",
+          "pct": 57
+        }
+      ]
+    },
+    {
+      "text": "Autrement dit, corrigée de l'inflation, la maison belge perd un peu de valeur. Mais le crédit, lui, coûte plus cher : jusqu'à 4,69 % en août, selon la BNB.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "LE PARADOXE",
+      "items": [
+        {
+          "label": "📉 Prix réel",
+          "value": "en baisse",
+          "pct": 0
+        },
+        {
+          "label": "📈 Taux de crédit (août)",
+          "value": "≤ 4,69 %",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Alors, l'immobilier reste-t-il un bon placement face à l'inflation ? Dis-le en commentaire et abonne-toi pour suivre l'actu immo belge chaque jour !",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "L'immo, toujours un bon placement ?"
+    }
+  ],
+  "credits": "Photos : Julian Lupyan (CC0) ; TheGoodEndedHappily (CC BY 4.0) ; Fred Romero (CC BY 2.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Celuici (CC BY-SA 4.0) – Wikimedia Commons"
+}

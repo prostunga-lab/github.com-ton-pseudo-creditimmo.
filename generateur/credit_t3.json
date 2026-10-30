@@ -1,0 +1,91 @@
+{
+  "slug": "credit-hypothecaire-t3-2026-moins-de-credits-plus-gros",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : Febelfin, 27/10/2026 (taux : BNB)",
+  "scenes": [
+    {
+      "text": "Les banques ont accordé 9 % de crédits hypothécaires en moins… et pourtant, on emprunte toujours plus !",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "CRÉDIT HYPOTHÉCAIRE · T3 2026",
+      "big": "-9 %",
+      "sub": "de crédits accordés en un an"
+    },
+    {
+      "text": "Au T3 2026, environ 48.300 crédits ont été accordés en Belgique, pour un total de 9,6 milliards d'euros. C'est près de 9 % de contrats en moins qu'un an plus tôt.",
+      "bg": "img/gent.jpg",
+      "kicker": "FEBELFIN · T3 2026",
+      "items": [
+        {
+          "label": "Crédits accordés",
+          "value": "≈ 48.300",
+          "pct": 0
+        },
+        {
+          "label": "Total",
+          "value": "≈ 9,6 milliards €",
+          "pct": 0
+        },
+        {
+          "label": "Sur un an",
+          "value": "≈ -9 %",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "La raison ? Les taux remontent. En août, ils allaient de 3,53 % à 4,69 %, selon la durée pendant laquelle le taux reste fixe.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "TAUX EN AOÛT (BNB)",
+      "items": [
+        {
+          "label": "Fixe plus de 10 ans",
+          "value": "3,53 %",
+          "pct": 75
+        },
+        {
+          "label": "Fixe jusqu'à 1 an",
+          "value": "4,69 %",
+          "pct": 100
+        }
+      ]
+    },
+    {
+      "text": "Mais ceux qui empruntent empruntent gros : 221.700 € en moyenne pour acheter un logement, et 266.600 € pour construire.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "MONTANT MOYEN EMPRUNTÉ",
+      "items": [
+        {
+          "label": "Achat",
+          "value": "221.700 €",
+          "pct": 83
+        },
+        {
+          "label": "Construction",
+          "value": "266.600 €",
+          "pct": 100
+        }
+      ]
+    },
+    {
+      "text": "Et la sécurité reste reine : 77,8 % des emprunteurs choisissent un taux fixe, ou fixé pendant au moins 10 ans.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "TAUX FIXE",
+      "big": "77,8 %",
+      "sub": "des emprunteurs choisissent la sécurité"
+    },
+    {
+      "text": "Signe encourageant : les demandes de crédit repartent à la hausse, avec +1 % sur un an.",
+      "bg": "img/gent.jpg",
+      "kicker": "BONNE NOUVELLE",
+      "big": "+1 %",
+      "sub": "de demandes de crédit sur un an"
+    },
+    {
+      "text": "Et toi, tu empruntes maintenant ou tu attends que les taux baissent ? Dis-le en commentaire et abonne-toi pour suivre l'actu immo belge chaque jour !",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Emprunter maintenant ou attendre ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Julian Lupyan (CC0) – Wikimedia Commons"
+}

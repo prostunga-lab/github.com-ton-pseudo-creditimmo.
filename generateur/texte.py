@@ -14,6 +14,7 @@ PRONONCIATION = {
     "Parles-en": "Parle zan", "parles-en": "parle zan",
     "Penses-y": "Pense zi", "penses-y": "pense zi",
     "Vas-y": "Va zi", "vas-y": "va zi",
+    "BNB": "bé ène bé",
 }
 
 
