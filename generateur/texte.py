@@ -16,6 +16,8 @@ PRONONCIATION = {
     "Vas-y": "Va zi", "vas-y": "va zi",
     "BNB": "bé ène bé",
     "Be": "Bi", "Home": "Hôme",
+    "Mijn": "Mèïne", "VerbouwPremie": "Ferbaou-prémie", "VerbouwLening": "Ferbaou-léning",
+    "VerbouwLoket": "Ferbaou-loket", "PEB": "pé eu bé", "Rénopack": "Rénopak", "Rénopack,": "Rénopak,",
 }
 
 

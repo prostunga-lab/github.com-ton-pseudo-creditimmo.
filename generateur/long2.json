@@ -1,0 +1,301 @@
+{
+  "slug": "aides-achat-renovation-belgique-2026",
+  "format": "long",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+3%",
+  "source": "Sources : be.brussels, SPF Finances, wallonie.be, RTBF, vlaanderen.be, notaire.be, La Libre (2026)",
+  "scenes": [
+    {
+      "text": "Tu achètes ou tu rénoves en Belgique ? Tu passes peut-être à côté de dizaines de milliers d'euros d'aides. Voici celles qui existent vraiment, région par région.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "AIDES IMMO · 2026",
+      "big": "Jusqu'à 37.500 €",
+      "sub": "d'aide sur un projet de rénovation en Wallonie"
+    },
+    {
+      "text": "Bruxelles, Wallonie, Flandre : chaque région a ses règles. Et en Wallonie, tout a changé le 1er octobre. Reste jusqu'au bout : à Bruxelles, une astuce méconnue peut te faire gagner des milliers d'euros en plus.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "AU PROGRAMME",
+      "items": [
+        {
+          "label": "1. Les aides à l'achat",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "2. Rénover en Wallonie",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "3. Rénover en Flandre",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "4. L'astuce bruxelloise",
+          "value": "",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Partie 1 : les aides à l'achat.",
+      "bg": "img/wallonie.jpg",
+      "chapter": "PARTIE 1",
+      "title": "Acheter : les droits d'enregistrement"
+    },
+    {
+      "text": "En Wallonie, depuis 2025, pour ton habitation propre et unique, les droits d'enregistrement sont de 3 % au lieu de 12,5 %. Pour un logement de 300.000 €, ça fait 9.000 € au lieu de 37.500 €.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "WALLONIE · LOGEMENT DE 300.000 €",
+      "items": [
+        {
+          "label": "Taux normal (12,5 %)",
+          "value": "37.500 €",
+          "pct": 100
+        },
+        {
+          "label": "Taux réduit (3 %)",
+          "value": "9.000 €",
+          "pct": 24
+        },
+        {
+          "label": "Économie",
+          "value": "28.500 €",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Les conditions : acheter la totalité du bien, ne pas posséder un autre logement en pleine propriété, ou le vendre dans les 3 ans, et y établir ta résidence principale dans les 3 ans.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "CONDITIONS · WALLONIE",
+      "items": [
+        {
+          "label": "✅ Habitation propre et unique",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "✅ Autre logement vendu dans les 3 ans",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "✅ Domicile dans les 3 ans",
+          "value": "",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "En Flandre, le taux réduit est de 2 % pour ton habitation propre et unique. Attention : il pourrait passer à 3 % pour les ventes conclues à partir du 1er janvier 2027. Ce n'est pas encore voté.",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE",
+      "big": "2 % → 3 % ?",
+      "sub": "dès le 1er janvier 2027, si la mesure est votée"
+    },
+    {
+      "text": "À Bruxelles, les droits sont de 12,5 %, mais tu ne paies rien sur les premiers 200.000 €, si le prix ne dépasse pas 600.000 €. Soit jusqu'à 25.000 € d'économie.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "BRUXELLES · ABATTEMENT",
+      "items": [
+        {
+          "label": "Exonération",
+          "value": "premiers 200.000 €",
+          "pct": 0
+        },
+        {
+          "label": "Prix maximum",
+          "value": "600.000 €",
+          "pct": 0
+        },
+        {
+          "label": "Économie maximale",
+          "value": "25.000 €",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Partie 2 : rénover en Wallonie. Et là, tout a changé.",
+      "bg": "img/wallonie.jpg",
+      "chapter": "PARTIE 2",
+      "title": "Wallonie : la révolution du 1er octobre"
+    },
+    {
+      "text": "Les primes Habitation, c'est fini depuis le 30 septembre 2026. Place au Rénopack : un prêt à 0 %, avec une partie du montant que tu n'auras jamais à rembourser.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "WALLONIE · NOUVEAU RÉGIME",
+      "big": "Rénopack",
+      "sub": "prêt à 0 % + une partie à ne pas rembourser"
+    },
+    {
+      "text": "Selon tes revenus, 50 %, 40 % ou 15 % du montant ne sont pas à rembourser. Pour les revenus plus élevés et les propriétaires bailleurs, il y a le Rénoprêt, à taux préférentiel.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "PART NON REMBOURSÉE · SELON TES REVENUS",
+      "items": [
+        {
+          "label": "Revenus les plus modestes",
+          "value": "50 %",
+          "pct": 100
+        },
+        {
+          "label": "Revenus modestes",
+          "value": "40 %",
+          "pct": 80
+        },
+        {
+          "label": "Revenus moyens",
+          "value": "15 %",
+          "pct": 30
+        },
+        {
+          "label": "Revenus plus élevés",
+          "value": "Rénoprêt",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Le plafond passe à 75.000 € pour une maison, contre 60.000 € avant. Avec un devis de 75.000 € et la catégorie la plus modeste, ce sont 37.500 € que tu ne rembourses pas.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "MAISON · PLAFOND 75.000 €",
+      "items": [
+        {
+          "label": "Prêt à 0 %",
+          "value": "75.000 €",
+          "pct": 100
+        },
+        {
+          "label": "À ne pas rembourser (50 %)",
+          "value": "37.500 €",
+          "pct": 50
+        }
+      ]
+    },
+    {
+      "text": "Mais attention : un audit énergétique est désormais obligatoire, le logement doit avoir plus de 15 ans, et le budget est fixé chaque année. Quand il n'y a plus de budget, il n'y a plus d'aide. Ne tarde pas.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "🚨 À SAVOIR",
+      "items": [
+        {
+          "label": "✅ Audit énergétique obligatoire",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "✅ Logement de plus de 15 ans",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "⏳ Budget limité chaque année",
+          "value": "",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Partie 3 : rénover en Flandre.",
+      "bg": "img/antwerpen.jpg",
+      "chapter": "PARTIE 3",
+      "title": "Flandre : prime et prêt"
+    },
+    {
+      "text": "En Flandre, c'est Mijn VerbouwPremie. Son montant dépend de ta situation et de ta catégorie de revenus, parmi quatre. Elle a été réformée le 1er mars 2026, surtout pour les revenus les plus élevés.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "FLANDRE · PRIME",
+      "big": "Mijn VerbouwPremie",
+      "sub": "montant selon tes revenus (4 catégories)"
+    },
+    {
+      "text": "Et pour financer les travaux, il y a Mijn VerbouwLening : jusqu'à 60.000 €, avec un taux qui dépend de tes revenus. La prime sert alors à rembourser une partie du prêt.",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE · PRÊT",
+      "big": "Jusqu'à 60.000 €",
+      "sub": "Mijn VerbouwLening, taux selon tes revenus"
+    },
+    {
+      "text": "Bon à savoir : la prime est libre d'impôt pour les particuliers. Et pour la plupart des travaux, tu peux la redemander tous les 5 ans par catégorie.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "BON À SAVOIR",
+      "items": [
+        {
+          "label": "✅ Prime libre d'impôt",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "🔁 Tous les 5 ans par catégorie",
+          "value": "",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Partie 4 : l'astuce bruxelloise que peu de gens connaissent.",
+      "bg": "img/ixelles_artisans.jpg",
+      "chapter": "PARTIE 4",
+      "title": "L'astuce bruxelloise"
+    },
+    {
+      "text": "Tu achètes à Bruxelles et tu rénoves ? Pour chaque classe PEB gagnée, tu obtiens 25.000 € d'abattement en plus, avec un minimum de deux classes en 5 ans.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "BRUXELLES · ABATTEMENT RÉNOVATION",
+      "big": "+25.000 €",
+      "sub": "d'abattement par classe PEB gagnée"
+    },
+    {
+      "text": "Gagner deux classes, c'est 50.000 € de base imposable en moins. Soit 6.250 € de droits d'enregistrement économisés, en plus de l'abattement de base.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "EXEMPLE · 2 CLASSES PEB",
+      "items": [
+        {
+          "label": "Abattement supplémentaire",
+          "value": "50.000 €",
+          "pct": 100
+        },
+        {
+          "label": "Droits économisés (12,5 %)",
+          "value": "6.250 €",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Alors, qu'est-ce qu'on retient ? À l'achat : 3 % en Wallonie, 2 % en Flandre, et l'abattement à Bruxelles. Pour rénover : le Rénopack en Wallonie, Mijn VerbouwPremie et Mijn VerbouwLening en Flandre. Avant de signer quoi que ce soit, parles-en à ton notaire et utilise les simulateurs officiels.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "À RETENIR",
+      "items": [
+        {
+          "label": "🏠 Achat",
+          "value": "3 % · 2 % · abattement",
+          "pct": 0
+        },
+        {
+          "label": "🔨 Wallonie",
+          "value": "Rénopack",
+          "pct": 0
+        },
+        {
+          "label": "🔨 Flandre",
+          "value": "Prime + prêt",
+          "pct": 0
+        },
+        {
+          "label": "💡 Bruxelles",
+          "value": "+25.000 € / classe PEB",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Et toi, tu vas en profiter ? Dis-moi en commentaire ta région et ton projet, partage cette vidéo avec quelqu'un qui achète ou rénove, et abonne-toi pour suivre l'actu immo belge chaque jour.",
+      "bg": "img/bxl_grandplace.jpg",
+      "cta": "Ta région et ton projet ?"
+    }
+  ],
+  "credits": "Photos : Julian Lupyan (CC0) ; Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Stratoswift (CC BY 4.0) ; Mélioratif (CC BY-SA 4.0) – Wikimedia Commons"
+}
