@@ -1,0 +1,89 @@
+{
+  "slug": "bruxelles-abattement-renovation-peb-25000",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : be.brussels – Bruxelles Fiscalité (abattement sur les droits de vente)",
+  "scenes": [
+    {
+      "text": "Tu achètes à Bruxelles et tu rénoves ? Il existe un bonus que presque personne ne connaît : 25.000 € d'abattement en plus… par classe PEB gagnée !",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "BRUXELLES · L'ASTUCE",
+      "big": "+25.000 €",
+      "sub": "d'abattement par classe PEB gagnée"
+    },
+    {
+      "text": "D'abord, la base : à Bruxelles, les droits d'enregistrement sont de 12,5 %, mais tu ne paies rien sur les premiers 200.000 €, si le prix ne dépasse pas 600.000 €.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "L'ABATTEMENT DE BASE",
+      "items": [
+        {
+          "label": "Exonération",
+          "value": "200.000 €",
+          "pct": 0
+        },
+        {
+          "label": "Prix maximum",
+          "value": "600.000 €",
+          "pct": 0
+        },
+        {
+          "label": "Économie",
+          "value": "jusqu'à 25.000 €",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Et si tu t'engages à améliorer la performance énergétique d'au moins deux classes PEB en 5 ans, chaque classe gagnée ajoute 25.000 € d'abattement.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "LE BONUS RÉNOVATION",
+      "big": "2 classes min.",
+      "sub": "en 5 ans, pour 25.000 € par classe"
+    },
+    {
+      "text": "Exemple : tu passes de F à D, soit deux classes. Ça fait 50.000 € d'abattement en plus, et 6.250 € de droits économisés. Avec trois classes : 9.375 €.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "COMBIEN TU ÉCONOMISES",
+      "items": [
+        {
+          "label": "2 classes (+50.000 €)",
+          "value": "6.250 €",
+          "pct": 67
+        },
+        {
+          "label": "3 classes (+75.000 €)",
+          "value": "9.375 €",
+          "pct": 100
+        }
+      ]
+    },
+    {
+      "text": "Attention : il faut avoir droit à l'abattement de base, t'y engager dans l'acte avec le certificat PEB, puis faire les travaux et t'y domicilier dans les 5 ans.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "🚨 LES CONDITIONS",
+      "items": [
+        {
+          "label": "✅ Abattement de base obtenu",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "✅ Engagement dans l'acte + certificat PEB",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "⏳ 5 ans pour rénover et s'y installer",
+          "value": "",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Tu connaissais cette astuce ? Partage-la à quelqu'un qui achète à Bruxelles, parles-en à ton notaire, et abonne-toi pour suivre l'actu immo belge chaque jour !",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "cta": "Tu connaissais l'astuce ?"
+    }
+  ],
+  "credits": "Photos : Stratoswift (CC BY 4.0) ; Mélioratif (CC BY-SA 4.0) ; Julian Lupyan (CC0) ; Celuici (CC BY-SA 4.0) – Wikimedia Commons"
+}
