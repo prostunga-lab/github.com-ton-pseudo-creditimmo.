@@ -53,7 +53,7 @@ function setScene(i) {
   $('card').style.display = s.cta ? 'none' : 'block';
   $('cta').style.display = s.cta ? 'block' : 'none';
   $('kicker').textContent = s.kicker || '';
-  $('big').textContent = s.big || ''; $('big').style.fontSize = (s.big || '').length > 7 ? '140px' : '190px'; $('big').style.display = s.big ? 'block' : 'none';
+  $('big').textContent = s.big || ''; $('big').style.fontSize = (s.big || '').length > 13 ? '112px' : (s.big || '').length > 7 ? '140px' : '190px'; $('big').style.display = s.big ? 'block' : 'none';
   $('sub').textContent = s.sub || ''; $('sub').style.display = s.sub ? 'block' : 'none';
   $('rows').innerHTML = (s.items || []).map(it => `<div class="row"><div class="top"><span>${it.label}</span><b>${it.value}</b></div>${it.pct ? `<div class="bar"><i data-p="${it.pct}"></i></div>` : ""}</div>`).join('');
   $('cta').innerHTML = s.cta ? `${s.cta}<br><span class="btn">💬 Commente &amp; abonne-toi</span>` : '';

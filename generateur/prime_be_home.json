@@ -1,0 +1,96 @@
+{
+  "slug": "bruxelles-prime-be-home-loyer-modere-2027",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : La Libre (30/10/2026), communiqué de la secrétaire d'État au Logement",
+  "scenes": [
+    {
+      "text": "Propriétaire à Bruxelles ? En 2027, la Région prévoit de te payer… pour louer moins cher !",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "BRUXELLES · LOYERS 2027",
+      "big": "164 € ou 328 €",
+      "sub": "de prime par an"
+    },
+    {
+      "text": "Le principe : si ton loyer est inférieur au loyer de référence de la grille bruxelloise, tu pourras toucher la prime Be Home.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "LE PRINCIPE",
+      "big": "Prime Be Home",
+      "sub": "si ton loyer est sous le loyer de référence"
+    },
+    {
+      "text": "328 € si ton loyer se situe entre 60 et 80 % du loyer de référence. 164 € entre 80 et 100 %.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "MONTANT DE LA PRIME",
+      "items": [
+        {
+          "label": "Loyer à 60-80 % de la référence",
+          "value": "328 €",
+          "pct": 100
+        },
+        {
+          "label": "Loyer à 80-100 %",
+          "value": "164 €",
+          "pct": 50
+        }
+      ]
+    },
+    {
+      "text": "Conditions : un bail enregistré, un loyer déclaré respecté, et c'est volontaire. Budget prévu : 5 millions d'euros en 2027, soit environ 15.000 primes de 328 €.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "CONDITIONS",
+      "items": [
+        {
+          "label": "✅ Bail enregistré",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "✅ Loyer déclaré respecté",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "💶 Budget 2027",
+          "value": "5 millions €",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Mais fais le calcul : avec un loyer de référence de 1.000 €, louer à 900 €, c'est 1.200 € de moins par an… pour une prime de 164 €.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "LE CALCUL",
+      "items": [
+        {
+          "label": "Loyer de 900 € au lieu de 1.000 €",
+          "value": "",
+          "pct": 0
+        },
+        {
+          "label": "Manque à gagner (an)",
+          "value": "-1.200 €",
+          "pct": 0
+        },
+        {
+          "label": "Prime (an)",
+          "value": "+164 €",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Et le Syndicat des locataires s'inquiète : sans contrôle de la salubrité, l'argent public pourrait financer des marchands de sommeil.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "🚨 LA CRITIQUE",
+      "big": "Marchands de sommeil ?",
+      "sub": "le Syndicat des locataires s'inquiète"
+    },
+    {
+      "text": "Propriétaire, tu baisserais ton loyer pour 164 € par an ? Dis-le en commentaire et abonne-toi pour suivre l'actu immo belge chaque jour !",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "cta": "Tu baisserais ton loyer ?"
+    }
+  ],
+  "credits": "Photos : Stratoswift (CC BY 4.0) ; Mélioratif (CC BY-SA 4.0) ; Celuici (CC BY-SA 4.0) ; Julian Lupyan (CC0) – Wikimedia Commons"
+}
