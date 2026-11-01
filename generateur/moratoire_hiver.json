@@ -1,0 +1,64 @@
+{
+  "slug": "bruxelles-moratoire-hivernal-expulsions-2026",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Sources : be.brussels ; Droits Quotidiens (En Marche) – Code bruxellois du logement",
+  "scenes": [
+    {
+      "text": "Depuis ce matin, plus aucune expulsion de logement n'est possible à Bruxelles… et ce, jusqu'au 15 mars !",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "DÈS LE 1ER NOVEMBRE",
+      "big": "0 expulsion",
+      "sub": "à Bruxelles, du 1er novembre au 15 mars"
+    },
+    {
+      "text": "C'est le moratoire hivernal. Il protège tous les locataires des 19 communes, en logement social comme en logement privé. La Cour constitutionnelle l'a validé en octobre 2025.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "LE MORATOIRE HIVERNAL",
+      "big": "Social + privé",
+      "sub": "tous les locataires des 19 communes"
+    },
+    {
+      "text": "Mais attention, ça dépend de ta région ! En Wallonie, seuls les logements sociaux sont protégés. En Flandre, il n'y a pas de moratoire.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "ET AILLEURS ?",
+      "items": [
+        {
+          "label": "Bruxelles",
+          "value": "Tous",
+          "pct": 0
+        },
+        {
+          "label": "Wallonie",
+          "value": "Sociaux",
+          "pct": 0
+        },
+        {
+          "label": "Flandre",
+          "value": "Aucun",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "À Bruxelles, il y a 4 exceptions : le locataire est relogé, il met d'autres personnes en danger, le logement est dangereux, ou un cas de force majeure.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "🚨 LES EXCEPTIONS",
+      "big": "4 exceptions",
+      "sub": "relogé, danger, logement dangereux, force majeure"
+    },
+    {
+      "text": "Et si tu es propriétaire ? Si un juge a autorisé l'expulsion et que ton locataire ne paie plus, le Fonds régional de solidarité peut te rembourser. La demande se fait au plus tard le 15 septembre suivant.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "✅ CÔTÉ PROPRIÉTAIRE",
+      "big": "Fonds de solidarité",
+      "sub": "si le loyer n'est pas payé pendant le moratoire"
+    },
+    {
+      "text": "Propriétaire ou locataire : cette règle, tu es pour ou contre ? Dis-le en commentaire, et abonne-toi pour l'actu immo belge chaque jour !",
+      "bg": "img/bxl_grandplace.jpg",
+      "cta": "Tu es pour ou contre ?"
+    }
+  ],
+  "credits": "Photos : Julian Lupyan (CC0) ; Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Mélioratif (CC BY-SA 4.0) ; Stratoswift (CC BY 4.0) – Wikimedia Commons"
+}
