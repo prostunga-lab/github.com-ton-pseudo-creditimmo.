@@ -1,0 +1,173 @@
+{
+  "slug": "immo-belge-7-chiffres-semaine-2026-11-01",
+  "format": "long",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+3%",
+  "source": "Sources : Statbel, Eurostat, Fednot, Febelfin, BNB, notaire.be, be.brussels, La Libre, L'Echo (octobre 2026)",
+  "scenes": [
+    {
+      "text": "Inflation à plus de 5 %, crédits en chute, une hausse de taxe en vue en Flandre… Cette semaine, l'immobilier belge a bougé. Voici les 7 chiffres à retenir, et le numéro 1 te concerne dès aujourd'hui.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "IMMO BELGE · LA SEMAINE",
+      "big": "7 chiffres",
+      "sub": "à connaître avant d'acheter, de louer ou d'emprunter"
+    },
+    {
+      "text": "On commence par le numéro 7.",
+      "bg": "img/bxl_panorama.jpg",
+      "chapter": "N°7",
+      "title": "L'inflation repasse au-dessus de 5 %"
+    },
+    {
+      "text": "5,26 % : c'est l'inflation belge en octobre, selon Statbel. Son plus haut niveau depuis trois ans, à cause de l'envolée des prix de l'énergie.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "INFLATION · OCTOBRE 2026",
+      "big": "5,26 %",
+      "sub": "son plus haut niveau depuis trois ans"
+    },
+    {
+      "text": "Et ton logement ? Selon les notaires, le prix moyen d'une maison n'a augmenté que de 3 % sur les 9 premiers mois de 2026. Corrigée de l'inflation, la maison belge perd donc un peu de valeur.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "INFLATION VS MAISON",
+      "items": [
+        {"label": "Inflation (octobre)", "value": "5,26 %", "pct": 100},
+        {"label": "Prix des maisons (9 mois)", "value": "+3 %", "pct": 57}
+      ]
+    },
+    {
+      "text": "Numéro 6.",
+      "bg": "img/gent.jpg",
+      "chapter": "N°6",
+      "title": "La Belgique résiste à la flambée européenne"
+    },
+    {
+      "text": "Entre mi-2025 et mi-2026, les prix des logements ont grimpé de 4,7 % dans l'Union européenne, et de 4 % dans la zone euro. En Belgique ? Seulement 2,1 %, selon Statbel. Moins de la moitié de la hausse européenne.",
+      "bg": "img/gent.jpg",
+      "kicker": "PRIX SUR UN AN",
+      "items": [
+        {"label": "Union européenne", "value": "+4,7 %", "pct": 100},
+        {"label": "Zone euro", "value": "+4 %", "pct": 85},
+        {"label": "Belgique", "value": "+2,1 %", "pct": 45}
+      ]
+    },
+    {
+      "text": "Numéro 5.",
+      "bg": "img/bxl_grandplace.jpg",
+      "chapter": "N°5",
+      "title": "Les Bruxellois quittent Bruxelles pour acheter"
+    },
+    {
+      "text": "43,6 % des Bruxellois qui ont acheté en 2025 l'ont fait en dehors de Bruxelles, selon la Fédération des Notaires. La raison ? Le prix : 583.000 € en moyenne pour une maison à Bruxelles, contre 380.000 € en Flandre et 270.000 € en Wallonie.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "PRIX MOYEN D'UNE MAISON",
+      "items": [
+        {"label": "Bruxelles", "value": "583.000 €", "pct": 100},
+        {"label": "Flandre", "value": "380.000 €", "pct": 65},
+        {"label": "Wallonie", "value": "270.000 €", "pct": 46}
+      ]
+    },
+    {
+      "text": "Et toi, tu achèterais à Bruxelles ou en dehors ? Dis-le-moi en commentaire, je lis tout.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "TA RÉPONSE ?",
+      "big": "43,6 %",
+      "sub": "des Bruxellois achètent hors de Bruxelles"
+    },
+    {
+      "text": "Numéro 4.",
+      "bg": "img/antwerpen.jpg",
+      "chapter": "N°4",
+      "title": "Moins de crédits, mais des montants plus gros"
+    },
+    {
+      "text": "Au T3 2026, environ 48.300 crédits hypothécaires ont été accordés, pour 9,6 milliards d'euros. C'est près de 9 % de contrats en moins qu'un an plus tôt, selon Febelfin.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "CRÉDITS HYPOTHÉCAIRES · T3",
+      "big": "-9 %",
+      "sub": "de contrats en un an (48.300 crédits)"
+    },
+    {
+      "text": "La raison : les taux remontent. En août, ils allaient de 3,53 % à 4,69 %, selon la BNB. Et on emprunte gros : 221.700 € en moyenne pour acheter.",
+      "bg": "img/gent.jpg",
+      "kicker": "TAUX EN AOÛT (BNB)",
+      "items": [
+        {"label": "Taux le plus bas", "value": "3,53 %", "pct": 75},
+        {"label": "Taux le plus haut", "value": "4,69 %", "pct": 100},
+        {"label": "Prêt moyen (achat)", "value": "221.700 €", "pct": 0}
+      ]
+    },
+    {
+      "text": "Numéro 3.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "chapter": "N°3",
+      "title": "Bruxelles veut payer les propriétaires"
+    },
+    {
+      "text": "En 2027, la Région bruxelloise prévoit une prime Be Home pour les propriétaires qui louent sous le loyer de référence : 328 € entre 60 et 80 % de ce loyer, 164 € entre 80 et 100 %. Budget prévu : 5 millions d'euros.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "PRIME BE HOME · 2027",
+      "items": [
+        {"label": "Loyer à 60-80 %", "value": "328 €", "pct": 100},
+        {"label": "Loyer à 80-100 %", "value": "164 €", "pct": 50}
+      ]
+    },
+    {
+      "text": "Numéro 2.",
+      "bg": "img/gent.jpg",
+      "chapter": "N°2",
+      "title": "Flandre : les droits d'enregistrement pourraient monter"
+    },
+    {
+      "text": "En Flandre, le taux réduit pour ton habitation propre et unique passerait de 2 % à 3 % au 1er janvier 2027. Ce n'est pas encore voté. Sur un logement de 350.000 €, ce serait 3.500 € de plus.",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE · 350.000 €",
+      "items": [
+        {"label": "À 2 % (aujourd'hui)", "value": "7.000 €", "pct": 67},
+        {"label": "À 3 % (2027, si voté)", "value": "10.500 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "L'astuce : c'est la date du compromis qui compterait. Compromis signé en 2026, tu garderais les 2 %. Mais avec une promesse réciproque d'achat et de vente, c'est la date de l'acte qui compte. Parles-en à ton notaire.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "✅ L'ASTUCE",
+      "big": "Compromis 2026",
+      "sub": "= taux de 2 %, même si l'acte est signé en 2027"
+    },
+    {
+      "text": "Et le numéro 1… il commence aujourd'hui.",
+      "bg": "img/bxl_grandplace.jpg",
+      "chapter": "N°1",
+      "title": "Bruxelles : plus aucune expulsion jusqu'au 15 mars"
+    },
+    {
+      "text": "Depuis ce 1er novembre et jusqu'au 15 mars, aucune expulsion de logement n'est possible à Bruxelles. Le moratoire hivernal protège tous les locataires des 19 communes, en logement social comme en logement privé.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "MORATOIRE HIVERNAL",
+      "big": "0 expulsion",
+      "sub": "à Bruxelles, du 1er novembre au 15 mars"
+    },
+    {
+      "text": "En Wallonie, seuls les logements sociaux sont protégés. En Flandre, il n'y a pas de moratoire. Et à Bruxelles, si un juge a autorisé l'expulsion et que le loyer n'est pas payé, le propriétaire peut être indemnisé par le Fonds régional de solidarité.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "ET AILLEURS ?",
+      "items": [
+        {"label": "Bruxelles", "value": "Tous", "pct": 0},
+        {"label": "Wallonie", "value": "Sociaux", "pct": 0},
+        {"label": "Flandre", "value": "Aucun", "pct": 0}
+      ]
+    },
+    {
+      "text": "Bonus pour ceux qui sont restés : à Bruxelles, si tu achètes et que tu rénoves, tu obtiens 25.000 € d'abattement en plus par classe PEB gagnée. Jusqu'à 9.375 € de droits économisés pour 3 classes.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "🎁 BONUS",
+      "big": "+25.000 €",
+      "sub": "d'abattement par classe PEB gagnée"
+    },
+    {
+      "text": "Lequel de ces 7 chiffres te surprend le plus ? Dis-le en commentaire, partage la vidéo avec quelqu'un qui achète ou qui loue, et abonne-toi pour suivre l'actu immo belge chaque jour.",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Quel chiffre te surprend ?"
+    }
+  ],
+  "credits": "Photos : Julian Lupyan (CC0) ; Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Stratoswift (CC BY 4.0) ; Mélioratif (CC BY-SA 4.0) – Wikimedia Commons"
+}
