@@ -1,0 +1,45 @@
+{
+  "slug": "demission-de-wever-budget-2027-et-ton-projet-immo",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : Sud Ouest / AFP, 02/11/2026 ; compétences régionales (droits d'enregistrement, primes)",
+  "scenes": [
+    {
+      "text": "Le Premier ministre vient de présenter sa démission au roi ! Et ton projet immobilier, dans tout ça ?",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "🚨 CRISE FÉDÉRALE",
+      "big": "Démission",
+      "sub": "de Bart De Wever, ce lundi 2 novembre"
+    },
+    {
+      "text": "La coalition n'a pas trouvé d'accord sur le budget fédéral 2027. Bart De Wever veut un effort de 10 milliards d'euros d'ici 2029, avec un déficit qui dépasse 5 % du PIB. Le roi a suspendu sa décision.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "CE QUI BLOQUE",
+      "items": [
+        {"label": "Effort visé d'ici 2029", "value": "10 milliards €", "pct": 0},
+        {"label": "Déficit public", "value": "> 5 % du PIB", "pct": 0},
+        {"label": "Décision du roi", "value": "En suspens", "pct": 0}
+      ]
+    },
+    {
+      "text": "Le point de friction ? Une hausse de la TVA, dont le MR ne veut pas. Si la TVA augmentait, tes travaux ou une construction neuve pourraient coûter plus cher. Mais rien n'est décidé.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "LA QUESTION QUI FÂCHE",
+      "big": "TVA en hausse ?",
+      "sub": "rien n'est décidé à ce stade"
+    },
+    {
+      "text": "La bonne nouvelle : les droits d'enregistrement, les primes et les prêts à la rénovation dépendent des Régions. La crise fédérale ne les change pas.",
+      "bg": "img/gent.jpg",
+      "kicker": "✅ CE QUI NE CHANGE PAS",
+      "big": "Régional",
+      "sub": "droits d'enregistrement, primes, prêts rénovation"
+    },
+    {
+      "text": "Le roi reçoit à nouveau le Premier ministre vendredi. Et toi, tu attends la fin de la crise pour acheter, ou tu fonces ? Dis-le en commentaire, et abonne-toi pour suivre l'actu immo belge chaque jour !",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Tu attends ou tu fonces ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Julian Lupyan (CC0) ; Stratoswift (CC BY 4.0) ; Fred Romero (CC BY 2.0) – Wikimedia Commons"
+}

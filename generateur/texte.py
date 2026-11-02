@@ -19,6 +19,7 @@ PRONONCIATION = {
     "Be": "Bi", "Home": "Hôme",
     "Mijn": "Mèïne", "VerbouwPremie": "Ferbaou-prémie", "VerbouwLening": "Ferbaou-léning",
     "VerbouwLoket": "Ferbaou-loket", "PEB": "pé eu bé", "Rénopack": "Rénopak", "Rénopack,": "Rénopak,",
+    "PIB": "pé i bé", "PIB.": "pé i bé.", "MR": "èm ère", "Wever": "Wéveur", "TVA": "té vé a", "TVA,": "té vé a,",
 }
 
 
