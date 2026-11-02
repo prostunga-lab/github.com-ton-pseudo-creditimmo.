@@ -1,0 +1,58 @@
+{
+  "slug": "flandre-mijn-verbouwlening-0-pourcent-60000",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : vlaanderen.be – Mijn VerbouwLening (taux 2026)",
+  "scenes": [
+    {
+      "text": "Emprunter 60.000 € à 0 % pour rénover ta maison ? En Flandre, c'est possible… et peu de gens le savent !",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE · AIDE RÉNOVATION",
+      "big": "0 %",
+      "sub": "jusqu'à 60.000 € pour rénover"
+    },
+    {
+      "text": "Ça s'appelle Mijn VerbouwLening, le prêt rénovation de la Région flamande : de 4.000 € à 60.000 €, remboursables sur 25 ans maximum. Pour l'isolation, une pompe à chaleur, des panneaux solaires…",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "MIJN VERBOUWLENING",
+      "items": [
+        {"label": "Montant minimum", "value": "4.000 €", "pct": 0},
+        {"label": "Montant maximum", "value": "60.000 €", "pct": 0},
+        {"label": "Durée maximale", "value": "25 ans", "pct": 0}
+      ]
+    },
+    {
+      "text": "Le taux dépend de tes revenus. En 2026 : 0 % pour les revenus les plus modestes, 0,5 % pour la catégorie suivante, et 1,5 % pour la catégorie 2.",
+      "bg": "img/gent.jpg",
+      "kicker": "TAUX 2026 SELON TES REVENUS",
+      "items": [
+        {"label": "Catégorie 4", "value": "0 %", "pct": 3},
+        {"label": "Catégorie 3", "value": "0,5 %", "pct": 33},
+        {"label": "Catégorie 2", "value": "1,5 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Fais le calcul : 60.000 € sur 25 ans à 0 %, c'est 200 € par mois, sans un euro d'intérêts. Le même prêt à 4 %, c'est 317 € par mois… et environ 35.000 € d'intérêts !",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "60.000 € SUR 25 ANS",
+      "items": [
+        {"label": "À 0 %", "value": "200 €/mois", "pct": 63},
+        {"label": "À 4 %", "value": "317 €/mois", "pct": 100},
+        {"label": "Intérêts évités", "value": "≈ 35.000 €", "pct": 0}
+      ]
+    },
+    {
+      "text": "Attention : si tu touches aussi Mijn VerbouwPremie pour les mêmes travaux, la prime sert d'abord à rembourser le prêt. La demande se fait sur Mijn VerbouwLoket.",
+      "bg": "img/gent.jpg",
+      "kicker": "🚨 À SAVOIR",
+      "big": "Prime + prêt",
+      "sub": "la prime rembourse d'abord le prêt"
+    },
+    {
+      "text": "Tu habites en Flandre et tu as des travaux en vue ? Partage cette vidéo avec quelqu'un qui rénove, et abonne-toi pour une aide immo belge tous les deux jours !",
+      "bg": "img/antwerpen.jpg",
+      "cta": "Tu as des travaux en vue ?"
+    }
+  ],
+  "credits": "Photos : Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) – Wikimedia Commons"
+}
