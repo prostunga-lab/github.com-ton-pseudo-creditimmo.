@@ -1,0 +1,89 @@
+{
+  "slug": "wallonie-renopack-pret-0-pourcent-moitie-offerte",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : wallonie.be – nouveau régime de soutien à la rénovation (1er octobre 2026)",
+  "scenes": [
+    {
+      "text": "Rénover ta maison en Wallonie… et ne rembourser que la moitié du prêt ? C'est possible depuis le 1er octobre !",
+      "bg": "img/wallonie.jpg",
+      "kicker": "WALLONIE · AIDE RÉNOVATION",
+      "big": "-50 %",
+      "sub": "sur le montant à rembourser"
+    },
+    {
+      "text": "Ça s'appelle le Rénopack : un prêt à 0 %, jusqu'à 75.000 € pour une maison unifamiliale. Et une partie du prêt ne doit pas être remboursée.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "LE RÉNOPACK",
+      "items": [
+        {
+          "label": "Taux",
+          "value": "0 %",
+          "pct": 0
+        },
+        {
+          "label": "Maison unifamiliale",
+          "value": "75.000 €",
+          "pct": 0
+        },
+        {
+          "label": "Par appartement",
+          "value": "60.000 €",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "La réduction dépend des revenus imposables de ton ménage : jusqu'à 50 % jusqu'à 28.900 €, 40 % jusqu'à 41.100 €, et 15 % jusqu'à 67.100 €.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "SELON TES REVENUS IMPOSABLES",
+      "items": [
+        {
+          "label": "Jusqu'à 28.900 €",
+          "value": "50 %",
+          "pct": 100
+        },
+        {
+          "label": "Jusqu'à 41.100 €",
+          "value": "40 %",
+          "pct": 80
+        },
+        {
+          "label": "Jusqu'à 67.100 €",
+          "value": "15 %",
+          "pct": 30
+        }
+      ]
+    },
+    {
+      "text": "Exemple : tu empruntes 75.000 € dans la première catégorie. Avec 50 % de réduction, tu ne rembourses que 37.500 €… sans intérêts !",
+      "bg": "img/wallonie.jpg",
+      "kicker": "EXEMPLE · 75.000 €",
+      "items": [
+        {
+          "label": "Emprunté",
+          "value": "75.000 €",
+          "pct": 100
+        },
+        {
+          "label": "À rembourser",
+          "value": "37.500 €",
+          "pct": 50
+        }
+      ]
+    },
+    {
+      "text": "Mais attention : c'est réservé aux passoires énergétiques. Un logement en PEB G ou F doit atteindre au moins D, et un logement en E au moins C. Un audit récent est obligatoire.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "🚨 LES CONDITIONS",
+      "big": "PEB G, F ou E",
+      "sub": "audit de moins d'un an obligatoire"
+    },
+    {
+      "text": "Ta maison est une passoire énergétique ? Partage cette vidéo avec quelqu'un qui rénove en Wallonie, et abonne-toi pour une aide immo belge tous les deux jours !",
+      "bg": "img/wallonie.jpg",
+      "cta": "Ta maison est en quel PEB ?"
+    }
+  ],
+  "credits": "Photo : Jean-Pol Grandmont (CC BY 2.5) – Wikimedia Commons"
+}

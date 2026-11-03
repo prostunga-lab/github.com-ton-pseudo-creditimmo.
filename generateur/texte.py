@@ -15,7 +15,7 @@ PRONONCIATION = {
     "Penses-y": "Pense zi", "penses-y": "pense zi",
     "Vas-y": "Va zi", "vas-y": "va zi",
     "BNB": "bé ène bé",
-    "F": "èf", "D": "dé",
+    "F": "èf", "D": "dé", "G": "jé", "C": "cé", "E": "eu",
     "Be": "Bi", "Home": "Hôme",
     "Mijn": "Mèïne", "VerbouwPremie": "Ferbaou-prémie", "VerbouwLening": "Ferbaou-léning",
     "VerbouwLoket": "Ferbaou-loket", "PEB": "pé eu bé", "Rénopack": "Rénopak", "Rénopack,": "Rénopak,",
