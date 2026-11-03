@@ -1,0 +1,52 @@
+{
+  "slug": "bruxelles-certificats-verts-photovoltaique-2027",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : BRUGEL, 27/10/2026 – maintien des niveaux de soutien au photovoltaïque",
+  "scenes": [
+    {
+      "text": "Des panneaux solaires à Bruxelles ? Bonne nouvelle : la Région maintient son bonus en 2027 !",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "BRUXELLES · AIDE 2027",
+      "big": "2,055",
+      "sub": "certificats verts par MWh produit (jusqu'à 5 kWc)"
+    },
+    {
+      "text": "C'est officiel depuis le 27 octobre : BRUGEL, le régulateur bruxellois de l'énergie, confirme que les taux de certificats verts restent les mêmes pour les installations de moins de 100 kWc certifiées en 2027.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "C'EST OFFICIEL",
+      "big": "Taux maintenus",
+      "sub": "pour les installations certifiées en 2027"
+    },
+    {
+      "text": "Le barème : 2,055 certificats verts par MWh jusqu'à 5 kWc, 1,739 de 5 à 36 kWc, et 0,559 de 36 à 100 kWc.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "CERTIFICATS VERTS PAR MWh",
+      "items": [
+        {"label": "Jusqu'à 5 kWc", "value": "2,055", "pct": 100},
+        {"label": "5 à 36 kWc", "value": "1,739", "pct": 85},
+        {"label": "36 à 100 kWc", "value": "0,559", "pct": 27}
+      ]
+    },
+    {
+      "text": "Concrètement, pour une maison : chaque fois que tes panneaux produisent 1.000 kWh, tu reçois un peu plus de 2 certificats verts, que tu peux revendre.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "POUR UNE MAISON",
+      "big": "1.000 kWh",
+      "sub": "= 2,055 certificats verts"
+    },
+    {
+      "text": "Attention au piège : c'est la date de certification de ton installation qui compte, pas la date de pose. Et sans certification par un organisme agréé, pas de certificats verts.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "🚨 LE PIÈGE",
+      "big": "La certification",
+      "sub": "c'est elle qui fixe ton taux, pas la pose"
+    },
+    {
+      "text": "Prochaine révision du barème : au plus tard le 1er septembre 2027. Tu as déjà des panneaux, ou tu y penses ? Dis-le en commentaire, et abonne-toi pour une aide immo belge tous les deux jours !",
+      "bg": "img/bxl_grandplace.jpg",
+      "cta": "Tu passes au solaire ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Julian Lupyan (CC0) ; Mélioratif (CC BY-SA 4.0) ; Stratoswift (CC BY 4.0) – Wikimedia Commons"
+}

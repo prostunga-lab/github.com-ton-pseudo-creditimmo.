@@ -28,6 +28,7 @@
   #avatar { position: absolute; width: 210px; left: 40px; top: 1110px; transform-origin: 50% 100%; }
   #source { position: absolute; left: 60px; right: 60px; top: 150px; color: rgba(255,255,255,.85); font-size: 26px; }
   #progress { position: absolute; left: 0; top: 0; height: 12px; background: #f2c14e; }
+  #caps span.u { text-transform: none; }
 </style></head>
 <body><div id="stage">
   <div id="bgs"></div>
@@ -88,7 +89,7 @@ window.render = t => {
   const w = ws.findIndex(x => t >= x.s - 0.05 && t < x.next);
   if (w >= 0) {
     const c = ws[w].chunk;
-    $('caps').innerHTML = ws.filter(x => x.chunk === c).map(x => `<span class="${x === ws[w] ? 'on' : ''}">${x.w}</span>`).join(' ');
+    $('caps').innerHTML = ws.filter(x => x.chunk === c).map(x => `<span class="${x === ws[w] ? 'on' : ''}${/(kWc|kWh|MWh|kWp)/.test(x.w) ? ' u' : ''}">${x.w}</span>`).join(' ');
   } else $('caps').innerHTML = '';
   // avatar talks: bob while a word is spoken
   const talking = D.words.some(x => t >= x.s && t < x.e);

@@ -19,7 +19,7 @@ PRONONCIATION = {
     "Be": "Bi", "Home": "Hôme",
     "Mijn": "Mèïne", "VerbouwPremie": "Ferbaou-prémie", "VerbouwLening": "Ferbaou-léning",
     "VerbouwLoket": "Ferbaou-loket", "PEB": "pé eu bé", "Rénopack": "Rénopak", "Rénopack,": "Rénopak,",
-    "PIB": "pé i bé", "PIB.": "pé i bé.", "MR": "èm ère", "Wever": "Wéveur", "TVA": "té vé a", "TVA,": "té vé a,",
+    "PIB": "pé i bé", "PIB.": "pé i bé.", "MR": "èm ère", "Wever": "Wéveur", "kWc": "kilowatts-crête", "MWh": "mégawattheure", "kWh": "kilowattheures", "kWh,": "kilowattheures,", "BRUGEL": "Brugel", "TVA": "té vé a", "TVA,": "té vé a,",
 }
 
 
@@ -66,6 +66,8 @@ def _decimal(entier, dec):
     s = nombre(int(entier.replace(".", "")))
     if dec is None:
         return s
+    if len(dec) >= 3:  # 2,055 -> deux virgule zéro cinq cinq
+        return s + " virgule " + " ".join(UNITES[int(c)] for c in dec)
     zeros = len(dec) - len(dec.lstrip("0"))
     reste = dec.lstrip("0")
     return s + " virgule " + " ".join(["zéro"] * zeros + ([nombre(int(reste))] if reste else []))
