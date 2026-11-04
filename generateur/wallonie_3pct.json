@@ -1,0 +1,79 @@
+{
+  "slug": "wallonie-droits-enregistrement-3-pourcent-28500",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Sources : wallonie.be (FAQ taux réduit 3 %) ; notaire.be – droits d'enregistrement en Région wallonne",
+  "scenes": [
+    {
+      "text": "Tu achètes ta maison en Wallonie ? Tu peux économiser 28.500 € de droits d'enregistrement… si tu respectes 3 règles !",
+      "bg": "img/wallonie.jpg",
+      "kicker": "WALLONIE · ACHAT",
+      "big": "28.500 €",
+      "sub": "d'économie sur un achat de 300.000 €"
+    },
+    {
+      "text": "En Wallonie, les droits d'enregistrement sont de 12,5 %. Mais pour ton habitation propre et unique, ils tombent à 3 %.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "LE TAUX RÉDUIT",
+      "big": "12,5 % → 3 %",
+      "sub": "pour ton habitation propre et unique"
+    },
+    {
+      "text": "Concrètement, pour une maison de 300.000 € : 37.500 € de droits au taux normal, contre 9.000 € à 3 %.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "MAISON DE 300.000 €",
+      "items": [
+        {
+          "label": "À 12,5 %",
+          "value": "37.500 €",
+          "pct": 100
+        },
+        {
+          "label": "À 3 %",
+          "value": "9.000 €",
+          "pct": 24
+        },
+        {
+          "label": "Économie",
+          "value": "28.500 €",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Les 3 règles : ne pas posséder un autre logement en pleine propriété, ou le vendre dans les 3 ans. T'y domicilier dans les 3 ans, ou 5 ans pour un terrain ou un achat sur plan. Et y rester au moins 3 ans.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "LES 3 RÈGLES",
+      "items": [
+        {
+          "label": "Autre logement",
+          "value": "à vendre en 3 ans",
+          "pct": 0
+        },
+        {
+          "label": "Domiciliation",
+          "value": "3 ans (5 ans)",
+          "pct": 0
+        },
+        {
+          "label": "Y rester",
+          "value": "3 ans minimum",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Attention : si tu ne respectes pas ces règles, tu devras payer la différence entre 12,5 % et 3 %. Parles-en à ton notaire avant de signer.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "🚨 LE PIÈGE",
+      "big": "+9,5 %",
+      "sub": "de droits à payer en plus si tu ne respectes pas les règles"
+    },
+    {
+      "text": "Tu achètes en Wallonie cette année ? Dis-le en commentaire, et abonne-toi pour une aide immo belge tous les deux jours !",
+      "bg": "img/wallonie.jpg",
+      "cta": "Tu achètes en Wallonie ?"
+    }
+  ],
+  "credits": "Photo : Jean-Pol Grandmont (CC BY 2.5) – Wikimedia Commons"
+}
