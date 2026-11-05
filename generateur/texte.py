@@ -19,7 +19,7 @@ PRONONCIATION = {
     "Be": "Bi", "Home": "Hôme",
     "Mijn": "Mèïne", "VerbouwPremie": "Ferbaou-prémie", "VerbouwLening": "Ferbaou-léning",
     "VerbouwLoket": "Ferbaou-loket", "PEB": "pé eu bé", "Rénopack": "Rénopak", "Rénopack,": "Rénopak,",
-    "PIB": "pé i bé", "PIB.": "pé i bé.", "MR": "èm ère", "Wever": "Wéveur", "kWc": "kilowatts-crête", "MWh": "mégawattheure", "kWh": "kilowattheures", "kWh,": "kilowattheures,", "BRUGEL": "Brugel", "TVA": "té vé a", "TVA,": "té vé a,",
+    "PIB": "pé i bé", "PIB.": "pé i bé.", "MR": "èm ère", "Wever": "Wéveur", "Immoweb": "Immo-ouèbe", "Immoweb,": "Immo-ouèbe,", "kWc": "kilowatts-crête", "MWh": "mégawattheure", "kWh": "kilowattheures", "kWh,": "kilowattheures,", "BRUGEL": "Brugel", "TVA": "té vé a", "TVA,": "té vé a,",
 }
 
 

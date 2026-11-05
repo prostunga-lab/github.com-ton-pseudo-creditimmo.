@@ -1,0 +1,49 @@
+{
+  "slug": "1-maison-sur-3-a-renover-les-aides",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Sources : L'Echo / Immoweb (04/11/2026) ; wallonie.be ; be.brussels ; vlaanderen.be",
+  "scenes": [
+    {
+      "text": "À Bruxelles et en Wallonie, plus d'une maison sur trois à vendre est à rénover ou à rafraîchir !",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "MARCHÉ IMMO 2026",
+      "big": "1 sur 3",
+      "sub": "maisons à vendre à rénover ou à rafraîchir"
+    },
+    {
+      "text": "C'est ce que montrent les données d'Immoweb, relayées par L'Echo : la part des maisons à rénover augmente en 2026.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "SOURCE : IMMOWEB",
+      "big": "En hausse",
+      "sub": "la part des maisons à rénover à vendre"
+    },
+    {
+      "text": "La bonne nouvelle ? Acheter une maison à rénover peut te rapporter des aides. En Wallonie, pour les passoires énergétiques, le Rénopack : un prêt à 0 %, jusqu'à 75.000 €, et jusqu'à 50 % à ne pas rembourser selon tes revenus.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "WALLONIE",
+      "big": "Prêt à 0 %",
+      "sub": "jusqu'à 75.000 €, jusqu'à 50 % non remboursés"
+    },
+    {
+      "text": "À Bruxelles : 25.000 € d'abattement en plus sur tes droits d'enregistrement par classe PEB gagnée, avec au moins 2 classes en 5 ans.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "BRUXELLES",
+      "big": "+25.000 €",
+      "sub": "d'abattement par classe PEB gagnée"
+    },
+    {
+      "text": "Et en Flandre, Mijn VerbouwLening : jusqu'à 60.000 € à un taux de 0 à 1,5 % selon tes revenus.",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE",
+      "big": "60.000 €",
+      "sub": "à 0 – 1,5 % selon tes revenus"
+    },
+    {
+      "text": "Tu achèterais une maison à rénover ? Dis-le en commentaire, et abonne-toi pour suivre l'actu immo belge chaque jour !",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "cta": "Tu rénoverais ?"
+    }
+  ],
+  "credits": "Photos : Stratoswift (CC BY 4.0) ; Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Julian Lupyan (CC0) ; Fred Romero (CC BY 2.0) ; Mélioratif (CC BY-SA 4.0) – Wikimedia Commons"
+}
