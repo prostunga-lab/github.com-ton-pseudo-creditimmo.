@@ -1,0 +1,51 @@
+{
+  "slug": "roi-refuse-demission-de-wever-et-ton-projet-immo",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : Le Monde / AFP, 06/11/2026 (communiqué du Palais royal)",
+  "scenes": [
+    {
+      "text": "Rebondissement : le roi refuse la démission du Premier ministre ! Et pour ton projet immo, qu'est-ce que ça change ?",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "🚨 CE VENDREDI 6 NOVEMBRE",
+      "big": "Démission refusée",
+      "sub": "Bart De Wever reste Premier ministre"
+    },
+    {
+      "text": "Le roi Philippe lui demande de reprendre tout de suite les négociations sur le budget. Il doit lui faire rapport le lundi 16 novembre.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "LA SUITE",
+      "items": [
+        {"label": "Négociations", "value": "Reprise", "pct": 0},
+        {"label": "Rapport au roi", "value": "Lundi 16/11", "pct": 0}
+      ]
+    },
+    {
+      "text": "Le blocage reste le même : un effort de 10 milliards d'euros d'ici 2029, et de nouvelles recettes dont le MR ne veut pas. Une hausse de la TVA n'est donc ni décidée, ni écartée.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "CE QUI BLOQUE",
+      "big": "10 milliards €",
+      "sub": "d'effort budgétaire visé d'ici 2029"
+    },
+    {
+      "text": "En attendant, 2027 commencera avec un budget d'urgence, calqué sur le précédent : ce qu'on appelle les douzièmes provisoires.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "DÉBUT 2027",
+      "big": "Douzièmes provisoires",
+      "sub": "un budget d'urgence calqué sur le précédent"
+    },
+    {
+      "text": "Pour ton achat, rien ne change : droits d'enregistrement, primes et prêts à la rénovation dépendent des Régions, pas du fédéral.",
+      "bg": "img/gent.jpg",
+      "kicker": "✅ POUR TON ACHAT",
+      "big": "Rien ne change",
+      "sub": "droits d'enregistrement et primes sont régionaux"
+    },
+    {
+      "text": "Tu crois à un accord d'ici le 16 novembre ? Dis-le en commentaire, et abonne-toi pour suivre l'actu immo belge chaque jour !",
+      "bg": "img/bxl_grandplace.jpg",
+      "cta": "Accord ou pas ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Julian Lupyan (CC0) ; Stratoswift (CC BY 4.0) ; Fred Romero (CC BY 2.0) – Wikimedia Commons"
+}
