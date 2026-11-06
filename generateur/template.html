@@ -90,7 +90,7 @@ window.render = t => {
   if (w >= 0) {
     const c = ws[w].chunk;
     { const lw = Math.max(...ws.filter(x => x.chunk === c).map(x => x.w.length)); $('caps').style.fontSize = lw > 14 ? '62px' : lw > 11 ? '72px' : '84px'; }
-    $('caps').innerHTML = ws.filter(x => x.chunk === c).map(x => `<span class="${x === ws[w] ? 'on' : ''}${/(kWc|kWh|MWh|kWp)/.test(x.w) ? ' u' : ''}">${x.w}</span>`).join(' ');
+    $('caps').innerHTML = ws.filter(x => x.chunk === c).map(x => `<span class="${x === ws[w] ? 'on' : ''}${/(kWc|kWh|MWh|kWp|m²)/.test(x.w) ? ' u' : ''}">${x.w}</span>`).join(' ');
   } else $('caps').innerHTML = '';
   // avatar talks: bob while a word is spoken
   const talking = D.words.some(x => t >= x.s && t < x.e);

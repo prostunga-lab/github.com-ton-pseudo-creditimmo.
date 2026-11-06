@@ -1,0 +1,56 @@
+{
+  "slug": "maison-a-renover-jusqua-35-pourcent-moins-chere",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : étude Immoweb via Trends-Tendances, 05/11/2026 (prix demandés, maison de 150 m²)",
+  "scenes": [
+    {
+      "text": "Une maison à rénover, c'est jusqu'à 35 % moins cher ! Près de 100.000 € d'écart en Wallonie.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "ÉTUDE IMMOWEB",
+      "big": "-35 %",
+      "sub": "sur le prix demandé d'une maison à rénover"
+    },
+    {
+      "text": "En Belgique, 18,2 % des maisons à vendre sur Immoweb sont annoncées à rénover. C'était 10,1 % en 2010 : presque le double en seize ans.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "MAISONS « À RÉNOVER »",
+      "items": [
+        {"label": "En 2010", "value": "10,1 %", "pct": 55},
+        {"label": "En 2026", "value": "18,2 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Et la ristourne est énorme : par rapport à une maison en excellent état, c'est 27 % de moins à Bruxelles, 30 % en Flandre et 35 % en Wallonie.",
+      "bg": "img/gent.jpg",
+      "kicker": "ÉCART DE PRIX DEMANDÉ",
+      "items": [
+        {"label": "Bruxelles", "value": "-27 %", "pct": 77},
+        {"label": "Flandre", "value": "-30 %", "pct": 86},
+        {"label": "Wallonie", "value": "-35 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "En Wallonie, pour 150 m² : 284.177 € pour une maison en excellent état, contre 184.693 € à rénover. Presque 100.000 € de différence !",
+      "bg": "img/wallonie.jpg",
+      "kicker": "WALLONIE · 150 m²",
+      "items": [
+        {"label": "Excellent état", "value": "284.177 €", "pct": 100},
+        {"label": "À rénover", "value": "184.693 €", "pct": 65}
+      ]
+    },
+    {
+      "text": "Mais attention : ce sont des prix affichés, et le coût des travaux peut effacer tout l'avantage. Fais estimer les travaux avant de signer.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "🚨 LE PIÈGE",
+      "big": "Les travaux",
+      "sub": "peuvent effacer tout l'avantage"
+    },
+    {
+      "text": "Toi, tu prendrais une maison à rénover pour payer moins cher ? Dis-le en commentaire, et abonne-toi pour suivre l'actu immo belge chaque jour !",
+      "bg": "img/bxl_grandplace.jpg",
+      "cta": "Tu prendrais le risque ?"
+    }
+  ],
+  "credits": "Photos : Jean-Pol Grandmont (CC BY 2.5) ; Celuici (CC BY-SA 4.0) ; Fred Romero (CC BY 2.0) ; Stratoswift (CC BY 4.0) ; Julian Lupyan (CC0) – Wikimedia Commons"
+}
