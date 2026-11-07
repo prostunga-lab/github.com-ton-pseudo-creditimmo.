@@ -1,0 +1,74 @@
+{
+  "slug": "flandre-verbouwpremie-35-pourcent-bailleurs-2027",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : vlaanderen.be – Mijn VerbouwPremie, modifications prévues en 2027 (règles pas encore définitives)",
+  "scenes": [
+    {
+      "text": "Propriétaire et bailleur en Flandre ? En 2027, la Région prévoit une prime de 35 % sur tes travaux de rénovation !",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE · BAILLEURS · 2027",
+      "big": "35 %",
+      "sub": "de prime sur tes travaux de rénovation"
+    },
+    {
+      "text": "C'est une nouveauté de Mijn VerbouwPremie, la prime rénovation flamande. Elle entrerait en vigueur au plus tôt le 1er février 2027. Attention : les règles ne sont pas encore définitives.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "MIJN VERBOUWPREMIE",
+      "big": "1er février 2027",
+      "sub": "au plus tôt, règles pas encore définitives"
+    },
+    {
+      "text": "Les conditions annoncées : louer à un loyer maximum, avoir une attestation de conformité, et louer le logement pendant au moins 3 ans.",
+      "bg": "img/gent.jpg",
+      "kicker": "LES CONDITIONS PRÉVUES",
+      "items": [
+        {
+          "label": "Loyer",
+          "value": "plafonné",
+          "pct": 0
+        },
+        {
+          "label": "Attestation",
+          "value": "de conformité",
+          "pct": 0
+        },
+        {
+          "label": "Durée de location",
+          "value": "3 ans minimum",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "La prime de 35 % vaudrait pour tous les travaux éligibles dans la catégorie de revenus 3. Exemple : 20.000 € de travaux éligibles, ce serait jusqu'à 7.000 € de prime, dans la limite des plafonds.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "EXEMPLE · 20.000 € DE TRAVAUX",
+      "items": [
+        {
+          "label": "Travaux",
+          "value": "20.000 €",
+          "pct": 100
+        },
+        {
+          "label": "Prime à 35 %",
+          "value": "jusqu'à 7.000 €",
+          "pct": 35
+        }
+      ]
+    },
+    {
+      "text": "Tu peux déjà simuler ta prime avec le simulateur Mijn VerbouwPremie 2027 sur vlaanderen.be. Et parles-en à ton Energiehuis avant de lancer les travaux.",
+      "bg": "img/gent.jpg",
+      "kicker": "✅ LE BON RÉFLEXE",
+      "big": "Simulateur 2027",
+      "sub": "disponible sur vlaanderen.be"
+    },
+    {
+      "text": "Bailleur : tu baisserais ton loyer pour 35 % de prime ? Dis-le en commentaire, et abonne-toi pour une aide immo belge tous les deux jours !",
+      "bg": "img/antwerpen.jpg",
+      "cta": "Tu signerais ?"
+    }
+  ],
+  "credits": "Photos : Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) – Wikimedia Commons"
+}
