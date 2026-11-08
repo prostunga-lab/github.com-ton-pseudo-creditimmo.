@@ -1,0 +1,136 @@
+{
+  "slug": "immo-belge-7-chiffres-semaine-2026-11-08",
+  "format": "long",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+3%",
+  "source": "Sources : vlaanderen.be, wallonie.be, be.brussels, BRUGEL, notaire.be, Immoweb (Trends-Tendances, L'Echo), Le Monde/AFP (novembre 2026)",
+  "scenes": [
+    {
+      "text": "Une maison jusqu'à 35 % moins chère, un prêt rénovation à 0 %, et un gouvernement qui vacille… Voici les 7 chiffres de l'immo belge à retenir cette semaine. Et le numéro 1 peut te faire économiser des dizaines de milliers d'euros.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "IMMO BELGE · LA SEMAINE",
+      "big": "7 chiffres",
+      "sub": "pour acheter, rénover ou louer malin"
+    },
+    {
+      "text": "On commence par le numéro 7.",
+      "bg": "img/bxl_panorama.jpg",
+      "chapter": "N°7",
+      "title": "Le gouvernement fédéral tient… pour l'instant"
+    },
+    {
+      "text": "Le Premier ministre a présenté sa démission lundi. Vendredi, le roi l'a refusée et lui a demandé de reprendre les négociations sur le budget. Le blocage : un effort de 10 milliards d'euros d'ici 2029. Prochain rapport au roi : le lundi 16 novembre.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "CRISE FÉDÉRALE",
+      "big": "10 milliards €",
+      "sub": "d'effort budgétaire visé d'ici 2029"
+    },
+    {
+      "text": "Numéro 6.",
+      "bg": "img/bxl_grandplace.jpg",
+      "chapter": "N°6",
+      "title": "Bruxelles garde son bonus solaire"
+    },
+    {
+      "text": "BRUGEL l'a confirmé : les certificats verts restent au même niveau pour les installations certifiées en 2027. Pour une maison, jusqu'à 5 kWc, c'est 2,055 certificats verts par MWh produit.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "CERTIFICATS VERTS 2027",
+      "big": "2,055",
+      "sub": "certificats verts par MWh (jusqu'à 5 kWc)"
+    },
+    {
+      "text": "Numéro 5.",
+      "bg": "img/ixelles_artisans.jpg",
+      "chapter": "N°5",
+      "title": "Une maison sur cinq est à rénover"
+    },
+    {
+      "text": "Selon Immoweb, 18,2 % des maisons à vendre en Belgique sont annoncées à rénover. C'était 10,1 % en 2010. Et à Bruxelles comme en Wallonie, si on ajoute les maisons à rafraîchir, c'est plus d'une maison sur trois.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "MAISONS « À RÉNOVER »",
+      "items": [
+        {"label": "En 2010", "value": "10,1 %", "pct": 55},
+        {"label": "En 2026", "value": "18,2 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Numéro 4.",
+      "bg": "img/wallonie.jpg",
+      "chapter": "N°4",
+      "title": "Jusqu'à 35 % moins cher… sur le papier"
+    },
+    {
+      "text": "Une maison à rénover est affichée 27 % moins cher à Bruxelles, 30 % en Flandre et 35 % en Wallonie. En Wallonie, pour 150 m², c'est 184.693 € au lieu de 284.177 €. Mais attention : le coût des travaux peut effacer tout l'avantage.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "ÉCART DE PRIX DEMANDÉ",
+      "items": [
+        {"label": "Bruxelles", "value": "-27 %", "pct": 77},
+        {"label": "Flandre", "value": "-30 %", "pct": 86},
+        {"label": "Wallonie", "value": "-35 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Tu prendrais une maison à rénover ? Dis-le-moi en commentaire, je lis tout.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "TA RÉPONSE ?",
+      "big": "-35 %",
+      "sub": "le prix d'une maison à rénover en Wallonie"
+    },
+    {
+      "text": "Numéro 3.",
+      "bg": "img/gent.jpg",
+      "chapter": "N°3",
+      "title": "Flandre : 35 % de prime pour les bailleurs ?"
+    },
+    {
+      "text": "La Flandre prépare une prime Mijn VerbouwPremie de 35 % pour les bailleurs qui louent à un loyer maximum, avec une attestation de conformité, pendant au moins 3 ans. Ce serait au plus tôt le 1er février 2027, et les règles ne sont pas encore définitives.",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE · BAILLEURS · 2027",
+      "big": "35 %",
+      "sub": "de prime sur les travaux, règles pas encore définitives"
+    },
+    {
+      "text": "Numéro 2.",
+      "bg": "img/antwerpen.jpg",
+      "chapter": "N°2",
+      "title": "Rénover avec un prêt à 0 %"
+    },
+    {
+      "text": "En Flandre, Mijn VerbouwLening prête jusqu'à 60.000 €, à un taux de 0 à 1,5 % selon tes revenus. En Wallonie, le Rénopack prête jusqu'à 75.000 € à 0 % pour les passoires énergétiques, et jusqu'à 50 % du prêt n'est pas à rembourser.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "PRÊTS RÉNOVATION",
+      "items": [
+        {"label": "Flandre", "value": "60.000 €", "pct": 80},
+        {"label": "Wallonie", "value": "75.000 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Et le numéro 1… c'est celui qui peut te faire économiser le plus.",
+      "bg": "img/wallonie.jpg",
+      "chapter": "N°1",
+      "title": "Wallonie : 28.500 € d'économie à l'achat"
+    },
+    {
+      "text": "En Wallonie, les droits d'enregistrement passent de 12,5 % à 3 % pour ton habitation propre et unique. Sur une maison de 300.000 €, c'est 9.000 € au lieu de 37.500 €. Soit 28.500 € d'économie.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "MAISON DE 300.000 €",
+      "items": [
+        {"label": "À 12,5 %", "value": "37.500 €", "pct": 100},
+        {"label": "À 3 %", "value": "9.000 €", "pct": 24}
+      ]
+    },
+    {
+      "text": "Les règles : ne pas posséder un autre logement, ou le vendre dans les 3 ans, t'y domicilier dans les 3 ans, et y rester au moins 3 ans. Sinon, tu paies la différence. Parles-en à ton notaire.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "🚨 LES 3 RÈGLES",
+      "big": "3 ans",
+      "sub": "pour t'installer, et 3 ans pour y rester"
+    },
+    {
+      "text": "Lequel de ces 7 chiffres te concerne le plus ? Dis-le en commentaire, partage la vidéo avec quelqu'un qui achète ou rénove, et abonne-toi pour suivre l'actu immo belge chaque jour.",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Quel chiffre te concerne ?"
+    }
+  ],
+  "credits": "Photos : Julian Lupyan (CC0) ; Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Stratoswift (CC BY 4.0) ; Mélioratif (CC BY-SA 4.0) – Wikimedia Commons"
+}
