@@ -1,0 +1,56 @@
+{
+  "slug": "bruxelles-prime-renolution-isolation-toiture",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : renolution.brussels – Prime E3, isolation thermique de la toiture",
+  "scenes": [
+    {
+      "text": "Tu isoles ton toit à Bruxelles ? La Région peut te verser jusqu'à 75 € par mètre carré !",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "BRUXELLES · PRIME RENOLUTION",
+      "big": "75 €/m²",
+      "sub": "pour isoler ta toiture"
+    },
+    {
+      "text": "C'est par le toit qu'une maison perd le plus de chaleur. La prime Renolution dépend de tes revenus : 35 € par mètre carré en catégorie 1, 55 € en catégorie 2, et 75 € en catégorie 3, pour les revenus les plus faibles.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "PRIME PAR m² ISOLÉ",
+      "items": [
+        {"label": "Catégorie I", "value": "35 €/m²", "pct": 47},
+        {"label": "Catégorie II", "value": "55 €/m²", "pct": 73},
+        {"label": "Catégorie III", "value": "75 €/m²", "pct": 100}
+      ]
+    },
+    {
+      "text": "Exemple pour 80 mètres carrés de toiture : 2.800 € en catégorie 1, et jusqu'à 6.000 € en catégorie 3, dans la limite des plafonds.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "EXEMPLE · 80 m² DE TOITURE",
+      "items": [
+        {"label": "Catégorie I", "value": "2.800 €", "pct": 47},
+        {"label": "Catégorie III", "value": "6.000 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Et il y a des bonus : 10 € en plus par mètre carré avec un isolant naturel, comme la cellulose ou le chanvre. Et si tu fais au moins 3 types de travaux dans la même demande, tes primes augmentent de 10 %, voire de 20 % en catégorie 3.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "🎁 LES BONUS",
+      "items": [
+        {"label": "Isolant naturel", "value": "+10 €/m²", "pct": 0},
+        {"label": "3 travaux ou plus", "value": "+10 à 20 %", "pct": 0}
+      ]
+    },
+    {
+      "text": "Les conditions : un bâtiment de plus de 10 ans, un isolant avec une résistance thermique d'au moins 4, et des travaux réalisés par un entrepreneur, facture à ton nom.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "🚨 LES CONDITIONS",
+      "big": "Bâtiment de 10 ans",
+      "sub": "minimum, et un isolant de résistance R ≥ 4"
+    },
+    {
+      "text": "Ton toit est isolé ou pas encore ? Dis-le en commentaire, et abonne-toi pour une aide immo belge tous les deux jours !",
+      "bg": "img/bxl_grandplace.jpg",
+      "cta": "Ton toit est isolé ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Mélioratif (CC BY-SA 4.0) ; Julian Lupyan (CC0) ; Stratoswift (CC BY 4.0) – Wikimedia Commons"
+}
