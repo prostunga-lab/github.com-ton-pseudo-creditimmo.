@@ -59,3 +59,4 @@ node thumb.js img/bxl_grandplace.jpg "7 chiffres choc" "Immo belge&nbsp;: avant 
 - Pas de photos de presse (droits d'auteur) : photos libres (Wikimedia Commons, CC0/CC BY/CC BY-SA) avec crédit.
 - Voix IA : déclarer « contenu modifié ou synthétique » sur YouTube.
 - Information générale, jamais de conseil financier personnalisé ni de promesse de taux.
+- **Ne pas publier de contenu sur la prime Be Home** (consigne du propriétaire de la chaîne, 10/11/2026) : ni Short, ni vidéo longue, ni post LinkedIn, ni correctif.
