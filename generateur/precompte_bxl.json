@@ -1,0 +1,69 @@
+{
+  "slug": "bruxelles-precompte-immobilier-familles-2027",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : 21News, 16/10/2026 – projet du gouvernement bruxellois (pas encore adopté)",
+  "scenes": [
+    {
+      "text": "Famille avec enfants à Bruxelles ? Ton précompte immobilier pourrait augmenter de 150 € par an dès 2027 !",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "BRUXELLES · PRÉCOMPTE 2027",
+      "big": "+150 €/an",
+      "sub": "exemple : réduction pour 2 enfants"
+    },
+    {
+      "text": "Aujourd'hui, à partir du deuxième enfant à charge, tu as 10 % de réduction par enfant sur ton précompte immobilier. Le gouvernement bruxellois veut remplacer ce pourcentage par un forfait de 125 € par enfant.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "CE QUI CHANGERAIT",
+      "items": [
+        {
+          "label": "Aujourd'hui",
+          "value": "10 % par enfant",
+          "pct": 0
+        },
+        {
+          "label": "Dès 2027 (projet)",
+          "value": "125 € par enfant",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Le seuil clé : 1.250 €. Si ton précompte dépasse 1.250 €, le forfait devient moins avantageux. En dessous, il peut être plus intéressant.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "LE SEUIL CLÉ",
+      "big": "1.250 €",
+      "sub": "de précompte : au-delà, tu perdrais"
+    },
+    {
+      "text": "Exemple : une famille qui a droit à la réduction pour 2 enfants, avec un précompte de 2.000 €. Aujourd'hui, la réduction est de 400 €. Avec le forfait, elle tomberait à 250 €. Soit 150 € de moins chaque année.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "EXEMPLE · PRÉCOMPTE DE 2.000 €",
+      "items": [
+        {
+          "label": "Aujourd'hui (20 %)",
+          "value": "400 €",
+          "pct": 100
+        },
+        {
+          "label": "Forfait (2 × 125 €)",
+          "value": "250 €",
+          "pct": 63
+        }
+      ]
+    },
+    {
+      "text": "Selon la Ligue des familles, le soutien aux familles baisserait de 27 % au total. La mesure n'est pas encore adoptée, et le débat continue.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "🚨 PAS ENCORE ADOPTÉ",
+      "big": "-27 %",
+      "sub": "de soutien aux familles, selon la Ligue des familles"
+    },
+    {
+      "text": "Ton précompte dépasse 1.250 € ? Dis-le en commentaire, et abonne-toi pour suivre l'actu immo belge chaque jour !",
+      "bg": "img/bxl_grandplace.jpg",
+      "cta": "Ton précompte ?"
+    }
+  ],
+  "credits": "Photos : Julian Lupyan (CC0) ; Celuici (CC BY-SA 4.0) ; Mélioratif (CC BY-SA 4.0) ; Stratoswift (CC BY 4.0) – Wikimedia Commons"
+}
