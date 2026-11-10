@@ -1,0 +1,54 @@
+{
+  "slug": "credit-300000-coute-6700-euros-de-plus",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : Immotheker-Finotheker via HLN et BruxellesToday, 21/10/2026",
+  "scenes": [
+    {
+      "text": "Tu empruntes 300.000 € pour acheter ? En un mois seulement, ton crédit te coûterait plus de 6.700 € de plus !",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "CRÉDIT HYPOTHÉCAIRE",
+      "big": "+6.700 €",
+      "sub": "sur un prêt de 300.000 € en 20 ans"
+    },
+    {
+      "text": "Le taux moyen d'un prêt sur 20 ans est passé de 4,17 % à la mi-septembre à 4,35 % à la mi-octobre, selon Immotheker-Finotheker.",
+      "bg": "img/gent.jpg",
+      "kicker": "TAUX MOYEN SUR 20 ANS",
+      "items": [
+        {"label": "Mi-septembre", "value": "4,17 %", "pct": 96},
+        {"label": "Mi-octobre", "value": "4,35 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Pour 300.000 € sur 20 ans, ta mensualité passe de 1.844 € à 1.872 €. Ça a l'air de rien… mais sur toute la durée, c'est plus de 6.700 €. Et par rapport à l'an dernier, presque 16.000 € de plus !",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "300.000 € SUR 20 ANS",
+      "items": [
+        {"label": "Mensualité mi-septembre", "value": "1.844 €", "pct": 98},
+        {"label": "Mensualité mi-octobre", "value": "1.872 €", "pct": 100},
+        {"label": "Vs l'an dernier", "value": "≈ +16.000 €", "pct": 0}
+      ]
+    },
+    {
+      "text": "Pourquoi ? Les taux à long terme montent : inflation, tensions géopolitiques et dettes publiques élevées. Le taux des obligations belges à 10 ans dépasse désormais 4,37 %.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "POURQUOI ÇA MONTE",
+      "big": "4,37 %",
+      "sub": "le rendement des obligations belges à 10 ans"
+    },
+    {
+      "text": "Le bon réflexe : compare plusieurs banques, et regarde les aides régionales, comme les prêts rénovation à 0 %. Et parles-en à un courtier avant de signer.",
+      "bg": "img/gent.jpg",
+      "kicker": "✅ LE BON RÉFLEXE",
+      "big": "Compare",
+      "sub": "plusieurs banques avant de signer"
+    },
+    {
+      "text": "Tu achètes maintenant, ou tu attends que les taux redescendent ? Dis-le en commentaire, et abonne-toi pour suivre l'actu immo belge chaque jour !",
+      "bg": "img/antwerpen.jpg",
+      "cta": "Tu achètes ou tu attends ?"
+    }
+  ],
+  "credits": "Photos : TheGoodEndedHappily (CC BY 4.0) ; Fred Romero (CC BY 2.0) ; Celuici (CC BY-SA 4.0) – Wikimedia Commons"
+}
