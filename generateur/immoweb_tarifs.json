@@ -1,0 +1,51 @@
+{
+  "slug": "immoweb-tarifs-agences-jusqua-65-pourcent-2027",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Sources : L'Echo via 21News (09/11/2026)",
+  "scenes": [
+    {
+      "text": "Le site où tu cherches ta future maison va coûter jusqu'à 65 % plus cher… aux agences immobilières !",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "IMMOWEB · 2027",
+      "big": "Jusqu'à +65 %",
+      "sub": "sur les tarifs payés par les agences"
+    },
+    {
+      "text": "Immoweb, la principale plateforme d'annonces immobilières du pays, revoit ses prix pour 2027. Selon L'Echo, les agences parlent de hausses entre 15 et 65 %, selon leur taille et leurs services.",
+      "bg": "img/gent.jpg",
+      "kicker": "HAUSSE ANNONCÉE",
+      "items": [
+        {"label": "Hausse minimale", "value": "+15 %", "pct": 23},
+        {"label": "Hausse maximale", "value": "+65 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Et les agents sont en colère. Le problème : sans Immoweb, leurs biens perdent énormément de visibilité. Le secteur parle d'un quasi-monopole, donc très peu de marge pour négocier.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "😡 LA COLÈRE DES AGENTS",
+      "big": "Quasi-monopole",
+      "sub": "peu d'alternatives, peu de négociation"
+    },
+    {
+      "text": "De son côté, Immoweb défend sa décision : la plateforme dit avoir investi dans l'intelligence artificielle, la visibilité des annonces et des outils de prospection.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "LA RÉPONSE D'IMMOWEB",
+      "big": "Plus de services",
+      "sub": "intelligence artificielle, visibilité, prospection"
+    },
+    {
+      "text": "Et toi, qu'est-ce que ça change ? Les annonces restent gratuites à consulter. Mais si tu vends via une agence, compare bien sa commission et ce qu'elle inclut avant de signer.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "✅ LE BON RÉFLEXE",
+      "big": "Compare",
+      "sub": "la commission et les services de l'agence"
+    },
+    {
+      "text": "D'après toi, les agences vont-elles répercuter cette hausse sur les vendeurs ? Dis-le en commentaire, et abonne-toi pour l'actu immo belge chaque jour !",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Hausse répercutée ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Julian Lupyan (CC0) ; Jean-Pol Grandmont (CC BY 2.5) – Wikimedia Commons"
+}
