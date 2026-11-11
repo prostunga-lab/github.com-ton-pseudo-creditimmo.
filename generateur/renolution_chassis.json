@@ -1,0 +1,55 @@
+{
+  "slug": "bruxelles-prime-renolution-fenetres-bois-vs-pvc",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : renolution.brussels – Prime G1, placement et remplacement de portes et fenêtres",
+  "scenes": [
+    {
+      "text": "Tu changes tes fenêtres à Bruxelles ? En bois, ta prime peut être 5 fois plus élevée qu'en PVC !",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "BRUXELLES · PRIME RENOLUTION",
+      "big": "Bois × 5",
+      "sub": "plus de prime qu'en PVC (avec le bonus FSC)"
+    },
+    {
+      "text": "La prime Renolution pour les fenêtres est calculée par mètre carré. En bois : 100 € en catégorie 1, 120 € en catégorie 2, et 140 € en catégorie 3. En PVC ou en métal : seulement 40 à 55 € par mètre carré.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "PRIME PAR m² (CATÉGORIE I À III)",
+      "items": [
+        {"label": "Bois", "value": "100 à 140 €/m²", "pct": 100},
+        {"label": "PVC ou métal", "value": "40 à 55 €/m²", "pct": 39}
+      ]
+    },
+    {
+      "text": "Et avec du bois certifié FSC ou PEFC, tu ajoutes un bonus de 100 € par mètre carré. Un vitrage acoustique ? Encore 35 € de plus par mètre carré.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "🎁 LES BONUS",
+      "items": [
+        {"label": "Bois FSC ou PEFC", "value": "+100 €/m²", "pct": 0},
+        {"label": "Vitrage acoustique", "value": "+35 €/m²", "pct": 0}
+      ]
+    },
+    {
+      "text": "Exemple : 15 mètres carrés de fenêtres en catégorie 1. En PVC : 600 €. En bois certifié : 3.000 €, dans la limite des plafonds.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "EXEMPLE · 15 m², CATÉGORIE I",
+      "items": [
+        {"label": "PVC", "value": "600 €", "pct": 20},
+        {"label": "Bois certifié", "value": "3.000 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Attention : le PVC n'est éligible que pour remplacer du PVC existant. Et tes fenêtres doivent être performantes : un vitrage avec un Ug de 1,1 maximum.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "🚨 LE PIÈGE",
+      "big": "PVC → PVC",
+      "sub": "seulement pour remplacer du PVC existant"
+    },
+    {
+      "text": "Toi, tu choisirais le bois ou le PVC ? Dis-le en commentaire, et abonne-toi pour une aide immo belge tous les deux jours !",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Bois ou PVC ?"
+    }
+  ],
+  "credits": "Photos : Mélioratif (CC BY-SA 4.0) ; Celuici (CC BY-SA 4.0) ; Stratoswift (CC BY 4.0) ; Julian Lupyan (CC0) – Wikimedia Commons"
+}
