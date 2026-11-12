@@ -1,0 +1,64 @@
+{
+  "slug": "kot-etudiant-600-euros-par-mois-belgique-2026",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : étude Kotkompas (Diggit StudentLife et Stadim), via BX1/Belga, 10/11/2026",
+  "scenes": [
+    {
+      "text": "Un kot étudiant coûte désormais 600 € par mois en moyenne en Belgique… et à Bruxelles, c'est encore plus cher !",
+      "bg": "img/gent.jpg",
+      "kicker": "KOT ÉTUDIANT · 2026",
+      "big": "600 €",
+      "sub": "par mois en moyenne, charges comprises"
+    },
+    {
+      "text": "C'est ce que révèle l'étude Kotkompas de Diggit StudentLife et de l'expert immobilier Stadim : 10 € de plus qu'il y a un an, soit +1,7 %. Dont 105 € de charges en moyenne.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "EN UN AN",
+      "big": "+1,7 %",
+      "sub": "soit 10 € de plus par mois"
+    },
+    {
+      "text": "Et ta région change tout. Un kot coûte en moyenne 705 € à Bruxelles, 625 € en Flandre et 545 € en Wallonie.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "LOYER MOYEN D'UN KOT",
+      "items": [
+        {"label": "Bruxelles", "value": "705 €", "pct": 100},
+        {"label": "Flandre", "value": "625 €", "pct": 89},
+        {"label": "Wallonie", "value": "545 €", "pct": 77}
+      ]
+    },
+    {
+      "text": "Tu veux un studio ? Compte 700 € en moyenne en Belgique. Et jusqu'à 805 € à Bruxelles !",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "LOYER MOYEN D'UN STUDIO",
+      "items": [
+        {"label": "Bruxelles", "value": "805 €", "pct": 100},
+        {"label": "Flandre", "value": "725 €", "pct": 90},
+        {"label": "Wallonie", "value": "640 €", "pct": 80}
+      ]
+    },
+    {
+      "text": "En six ans, le coût moyen d'un logement étudiant est passé de 475 € à 600 €. C'est 125 € de plus chaque mois, soit 1.500 € de plus par an.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "EN SIX ANS",
+      "items": [
+        {"label": "2020", "value": "475 €", "pct": 79},
+        {"label": "2026", "value": "600 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "La bonne nouvelle : pour la première fois, les prix baissent dans une ville, Courtrai. Plus de kots construits, et les loyers reculent.",
+      "bg": "img/gent.jpg",
+      "kicker": "✅ LA BONNE NOUVELLE",
+      "big": "Courtrai",
+      "sub": "plus de kots, des loyers en baisse"
+    },
+    {
+      "text": "Et toi, tu paies combien pour ton kot, ou celui de ton enfant ? Dis-le en commentaire, et abonne-toi pour l'actu immo belge chaque jour !",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Tu paies combien ?"
+    }
+  ],
+  "credits": "Photos : Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Julian Lupyan (CC0) ; Jean-Pol Grandmont (CC BY 2.5) ; Stratoswift (CC BY 4.0) ; Celuici (CC BY-SA 4.0) – Wikimedia Commons"
+}
