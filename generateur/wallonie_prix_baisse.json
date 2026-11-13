@@ -1,0 +1,56 @@
+{
+  "slug": "wallonie-prix-maisons-en-baisse-2026",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : analyse Century 21 Benelux (données propres et Statbel), via La Libre, 12/11/2026",
+  "scenes": [
+    {
+      "text": "Tu veux acheter en Wallonie ? Bonne nouvelle : le prix des maisons baisse enfin ! Jusqu'à 5.000 € de moins qu'au début de l'année 2025.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "WALLONIE · MAISONS",
+      "big": "-5.000 €",
+      "sub": "sur le prix médian d'une maison mitoyenne"
+    },
+    {
+      "text": "Selon une analyse de Century 21 Benelux, basée sur ses données et celles de Statbel, une maison mitoyenne ou semi-mitoyenne coûte aujourd'hui 195.000 € en Wallonie, contre 200.000 € début 2025. C'est -2,5 %.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "MAISON MITOYENNE",
+      "items": [
+        {"label": "Début 2025", "value": "200.000 €", "pct": 100},
+        {"label": "Aujourd'hui", "value": "195.000 €", "pct": 97}
+      ]
+    },
+    {
+      "text": "Pour une villa ou une maison individuelle, il faut compter 330.000 €, contre 333.000 € début 2025. Un recul de 1 %.",
+      "bg": "img/gent.jpg",
+      "kicker": "VILLA · MAISON INDIVIDUELLE",
+      "items": [
+        {"label": "Début 2025", "value": "333.000 €", "pct": 100},
+        {"label": "Aujourd'hui", "value": "330.000 €", "pct": 99}
+      ]
+    },
+    {
+      "text": "Et les appartements ? Ils restent stables, à 190.000 €.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "APPARTEMENT",
+      "big": "190.000 €",
+      "sub": "stable depuis début 2025"
+    },
+    {
+      "text": "Mais attention, ne rêve pas trop vite : par rapport à la mi-2024, les maisons mitoyennes coûtent toujours 12,1 % de plus, et les villas 10,6 % de plus.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "🚨 PAR RAPPORT À MI-2024",
+      "items": [
+        {"label": "Maison mitoyenne", "value": "+12,1 %", "pct": 100},
+        {"label": "Villa", "value": "+10,6 %", "pct": 88},
+        {"label": "Appartement", "value": "+8,6 %", "pct": 71}
+      ]
+    },
+    {
+      "text": "Alors, tu achètes maintenant, ou tu attends que ça baisse encore ? Dis-le en commentaire, et abonne-toi pour l'actu immo belge chaque jour !",
+      "bg": "img/wallonie.jpg",
+      "cta": "Tu achètes ou tu attends ?"
+    }
+  ],
+  "credits": "Photos : Stratoswift (CC BY 4.0) ; Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Celuici (CC BY-SA 4.0) – Wikimedia Commons"
+}
