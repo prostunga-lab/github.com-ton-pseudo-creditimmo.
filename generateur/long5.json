@@ -1,0 +1,198 @@
+{
+  "slug": "immo-belge-7-chiffres-semaine-2026-11-15",
+  "format": "long",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+3%",
+  "source": "Sources : renolution.brussels, Century 21 Benelux/Statbel (La Libre), Kotkompas (BX1/Belga), Immotheker-Finotheker (HLN, BruxellesToday), 21News, L'Echo (novembre 2026)",
+  "scenes": [
+    {
+      "text": "Des maisons enfin moins chères, un kot à 600 € par mois, et une prime qui peut te rapporter près de 5.000 €… Voici les 7 chiffres de l'immo belge à retenir cette semaine. Et le numéro 1 peut alléger ta facture d'énergie pour des années.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "IMMO BELGE · LA SEMAINE",
+      "big": "7 chiffres",
+      "sub": "pour acheter, louer ou rénover malin"
+    },
+    {
+      "text": "On commence par le numéro 7.",
+      "bg": "img/bxl_panorama.jpg",
+      "chapter": "N°7",
+      "title": "Immoweb augmente ses tarifs pour les agences"
+    },
+    {
+      "text": "Immoweb, la principale plateforme d'annonces du pays, revoit ses prix pour 2027. Selon L'Echo, les agences immobilières parlent de hausses entre 15 et 65 %, selon leur taille et leurs services.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "TARIFS 2027 · AGENCES",
+      "items": [
+        {"label": "Hausse minimale", "value": "+15 %", "pct": 23},
+        {"label": "Hausse maximale", "value": "+65 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Les agents dénoncent un quasi-monopole. Immoweb, lui, met en avant ses investissements dans l'intelligence artificielle. Pour toi, les annonces restent gratuites. Mais si tu vends via une agence, compare bien sa commission.",
+      "bg": "img/gent.jpg",
+      "kicker": "✅ LE BON RÉFLEXE",
+      "big": "Compare",
+      "sub": "la commission et les services de l'agence"
+    },
+    {
+      "text": "Numéro 6.",
+      "bg": "img/gent.jpg",
+      "chapter": "N°6",
+      "title": "Le kot étudiant passe la barre des 600 €"
+    },
+    {
+      "text": "Selon l'étude Kotkompas, un kot coûte désormais 600 € par mois en moyenne en Belgique, charges comprises. Mais ta région change tout : 705 € à Bruxelles, 625 € en Flandre et 545 € en Wallonie.",
+      "bg": "img/gent.jpg",
+      "kicker": "LOYER MOYEN D'UN KOT",
+      "items": [
+        {"label": "Bruxelles", "value": "705 €", "pct": 100},
+        {"label": "Flandre", "value": "625 €", "pct": 89},
+        {"label": "Wallonie", "value": "545 €", "pct": 77}
+      ]
+    },
+    {
+      "text": "En six ans, le coût moyen est passé de 475 € à 600 €. Seule bonne nouvelle : à Courtrai, de nouveaux kots ont fait baisser les loyers pour la première fois.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "EN SIX ANS",
+      "items": [
+        {"label": "2020", "value": "475 €", "pct": 79},
+        {"label": "2026", "value": "600 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Numéro 5.",
+      "bg": "img/bxl_grandplace.jpg",
+      "chapter": "N°5",
+      "title": "Bruxelles : le précompte des familles pourrait changer"
+    },
+    {
+      "text": "Le gouvernement bruxellois veut remplacer, à partir de 2027, la réduction de 10 % par enfant à charge par un forfait de 125 € par enfant. Ce n'est pas encore adopté.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "PRÉCOMPTE · PROJET 2027",
+      "big": "125 €",
+      "sub": "par enfant, au lieu de 10 % de réduction"
+    },
+    {
+      "text": "Le seuil à retenir : 1.250 € de précompte. Au-delà, le forfait serait moins avantageux. Exemple : avec 2 enfants et un précompte de 2.000 €, ta réduction passerait de 400 € à 250 €.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "2 ENFANTS · PRÉCOMPTE 2.000 €",
+      "items": [
+        {"label": "Aujourd'hui", "value": "400 €", "pct": 100},
+        {"label": "Projet 2027", "value": "250 €", "pct": 63}
+      ]
+    },
+    {
+      "text": "Numéro 4.",
+      "bg": "img/antwerpen.jpg",
+      "chapter": "N°4",
+      "title": "Ton crédit hypothécaire coûte plus cher"
+    },
+    {
+      "text": "Selon Immotheker-Finotheker, le taux moyen d'un prêt sur 20 ans est passé de 4,17 % à la mi-septembre à 4,35 % à la mi-octobre.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "TAUX MOYEN SUR 20 ANS",
+      "items": [
+        {"label": "Mi-septembre", "value": "4,17 %", "pct": 96},
+        {"label": "Mi-octobre", "value": "4,35 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Pour 300.000 € sur 20 ans, ta mensualité passe de 1.844 € à 1.872 €. Sur toute la durée, c'est plus de 6.700 € de plus. Compare plusieurs banques avant de signer.",
+      "bg": "img/gent.jpg",
+      "kicker": "300.000 € SUR 20 ANS",
+      "big": "+6.700 €",
+      "sub": "sur toute la durée du crédit"
+    },
+    {
+      "text": "Numéro 3.",
+      "bg": "img/wallonie.jpg",
+      "chapter": "N°3",
+      "title": "Wallonie : les prix des maisons reculent"
+    },
+    {
+      "text": "Selon une analyse de Century 21 Benelux, une maison mitoyenne coûte 195.000 € en Wallonie, contre 200.000 € début 2025. Une villa, 330.000 €, contre 333.000 €. Les appartements restent stables à 190.000 €.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "PRIX MÉDIANS · WALLONIE",
+      "items": [
+        {"label": "Maison mitoyenne", "value": "-2,5 %", "pct": 100},
+        {"label": "Villa", "value": "-1 %", "pct": 40},
+        {"label": "Appartement", "value": "Stable", "pct": 0}
+      ]
+    },
+    {
+      "text": "Attention quand même : par rapport à la mi-2024, les maisons mitoyennes coûtent toujours 12,1 % de plus. Une respiration, pas encore un effondrement.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "🚨 VS MI-2024",
+      "big": "+12,1 %",
+      "sub": "pour une maison mitoyenne en deux ans"
+    },
+    {
+      "text": "Et toi, tu achètes maintenant, ou tu attends que ça baisse encore ? Dis-le-moi en commentaire, je lis tout.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "TA RÉPONSE ?",
+      "big": "195.000 €",
+      "sub": "une maison mitoyenne en Wallonie"
+    },
+    {
+      "text": "Numéro 2.",
+      "bg": "img/ixelles_artisans.jpg",
+      "chapter": "N°2",
+      "title": "Fenêtres : le bois rapporte jusqu'à 5 fois plus"
+    },
+    {
+      "text": "À Bruxelles, la prime Renolution pour tes fenêtres est calculée au mètre carré. En bois : 100 à 140 €. En PVC ou en métal : seulement 40 à 55 €. Et le bois certifié FSC ou PEFC donne 100 € de plus par mètre carré.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "PRIME G1 · €/m²",
+      "items": [
+        {"label": "Bois", "value": "100-140 €", "pct": 100},
+        {"label": "PVC ou métal", "value": "40-55 €", "pct": 39},
+        {"label": "Bonus bois certifié", "value": "+100 €", "pct": 71}
+      ]
+    },
+    {
+      "text": "Exemple : 15 mètres carrés de fenêtres en catégorie 1. En PVC, 600 €. En bois certifié, 3.000 €. Attention, le PVC n'est accepté que pour remplacer du PVC.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "EXEMPLE · 15 m²",
+      "items": [
+        {"label": "PVC", "value": "600 €", "pct": 20},
+        {"label": "Bois certifié", "value": "3.000 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Et le numéro 1… c'est l'isolation de ta façade.",
+      "bg": "img/bxl_grandplace.jpg",
+      "chapter": "N°1",
+      "title": "Jusqu'à 90 € par m² pour isoler ta façade"
+    },
+    {
+      "text": "Avec la prime Renolution F1, isoler ta façade par l'extérieur te rapporte 50, 70 ou 90 € par mètre carré, selon tes revenus. Par l'intérieur, c'est 35 à 45 €.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "PRIME F1 · PAR L'EXTÉRIEUR",
+      "items": [
+        {"label": "Catégorie 1", "value": "50 €", "pct": 56},
+        {"label": "Catégorie 2", "value": "70 €", "pct": 78},
+        {"label": "Catégorie 3", "value": "90 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Pour 80 mètres carrés par l'extérieur, en catégorie 1, ça fait 4.000 €. Et 4.800 € avec un isolant naturel, comme le liège.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "EXEMPLE · 80 m²",
+      "big": "4.800 €",
+      "sub": "avec un isolant naturel"
+    },
+    {
+      "text": "Bonus pour ceux qui sont restés jusqu'au bout : si tu demandes au moins 3 primes dans la même demande, par exemple façade, fenêtres et toiture, chacune est augmentée de 10 %, et même de 20 % en catégorie 3.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "🎁 BONUS",
+      "big": "+10 %",
+      "sub": "si tu combines au moins 3 primes"
+    },
+    {
+      "text": "Lequel de ces 7 chiffres te concerne le plus ? Dis-le en commentaire, partage la vidéo avec quelqu'un qui achète ou rénove, et abonne-toi pour suivre l'actu immo belge chaque jour.",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Quel chiffre te concerne ?"
+    }
+  ],
+  "credits": "Photos : Julian Lupyan (CC0) ; Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Stratoswift (CC BY 4.0) ; Mélioratif (CC BY-SA 4.0) – Wikimedia Commons"
+}
