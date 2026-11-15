@@ -1,0 +1,63 @@
+{
+  "slug": "bruxelles-prime-renolution-isolation-facade",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : renolution.brussels – Prime F1, isolation thermique des façades (consulté le 15/11/2026)",
+  "scenes": [
+    {
+      "text": "Tu isoles ta façade à Bruxelles ? La Région peut te verser jusqu'à 90 € par mètre carré de mur isolé !",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "PRIME RENOLUTION F1",
+      "big": "90 €/m²",
+      "sub": "pour isoler ta façade par l'extérieur"
+    },
+    {
+      "text": "C'est la prime Renolution F1. Le montant dépend de ta catégorie de revenus, et surtout de la technique. Par l'extérieur, c'est le plus soutenu : 50, 70 ou 90 € par mètre carré.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "PAR L'EXTÉRIEUR · €/m²",
+      "items": [
+        {"label": "Catégorie I", "value": "50 €", "pct": 56},
+        {"label": "Catégorie II", "value": "70 €", "pct": 78},
+        {"label": "Catégorie III", "value": "90 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Par l'intérieur, c'est 35 à 45 €. Et en coulisse, c'est-à-dire dans le creux du mur, 20 à 30 € par mètre carré.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "LES AUTRES TECHNIQUES",
+      "items": [
+        {"label": "Par l'intérieur", "value": "35-45 €", "pct": 50},
+        {"label": "En coulisse", "value": "20-30 €", "pct": 33}
+      ]
+    },
+    {
+      "text": "Exemple : 80 mètres carrés isolés par l'extérieur, en catégorie I, ça fait 4.000 €. Avec un isolant naturel, comme le liège ou la fibre de bois, c'est 10 € de plus par mètre carré : 4.800 €.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "EXEMPLE · 80 m²",
+      "items": [
+        {"label": "Prime de base", "value": "4.000 €", "pct": 83},
+        {"label": "Avec isolant naturel", "value": "4.800 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Les règles : un bâtiment d'au moins 10 ans, des travaux faits par un entrepreneur, et une demande dans les 12 mois après la facture finale. La prime couvre au maximum 90 % de la facture.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "🚨 LES CONDITIONS",
+      "big": "12 mois",
+      "sub": "après la facture finale pour faire ta demande"
+    },
+    {
+      "text": "L'astuce : combine au moins 3 primes, comme la toiture, les fenêtres et la façade, et chacune est augmentée de 10 %, voire 20 % en catégorie III.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "✅ L'ASTUCE",
+      "big": "+10 %",
+      "sub": "si tu demandes au moins 3 primes ensemble"
+    },
+    {
+      "text": "Tu isolerais plutôt par l'intérieur ou par l'extérieur ? Dis-le en commentaire, et abonne-toi pour ne rater aucune aide !",
+      "bg": "img/ixelles_artisans.jpg",
+      "cta": "Intérieur ou extérieur ?"
+    }
+  ],
+  "credits": "Photos : Jean-Pol Grandmont (CC BY 2.5) ; Celuici (CC BY-SA 4.0) ; Mélioratif (CC BY-SA 4.0) ; Julian Lupyan (CC0) – Wikimedia Commons"
+}
