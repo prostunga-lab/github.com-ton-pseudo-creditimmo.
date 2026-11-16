@@ -1,0 +1,53 @@
+{
+  "slug": "flandre-verbouwpremie-pompe-a-chaleur-seule-prime-2026",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : vlaanderen.be – Wijzigingen Mijn VerbouwPremie vanaf 2026 (consulté le 16/11/2026)",
+  "scenes": [
+    {
+      "text": "Tu rénoves en Flandre avec de bons revenus ? Depuis le 1er mars, tu n'as plus droit qu'à une seule prime : la pompe à chaleur !",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE · MIJN VERBOUWPREMIE",
+      "big": "1 seule prime",
+      "sub": "pour les revenus des catégories 1 et 2"
+    },
+    {
+      "text": "C'est la réforme de Mijn VerbouwPremie. Les propriétaires occupants des deux catégories de revenus les plus élevées, la 1 et la 2, ne reçoivent plus rien pour l'isolation, les fenêtres ou la toiture.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "🚨 DEPUIS LE 1ER MARS 2026",
+      "big": "0 €",
+      "sub": "pour l'isolation, les fenêtres ou la toiture"
+    },
+    {
+      "text": "Il reste seulement la pompe à chaleur et le chauffe-eau thermodynamique. Les montants : 4.000 € en géothermie, 1.500 € en air-eau, 800 € en hybride, 450 € pour le chauffe-eau et 300 € en air-air.",
+      "bg": "img/gent.jpg",
+      "kicker": "CE QUI RESTE",
+      "items": [
+        {"label": "Géothermique", "value": "4.000 €", "pct": 100},
+        {"label": "Air-eau", "value": "1.500 €", "pct": 38},
+        {"label": "Hybride", "value": "800 €", "pct": 20},
+        {"label": "Chauffe-eau", "value": "450 €", "pct": 11}
+      ]
+    },
+    {
+      "text": "Attention : la prime est plafonnée à 20 % de la facture en catégorie 1, et à 25 % en catégorie 2. Et tu peux la demander jusqu'au 31 décembre 2027.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "LES LIMITES",
+      "big": "20 à 25 %",
+      "sub": "de la facture maximum, jusqu'au 31/12/2027"
+    },
+    {
+      "text": "Bonne nouvelle pour les revenus plus modestes : en catégories 3 et 4, rien ne change, toutes les primes restent. Même chose si tu loues via une société de logement social.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "✅ CATÉGORIES 3 ET 4",
+      "big": "Rien ne change",
+      "sub": "toutes les primes restent disponibles"
+    },
+    {
+      "text": "Tu trouves ça juste, ou tu aurais encore rénové avec une prime ? Dis-le en commentaire, et abonne-toi pour ne rater aucune aide !",
+      "bg": "img/gent.jpg",
+      "cta": "C'est juste ?"
+    }
+  ],
+  "credits": "Photos : Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Stratoswift (CC BY 4.0) – Wikimedia Commons"
+}
