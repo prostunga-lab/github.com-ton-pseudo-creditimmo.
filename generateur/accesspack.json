@@ -1,0 +1,55 @@
+{
+  "slug": "wallonie-accesspack-pret-hypothecaire-social-swcs",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : swcs.be – Devenir propriétaire et Taux (consulté le 17/11/2026)",
+  "scenes": [
+    {
+      "text": "Tu as moins de 35 ans et tu veux acheter en Wallonie ? Un prêt public te propose un taux fixe dès 3,10 % !",
+      "bg": "img/wallonie.jpg",
+      "kicker": "WALLONIE · ACCESSPACK",
+      "big": "Dès 3,10 %",
+      "sub": "taux fixe pour les moins de 35 ans"
+    },
+    {
+      "text": "C'est l'Accesspack de la SWCS, la Société wallonne du crédit social. Un crédit hypothécaire de 5 à 30 ans, à taux fixe selon tes revenus : de 3,50 % à 4,60 %.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "TAUX FIXE SELON TES REVENUS",
+      "items": [
+        {"label": "Revenus jusqu'à 20.600 €", "value": "3,50 %", "pct": 76},
+        {"label": "De 41.100 à 54.300 €", "value": "4,40 %", "pct": 96},
+        {"label": "De 54.300 à 81.700 €", "value": "4,60 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Et si tu as moins de 35 ans, c'est 0,40 % de moins pendant toute la durée du crédit. Donc de 3,10 % à 4,20 %.",
+      "bg": "img/gent.jpg",
+      "kicker": "🎁 MOINS DE 35 ANS",
+      "big": "-0,40 %",
+      "sub": "pendant toute la durée du crédit"
+    },
+    {
+      "text": "Les conditions : des revenus imposables de 81.700 € maximum, un premier logement que tu habites, et une valeur de 290.000 € maximum, ou 391.500 € en zone de forte pression immobilière.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "🚨 LES CONDITIONS",
+      "items": [
+        {"label": "Revenus max.", "value": "81.700 €", "pct": 0},
+        {"label": "Valeur du bien max.", "value": "290.000 €", "pct": 0},
+        {"label": "Zone sous pression", "value": "391.500 €", "pct": 0}
+      ]
+    },
+    {
+      "text": "Bonus : avec le crédit mixte, tu peux aussi financer jusqu'à 75.000 € de travaux de rénovation, comme l'isolation de la toiture.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "✅ LE CRÉDIT MIXTE",
+      "big": "75.000 €",
+      "sub": "de travaux de rénovation en plus"
+    },
+    {
+      "text": "Tu connaissais ce prêt ? Dis-le en commentaire, partage à quelqu'un qui veut acheter, et abonne-toi pour ne rater aucune aide !",
+      "bg": "img/gent.jpg",
+      "cta": "Tu connaissais ?"
+    }
+  ],
+  "credits": "Photos : Stratoswift (CC BY 4.0) ; Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) – Wikimedia Commons"
+}
