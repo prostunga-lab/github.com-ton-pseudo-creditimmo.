@@ -1,0 +1,66 @@
+{
+  "slug": "bruxelles-amnistie-urbanistique-reportee",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : La Libre, 16/11/2026 – Parlement bruxellois, proposition d'ordonnance DLUU",
+  "scenes": [
+    {
+      "text": "Une véranda sans permis à Bruxelles ? L'amnistie promise pour le 1er janvier 2027 n'arrivera pas à temps !",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "BRUXELLES · URBANISME",
+      "big": "Reportée",
+      "sub": "l'amnistie prévue au 1er janvier 2027"
+    },
+    {
+      "text": "Le MR veut régulariser les infractions urbanistiques avec une procédure simplifiée. Des milliers d'infractions pourraient être concernées.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "LE PROJET",
+      "big": "Des milliers",
+      "sub": "d'infractions urbanistiques concernées"
+    },
+    {
+      "text": "Mais pour le Conseil d'État, le texte ferait reculer la protection de l'environnement et du patrimoine.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "🚨 LE CONSEIL D'ÉTAT",
+      "big": "À revoir",
+      "sub": "en profondeur, selon son avis"
+    },
+    {
+      "text": "Lundi, la majorité a renvoyé ses amendements au Conseil d'État. Plus de démarrage au 1er janvier : c'est le gouvernement qui fixerait la date.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "CE LUNDI 16 NOVEMBRE",
+      "big": "Pas de date",
+      "sub": "le gouvernement décidera du démarrage"
+    },
+    {
+      "text": "Et quels travaux ? Le texte vise ceux terminés avant le 31 décembre 2025. L'opposition propose le 1er janvier 2021.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "TRAVAUX ACHEVÉS AVANT…",
+      "items": [
+        {
+          "label": "Texte du MR",
+          "value": "31/12/2025",
+          "pct": 0
+        },
+        {
+          "label": "Proposition DéFI",
+          "value": "01/01/2021",
+          "pct": 0
+        }
+      ]
+    },
+    {
+      "text": "Mon conseil : si tu achètes, vérifie les permis avant de signer. Une infraction peut te suivre après l'achat.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "✅ LE BON RÉFLEXE",
+      "big": "Vérifie",
+      "sub": "les permis avant de signer le compromis"
+    },
+    {
+      "text": "Amnistie : bonne idée ou prime à l'infraction ? Dis-le en commentaire, et abonne-toi pour l'actu immo belge chaque jour !",
+      "bg": "img/bxl_grandplace.jpg",
+      "cta": "Bonne idée ou pas ?"
+    }
+  ],
+  "credits": "Photos : Jean-Pol Grandmont (CC BY 2.5) ; Celuici (CC BY-SA 4.0) ; Julian Lupyan (CC0) ; Mélioratif (CC BY-SA 4.0) – Wikimedia Commons"
+}
