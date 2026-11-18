@@ -1,0 +1,54 @@
+{
+  "slug": "bruxelles-logements-interdits-de-location-quand-meme-loues",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : BRUZZ, 15/11/2026 – réponse de la secrétaire d'État au Logement à une question parlementaire",
+  "scenes": [
+    {
+      "text": "598 logements interdits de location à Bruxelles… et personne ne sait s'ils sont loués quand même !",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "BRUXELLES · LOGEMENT",
+      "big": "598",
+      "sub": "propriétaires n'ont jamais répondu à l'inspection"
+    },
+    {
+      "text": "Un logement qui ne respecte pas les normes de sécurité et de salubrité peut être interdit à la location. Il ne peut être reloué qu'avec une attestation de conformité.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "L'INTERDICTION DE LOCATION",
+      "big": "Insalubre",
+      "sub": "= interdit à la location jusqu'à sa mise en conformité"
+    },
+    {
+      "text": "Pour les interdictions de 2020 à 2024, l'inspection régionale du logement a envoyé 1.115 rappels aux propriétaires. 598 n'ont jamais répondu.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "RAPPELS ENVOYÉS",
+      "items": [
+        {"label": "Rappels envoyés", "value": "1.115", "pct": 100},
+        {"label": "Sans réponse", "value": "598", "pct": 54},
+        {"label": "Réponses reçues", "value": "517", "pct": 46}
+      ]
+    },
+    {
+      "text": "Et en 2025, sur 49 interdictions immédiates, seuls 2 logements ont ensuite été déclarés conformes. Le budget de l'inspection a fortement baissé.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "🚨 EN 2025",
+      "items": [
+        {"label": "Interdictions immédiates", "value": "49", "pct": 100},
+        {"label": "Logements remis en ordre", "value": "2", "pct": 4}
+      ]
+    },
+    {
+      "text": "Le piège pour les acheteurs : certains propriétaires disent n'avoir jamais été prévenus de l'interdiction, ni par le notaire, ni par la commune. Si tu achètes pour louer, pose la question avant de signer.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "✅ SI TU ACHÈTES POUR LOUER",
+      "big": "Demande",
+      "sub": "si une interdiction de location existe"
+    },
+    {
+      "text": "Locataire ou propriétaire : il faut plus de contrôles, ou pas ? Dis-le en commentaire, et abonne-toi pour l'actu immo belge chaque jour !",
+      "bg": "img/bxl_grandplace.jpg",
+      "cta": "Plus de contrôles ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Julian Lupyan (CC0) ; Mélioratif (CC BY-SA 4.0) – Wikimedia Commons"
+}
