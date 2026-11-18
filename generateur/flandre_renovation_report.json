@@ -1,0 +1,54 @@
+{
+  "slug": "flandre-obligation-renovation-10-ans-cdv",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : HLN/Belga, 18/11/2026 – proposition du CD&V au Parlement flamand",
+  "scenes": [
+    {
+      "text": "Tu achètes une maison mal isolée en Flandre ? Tu pourrais avoir 10 ans au lieu de 6 pour la rénover !",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE · OBLIGATION DE RÉNOVER",
+      "big": "10 ans",
+      "sub": "au lieu de 6, selon une proposition du CD&V"
+    },
+    {
+      "text": "Aujourd'hui, si tu achètes une maison avec un PEB E ou F, tu dois la rénover jusqu'au label D dans les 6 ans. Le CD&V, parti de la majorité flamande, veut porter ce délai à 10 ans.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "DÉLAI POUR ATTEINDRE LE LABEL D",
+      "items": [
+        {"label": "Aujourd'hui", "value": "6 ans", "pct": 60},
+        {"label": "Proposition du CD&V", "value": "10 ans", "pct": 100}
+      ]
+    },
+    {
+      "text": "Pour les logements loués aussi, ça bougerait. Dès 2030, un appartement ou une maison mitoyenne devrait avoir au moins un PEB D. Le CD&V propose de reporter à 2035, et même à 2040 pour les maisons 4 façades et 3 façades.",
+      "bg": "img/gent.jpg",
+      "kicker": "LOGEMENTS LOUÉS · LABEL D",
+      "items": [
+        {"label": "Règle actuelle", "value": "2030", "pct": 0},
+        {"label": "Appartement, mitoyenne", "value": "2035", "pct": 0},
+        {"label": "Maison 3 ou 4 façades", "value": "2040", "pct": 0}
+      ]
+    },
+    {
+      "text": "Leur argument : ces obligations font grimper les prix. Mais la ministre flamande du Logement est très critique : selon elle, ce serait des factures plus élevées et des logements de moins bonne qualité.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "🚨 LE DÉBAT",
+      "big": "Pas voté",
+      "sub": "la ministre du Logement s'y oppose"
+    },
+    {
+      "text": "Pour l'instant, rien ne change : si tu achètes un bien E ou F, tu as toujours 6 ans. Prévois le budget rénovation avant de signer.",
+      "bg": "img/gent.jpg",
+      "kicker": "✅ CE QUI COMPTE AUJOURD'HUI",
+      "big": "6 ans",
+      "sub": "pour rénover jusqu'au label D"
+    },
+    {
+      "text": "6 ans ou 10 ans : tu choisirais quoi ? Dis-le en commentaire, et abonne-toi pour l'actu immo belge chaque jour !",
+      "bg": "img/antwerpen.jpg",
+      "cta": "6 ou 10 ans ?"
+    }
+  ],
+  "credits": "Photos : Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) – Wikimedia Commons"
+}
