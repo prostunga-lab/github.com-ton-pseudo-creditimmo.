@@ -1,0 +1,84 @@
+{
+  "slug": "woluwe-saint-pierre-precompte-immobilier-moins-18-pourcent-2027",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : La Libre, 18/11/2026 – conseil communal de Woluwe-Saint-Pierre du 17/11/2026",
+  "scenes": [
+    {
+      "text": "Une commune bruxelloise baisse le précompte immobilier de 18,5 % ! Exemple : 268 € d'économie par an.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "BRUXELLES · PRÉCOMPTE 2027",
+      "big": "-18,5 %",
+      "sub": "sur la part communale du précompte"
+    },
+    {
+      "text": "C'est Woluwe-Saint-Pierre. Dès 2027, les centimes additionnels passent de 2.700 à 2.200 pour les propriétaires qui habitent leur logement. Le taux le plus bas des 19 communes.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "CENTIMES ADDITIONNELS",
+      "items": [
+        {
+          "label": "2025 et 2026",
+          "value": "2.700",
+          "pct": 100
+        },
+        {
+          "label": "2027",
+          "value": "2.200",
+          "pct": 81
+        }
+      ]
+    },
+    {
+      "text": "Attention, seulement si tu habites ton bien. Les propriétaires bailleurs et les secondes résidences restent à 2.700 centimes.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "🚨 QUI EN PROFITE ?",
+      "big": "Occupants",
+      "sub": "les bailleurs restent à 2.700 centimes"
+    },
+    {
+      "text": "Mais il y a une contrepartie : la taxe communale sur l'impôt des personnes physiques remonte de 5,7 à 6 %.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "LA CONTREPARTIE",
+      "items": [
+        {
+          "label": "Taxe communale IPP avant",
+          "value": "5,7 %",
+          "pct": 95
+        },
+        {
+          "label": "Dès 2027",
+          "value": "6 %",
+          "pct": 100
+        }
+      ]
+    },
+    {
+      "text": "Exemple de la commune : pour un revenu cadastral non indexé de 2.000 €, le précompte baisse de 298 €. Pour 10.000 € d'impôt, la hausse coûte 30 €. Gain net : 268 € par an.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "EXEMPLE · RC 2.000 €",
+      "items": [
+        {
+          "label": "Précompte",
+          "value": "-298 €",
+          "pct": 100
+        },
+        {
+          "label": "Impôt communal",
+          "value": "+30 €",
+          "pct": 10
+        },
+        {
+          "label": "Gain net",
+          "value": "268 €/an",
+          "pct": 90
+        }
+      ]
+    },
+    {
+      "text": "Et ta commune, elle baisse ou elle augmente ? Dis-le en commentaire, et abonne-toi pour l'actu immo belge chaque jour !",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Et ta commune ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Mélioratif (CC BY-SA 4.0) ; Julian Lupyan (CC0) – Wikimedia Commons"
+}
