@@ -1,0 +1,103 @@
+{
+  "slug": "immo-belge-7-chiffres-semaine-2026-11-22",
+  "format": "long",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+3%",
+  "source": "Sources : La Libre, HLN/Belga, BRUZZ, swcs.be, vlaanderen.be (novembre 2026)",
+  "scenes": [
+    {
+      "text": "Une baisse d'impôt, un prêt public dès 3,10 %, et un compte à rebours qui peut te coûter 3.500 €… Voici les 7 chiffres de l'immo belge à retenir cette semaine. Et le numéro 1 se joue avant le 31 décembre.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "IMMO BELGE · LA SEMAINE",
+      "big": "7 chiffres",
+      "sub": "pour acheter, louer ou rénover malin"
+    },
+    {"text": "On commence par le numéro 7.", "bg": "img/bxl_panorama.jpg", "chapter": "N°7", "title": "Bruxelles : l'amnistie urbanistique reportée"},
+    {
+      "text": "Le projet du MR pour régulariser plus facilement les travaux faits sans permis ne démarrera pas au 1er janvier 2027. Après un avis très critique du Conseil d'État, la majorité a renvoyé ses amendements pour un nouvel avis. C'est le gouvernement qui fixerait la date.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "AMNISTIE URBANISTIQUE",
+      "big": "Reportée",
+      "sub": "plus de démarrage au 1er janvier 2027"
+    },
+    {"text": "Numéro 6.", "bg": "img/ixelles_artnouveau.jpg", "chapter": "N°6", "title": "598 logements interdits de location… peut-être loués"},
+    {
+      "text": "À Bruxelles, l'inspection du logement a envoyé 1.115 rappels pour des logements interdits de location. 598 propriétaires n'ont jamais répondu. Et en 2025, seuls 2 logements sur 49 interdits ont été remis en ordre.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "INTERDICTIONS DE LOCATION",
+      "items": [
+        {"label": "Rappels envoyés", "value": "1.115", "pct": 100},
+        {"label": "Sans réponse", "value": "598", "pct": 54}
+      ]
+    },
+    {"text": "Numéro 5.", "bg": "img/gent.jpg", "chapter": "N°5", "title": "Flandre : la prime réservée à la pompe à chaleur"},
+    {
+      "text": "En Flandre, depuis le 1er mars, les propriétaires des catégories de revenus 1 et 2 n'ont plus droit qu'à la prime pour une pompe à chaleur : jusqu'à 4.000 € en géothermie, 1.500 € en air-eau. Plus rien pour l'isolation ou les fenêtres.",
+      "bg": "img/gent.jpg",
+      "kicker": "MIJN VERBOUWPREMIE",
+      "items": [
+        {"label": "Géothermique", "value": "4.000 €", "pct": 100},
+        {"label": "Air-eau", "value": "1.500 €", "pct": 38},
+        {"label": "Isolation, fenêtres", "value": "0 €", "pct": 0}
+      ]
+    },
+    {"text": "Numéro 4.", "bg": "img/antwerpen.jpg", "chapter": "N°4", "title": "10 ans au lieu de 6 pour rénover ?"},
+    {
+      "text": "Aujourd'hui, si tu achètes en Flandre une maison avec un PEB E ou F, tu as 6 ans pour atteindre le label D. Le CD&V, parti de la majorité, voudrait passer à 10 ans. La ministre du Logement s'y oppose : rien n'est voté.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "OBLIGATION DE RÉNOVATION",
+      "items": [
+        {"label": "Aujourd'hui", "value": "6 ans", "pct": 60},
+        {"label": "Proposition du CD&V", "value": "10 ans", "pct": 100}
+      ]
+    },
+    {"text": "Numéro 3.", "bg": "img/wallonie.jpg", "chapter": "N°3", "title": "Wallonie : un prêt public dès 3,10 %"},
+    {
+      "text": "Avec l'Accesspack de la SWCS, tu peux emprunter à taux fixe de 3,50 % à 4,60 % selon tes revenus. Moins de 35 ans ? C'est 0,40 % de moins, donc dès 3,10 %. Conditions : revenus jusqu'à 81.700 € et un premier logement.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "ACCESSPACK · TAUX FIXE",
+      "items": [
+        {"label": "Taux de base", "value": "3,50 à 4,60 %", "pct": 100},
+        {"label": "Moins de 35 ans", "value": "3,10 à 4,20 %", "pct": 90}
+      ]
+    },
+    {
+      "text": "Et toi, tu connaissais ce prêt ? Dis-le-moi en commentaire, je lis tout.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "TA RÉPONSE ?",
+      "big": "3,10 %",
+      "sub": "le taux de départ pour les moins de 35 ans"
+    },
+    {"text": "Numéro 2.", "bg": "img/ixelles_artisans.jpg", "chapter": "N°2", "title": "Une commune bruxelloise baisse ton précompte"},
+    {
+      "text": "Woluwe-Saint-Pierre baisse de 18,5 % la part communale du précompte immobilier dès 2027, pour les propriétaires qui habitent leur bien. Selon la commune, pour un revenu cadastral de 2.000 €, ça fait environ 268 € de gain net par an.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "PRÉCOMPTE IMMOBILIER 2027",
+      "big": "-18,5 %",
+      "sub": "pour les propriétaires occupants"
+    },
+    {"text": "Et le numéro 1… c'est un compte à rebours.", "bg": "img/gent.jpg", "chapter": "N°1", "title": "Flandre : signe avant le 31 décembre"},
+    {
+      "text": "En Flandre, les droits d'enregistrement sur ton habitation propre et unique devraient repasser de 2 % à 3 % au 1er janvier 2027. Sur un bien de 350.000 €, c'est 3.500 € de plus.",
+      "bg": "img/gent.jpg",
+      "kicker": "DROITS D'ENREGISTREMENT · 350.000 €",
+      "items": [
+        {"label": "À 2 %", "value": "7.000 €", "pct": 67},
+        {"label": "À 3 %", "value": "10.500 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Selon l'administration fiscale flamande, c'est la date du compromis qui compterait. Signé avant le 1er janvier, tu garderais les 2 %. Mais attention : une promesse réciproque d'achat et de vente ne suffit pas. Parles-en à ton notaire.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "✅ L'ASTUCE",
+      "big": "Le compromis",
+      "sub": "signé avant le 1er janvier 2027"
+    },
+    {
+      "text": "Lequel de ces 7 chiffres te concerne le plus ? Dis-le en commentaire, partage la vidéo avec quelqu'un qui achète ou rénove, et abonne-toi pour suivre l'actu immo belge chaque jour.",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Quel chiffre te concerne ?"
+    }
+  ],
+  "credits": "Photos : Julian Lupyan (CC0) ; Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Stratoswift (CC BY 4.0) ; Mélioratif (CC BY-SA 4.0) – Wikimedia Commons"
+}
