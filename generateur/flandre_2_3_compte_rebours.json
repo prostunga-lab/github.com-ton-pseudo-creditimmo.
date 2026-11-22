@@ -1,0 +1,53 @@
+{
+  "slug": "flandre-droits-enregistrement-2-a-3-pourcent-signer-avant-31-decembre",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : La Libre, 21/11/2026 – modalités annoncées par l'administration fiscale flamande (sous réserve du texte définitif)",
+  "scenes": [
+    {
+      "text": "Tu achètes en Flandre ? Il te reste moins de 40 jours pour économiser 3.500 € de droits d'enregistrement !",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE · AVANT LE 31 DÉCEMBRE",
+      "big": "3.500 €",
+      "sub": "d'économie sur un bien de 350.000 €"
+    },
+    {
+      "text": "Depuis 2025, les droits sur ton habitation propre et unique sont à 2 %, sous conditions. Mais leur retour à 3 % est annoncé pour le 1er janvier 2027.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "DROITS D'ENREGISTREMENT",
+      "items": [
+        {"label": "Jusqu'au 31/12/2026", "value": "2 %", "pct": 67},
+        {"label": "Dès le 1/1/2027", "value": "3 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Sur une maison de 350.000 €, tu paierais 7.000 € à 2 %, contre 10.500 € à 3 %.",
+      "bg": "img/gent.jpg",
+      "kicker": "EXEMPLE · 350.000 €",
+      "items": [
+        {"label": "À 2 %", "value": "7.000 €", "pct": 67},
+        {"label": "À 3 %", "value": "10.500 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "La bonne nouvelle : selon l'administration fiscale flamande, c'est la date du compromis qui compterait. Signé avant le 1er janvier, tu garderais les 2 %, même si l'acte arrive en 2027.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "✅ CE QUI COMPTE",
+      "big": "Le compromis",
+      "sub": "signé avant le 1er janvier 2027"
+    },
+    {
+      "text": "Attention au piège : une promesse réciproque d'achat et de vente ne compte pas comme un compromis. Et le texte définitif n'est pas encore publié. Parles-en à ton notaire.",
+      "bg": "img/gent.jpg",
+      "kicker": "🚨 LE PIÈGE",
+      "big": "Promesse ≠ compromis",
+      "sub": "vérifie avec ton notaire"
+    },
+    {
+      "text": "Tu vas signer avant le 31 décembre ? Dis-le en commentaire, partage à quelqu'un qui achète en Flandre, et abonne-toi !",
+      "bg": "img/antwerpen.jpg",
+      "cta": "Tu signes avant ?"
+    }
+  ],
+  "credits": "Photos : Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) – Wikimedia Commons"
+}
