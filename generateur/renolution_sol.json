@@ -1,0 +1,54 @@
+{
+  "slug": "bruxelles-prime-renolution-isolation-sol-cave",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : renolution.brussels – Prime H1, isolation thermique de sol et plancher (consulté le 23/11/2026)",
+  "scenes": [
+    {
+      "text": "Les pieds gelés au rez-de-chaussée ? À Bruxelles, isoler le plafond de ta cave peut te rapporter jusqu'à 55 € par mètre carré !",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "PRIME RENOLUTION H1",
+      "big": "55 €/m²",
+      "sub": "avec le bonus isolant naturel"
+    },
+    {
+      "text": "C'est la prime Renolution H1, pour isoler un sol ou un plancher au-dessus d'un espace non chauffé, comme une cave ou un garage. Selon tes revenus : 35, 40 ou 45 € par mètre carré.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "PRIME PAR m² ISOLÉ",
+      "items": [
+        {"label": "Catégorie 1", "value": "35 €", "pct": 78},
+        {"label": "Catégorie 2", "value": "40 €", "pct": 89},
+        {"label": "Catégorie 3", "value": "45 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Et avec un isolant naturel, comme le liège ou la fibre de bois, tu reçois 10 € de plus par mètre carré.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "🌿 BONUS ISOLANT NATUREL",
+      "big": "+10 €/m²",
+      "sub": "liège, cellulose, fibres végétales…"
+    },
+    {
+      "text": "Exemple : 60 mètres carrés de plafond de cave, en catégorie 1. Ça fait 2.100 €, et 2.700 € avec un isolant naturel.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "EXEMPLE · 60 m²",
+      "items": [
+        {"label": "Prime de base", "value": "2.100 €", "pct": 78},
+        {"label": "Avec isolant naturel", "value": "2.700 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Les règles : un bâtiment d'au moins 10 ans, des travaux faits par une entreprise, et une demande dans les 12 mois après la facture finale. Et si tu combines 3 primes, chacune grimpe de 10 %.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "🚨 LES CONDITIONS",
+      "big": "12 mois",
+      "sub": "après la facture finale pour faire ta demande"
+    },
+    {
+      "text": "Ta cave est isolée, ou pas encore ? Dis-le en commentaire, et abonne-toi pour ne rater aucune aide !",
+      "bg": "img/bxl_panorama.jpg",
+      "cta": "Ta cave est isolée ?"
+    }
+  ],
+  "credits": "Photos : Jean-Pol Grandmont (CC BY 2.5) ; Celuici (CC BY-SA 4.0) ; Mélioratif (CC BY-SA 4.0) ; Julian Lupyan (CC0) – Wikimedia Commons"
+}
