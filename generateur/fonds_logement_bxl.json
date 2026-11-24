@@ -1,0 +1,54 @@
+{
+  "slug": "bruxelles-fonds-du-logement-pret-120-pourcent-sans-apport",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : fonds.brussels – Crédit hypothécaire (consulté le 24/11/2026)",
+  "scenes": [
+    {
+      "text": "Pas d'apport pour acheter à Bruxelles ? Un prêt public peut financer jusqu'à 120 % de la valeur de ton bien !",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "BRUXELLES · FONDS DU LOGEMENT",
+      "big": "120 %",
+      "sub": "de la valeur du bien, frais compris"
+    },
+    {
+      "text": "C'est le crédit hypothécaire du Fonds du Logement bruxellois. Il peut couvrir le prix, mais aussi les frais d'acte ou des travaux. Jusqu'à 30 ans, à taux fixe.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "LE CRÉDIT DU FONDS",
+      "big": "30 ans",
+      "sub": "maximum, à taux fixe"
+    },
+    {
+      "text": "Les taux vont de 3,75 % à 5 %. Le taux minimum dépend de ta famille : 4,35 % sans personne à charge, et jusqu'à 3,75 % à partir de 3 personnes à charge.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "TAUX MINIMUM",
+      "items": [
+        {"label": "0 personne à charge", "value": "4,35 %", "pct": 100},
+        {"label": "2 personnes à charge", "value": "3,95 %", "pct": 91},
+        {"label": "3 personnes et +", "value": "3,75 %", "pct": 86}
+      ]
+    },
+    {
+      "text": "Astuce : si tous les emprunteurs ont moins de 40 ans, tu as aussi droit au taux minimum de 3,95 %.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "✅ MOINS DE 40 ANS",
+      "big": "3,95 %",
+      "sub": "si tous les emprunteurs ont moins de 40 ans"
+    },
+    {
+      "text": "Les conditions : des revenus imposables jusqu'à 73.884 € pour une personne seule, 94.034 € pour un couple, plus 5.000 € par personne à charge. Ne pas être déjà propriétaire, et habiter le bien.",
+      "bg": "img/ixelles_artisans.jpg",
+      "kicker": "🚨 PLAFONDS DE REVENUS",
+      "items": [
+        {"label": "Personne seule", "value": "73.884 €", "pct": 79},
+        {"label": "Couple", "value": "94.034 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Tu connaissais ce prêt ? Dis-le en commentaire, partage à quelqu'un qui veut acheter à Bruxelles, et abonne-toi !",
+      "bg": "img/bxl_grandplace.jpg",
+      "cta": "Tu connaissais ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Julian Lupyan (CC0) ; Jean-Pol Grandmont (CC BY 2.5) ; Mélioratif (CC BY-SA 4.0) – Wikimedia Commons"
+}
