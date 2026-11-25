@@ -1,0 +1,54 @@
+{
+  "slug": "chauffage-1-degre-de-moins-economie-belgique",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : HLN/Mijnenergie.be, 25/11/2026 (chiffres du gouvernement flamand, de l'OMS et du KDL néerlandais)",
+  "scenes": [
+    {
+      "text": "Baisse ton chauffage d'un seul degré, et tu consommes 7 % d'énergie en moins !",
+      "bg": "img/gent.jpg",
+      "kicker": "CHAUFFAGE · 1 °C DE MOINS",
+      "big": "-7 %",
+      "sub": "de consommation par degré en moins"
+    },
+    {
+      "text": "C'est le chiffre du gouvernement flamand. Pour une maison chauffée au gaz qui consomme 15.000 kilowattheures, ça fait environ 135 € d'économie par an.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "MAISON AU GAZ · 15.000 kWh",
+      "big": "135 €/an",
+      "sub": "pour 1 °C de moins dans toutes les pièces"
+    },
+    {
+      "text": "Tu n'es pas là la journée ? Descends à 15 °C, 4 jours par semaine : environ 120 € de plus. Et baisse à 14 ou 16 °C une heure avant d'aller dormir : encore 78 €.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "LES AUTRES ASTUCES",
+      "items": [
+        {"label": "15 °C quand tu es absent", "value": "120 €", "pct": 100},
+        {"label": "Baisser 1 h avant de dormir", "value": "78 €", "pct": 65}
+      ]
+    },
+    {
+      "text": "La bonne température ? Pas en dessous de 18 °C selon l'OMS. 18 °C suffit dans la cuisine, 23 °C dans la salle de bain pour la douche, et rien dans les pièces inutilisées.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "PIÈCE PAR PIÈCE",
+      "items": [
+        {"label": "Minimum conseillé (OMS)", "value": "18 °C", "pct": 78},
+        {"label": "Cuisine", "value": "18 °C", "pct": 78},
+        {"label": "Salle de bain (douche)", "value": "23 °C", "pct": 100}
+      ]
+    },
+    {
+      "text": "Attention : avec une pompe à chaleur ou un chauffage par le sol, ne descends pas sous 17 ou 18 °C la nuit, sinon la maison met trop de temps à se réchauffer.",
+      "bg": "img/gent.jpg",
+      "kicker": "🚨 POMPE À CHALEUR",
+      "big": "17-18 °C",
+      "sub": "minimum la nuit avec chauffage par le sol"
+    },
+    {
+      "text": "Et toi, ton thermostat est réglé à combien ? Dis-le en commentaire, et abonne-toi pour plus d'astuces !",
+      "bg": "img/antwerpen.jpg",
+      "cta": "Ton thermostat ?"
+    }
+  ],
+  "credits": "Photos : Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) – Wikimedia Commons"
+}
