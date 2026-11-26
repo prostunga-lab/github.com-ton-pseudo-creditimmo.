@@ -1,0 +1,54 @@
+{
+  "slug": "credit-hypothecaire-30-ans-jeunes-belges-13-pourcent",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : La Libre / Peasy, 25/11/2026 – exemple de calcul : CréditImmo",
+  "scenes": [
+    {
+      "text": "En deux ans, le crédit sur 30 ans a presque quadruplé chez les jeunes Belges !",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "CRÉDIT HYPOTHÉCAIRE · 30 ANS",
+      "big": "x 3,5",
+      "sub": "en deux ans chez les 25-45 ans"
+    },
+    {
+      "text": "Selon la plateforme Peasy, la part des crédits d'au moins 30 ans chez les 25-45 ans est passée de 3,7 % en 2024 à 13 % en 2026.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "PART DES CRÉDITS DE 30 ANS OU PLUS",
+      "items": [
+        {"label": "2024", "value": "3,7 %", "pct": 28},
+        {"label": "2026", "value": "13 %", "pct": 100}
+      ]
+    },
+    {
+      "text": "Au troisième trimestre, près d'un emprunteur sur cinq entre 25 et 40 ans a choisi cette formule. Le crédit sur 25 ans recule : de deux sur trois en 2024 à 60 % aujourd'hui.",
+      "bg": "img/gent.jpg",
+      "kicker": "25-40 ANS · 3e TRIMESTRE 2026",
+      "big": "1 sur 5",
+      "sub": "a choisi un crédit d'au moins 30 ans"
+    },
+    {
+      "text": "Pourquoi ? Les taux ont pris plus d'un point depuis 2024, et la vie coûte plus cher. Allonger la durée, c'est baisser la mensualité.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "POURQUOI CE CHOIX",
+      "big": "+1 point",
+      "sub": "de hausse des taux depuis 2024"
+    },
+    {
+      "text": "Exemple : 250.000 € à 3,5 %. Sur 25 ans, environ 1.252 € par mois. Sur 30 ans, 1.123 €. Tu gagnes 129 € par mois, mais tu paies près de 29.000 € d'intérêts en plus.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "EXEMPLE · 250.000 € À 3,5 %",
+      "items": [
+        {"label": "Mensualité sur 25 ans", "value": "1.252 €", "pct": 100},
+        {"label": "Mensualité sur 30 ans", "value": "1.123 €", "pct": 90},
+        {"label": "Intérêts en plus sur 30 ans", "value": "≈ 29.000 €", "pct": 60}
+      ]
+    },
+    {
+      "text": "Et toi, tu signerais pour 25 ou 30 ans ? Dis-le en commentaire, et abonne-toi pour ne rien rater !",
+      "bg": "img/antwerpen.jpg",
+      "cta": "25 ou 30 ans ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Fred Romero (CC BY 2.0) ; TheGoodEndedHappily (CC BY 4.0) ; Julian Lupyan (CC0) ; Jean-Pol Grandmont (CC BY 2.5) – Wikimedia Commons"
+}
