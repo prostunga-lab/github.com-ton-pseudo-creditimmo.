@@ -1,0 +1,54 @@
+{
+  "slug": "flandre-pret-public-woonlening-frais-de-notaire-inclus",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : Vlaams Woningfonds / vlaanderen.be – Vlaamse woonlening, conditions 2026 (consulté le 27/11/2026)",
+  "scenes": [
+    {
+      "text": "En Flandre, un prêt public peut financer ta maison, droits d'enregistrement et frais de notaire compris !",
+      "bg": "img/gent.jpg",
+      "kicker": "FLANDRE · VLAAMSE WOONLENING",
+      "big": "Frais inclus",
+      "sub": "prix, droits d'enregistrement et notaire"
+    },
+    {
+      "text": "C'est la Vlaamse woonlening, du Vlaams Woningfonds. Elle vise les ménages aux revenus modestes qui achètent leur premier logement en Flandre.",
+      "bg": "img/antwerpen.jpg",
+      "kicker": "LE PRÊT PUBLIC FLAMAND",
+      "big": "1er logement",
+      "sub": "pour les revenus modestes"
+    },
+    {
+      "text": "Plafonds de revenus 2026 : 48.137 € pour une personne seule, 72.197 € pour les autres ménages, plus 4.807 € par personne à charge.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "REVENUS MAXIMUM 2026",
+      "items": [
+        {"label": "Personne seule", "value": "48.137 €", "pct": 67},
+        {"label": "Autres ménages", "value": "72.197 €", "pct": 100},
+        {"label": "Par personne à charge", "value": "+ 4.807 €", "pct": 20}
+      ]
+    },
+    {
+      "text": "Le bien ne peut pas valoir plus de 289.800 €, ou jusqu'à 347.700 € dans les communes les plus chères. Et chaque enfant de moins de 6 ans relève le plafond de 14.500 € minimum.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "VALEUR MAXIMUM DU BIEN",
+      "items": [
+        {"label": "Cas général", "value": "289.800 €", "pct": 83},
+        {"label": "Communes les plus chères", "value": "347.700 €", "pct": 100}
+      ]
+    },
+    {
+      "text": "Conditions : ne posséder aucun autre logement, habiter le bien et ne pas le louer. Le taux dépend de tes revenus et de ta famille.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "LES CONDITIONS",
+      "big": "0 autre bien",
+      "sub": "et tu dois habiter le logement"
+    },
+    {
+      "text": "Tu connaissais ce prêt ? Dis-le en commentaire, et abonne-toi pour découvrir les autres aides !",
+      "bg": "img/antwerpen.jpg",
+      "cta": "Tu connaissais ?"
+    }
+  ],
+  "credits": "Photos : TheGoodEndedHappily (CC BY 4.0) ; Fred Romero (CC BY 2.0) ; Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Julian Lupyan (CC0) – Wikimedia Commons"
+}
