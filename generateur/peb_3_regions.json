@@ -1,0 +1,55 @@
+{
+  "slug": "peb-meme-maison-3-lettres-wallonie-bruxelles-flandre",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : Certinergie, Baromètre PEB 2026 (1,9 million de certificats, 2016-2025) / La Libre, 26/11/2026",
+  "scenes": [
+    {
+      "text": "Même maison, même consommation… et trois lettres PEB différentes en Belgique !",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "CERTIFICAT PEB · 3 RÉGIONS",
+      "big": "E · G · D",
+      "sub": "pour le même logement"
+    },
+    {
+      "text": "Un logement qui consomme 350 kWh/m² par an est classé E en Wallonie, G à Bruxelles et D en Flandre.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "350 kWh/m² PAR AN",
+      "items": [
+        {"label": "Wallonie", "value": "E", "pct": 70},
+        {"label": "Bruxelles", "value": "G", "pct": 100},
+        {"label": "Flandre", "value": "D", "pct": 55}
+      ]
+    },
+    {
+      "text": "Le paradoxe : Bruxelles consomme le moins en moyenne, 293 kWh/m², mais elle a le pire label moyen, F, car son échelle est la plus exigeante.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "LE PARADOXE BRUXELLOIS",
+      "items": [
+        {"label": "Wallonie · label E", "value": "356 kWh/m²", "pct": 100},
+        {"label": "Flandre · label D", "value": "323 kWh/m²", "pct": 91},
+        {"label": "Bruxelles · label F", "value": "293 kWh/m²", "pct": 82}
+      ]
+    },
+    {
+      "text": "En Wallonie, 30 % des logements certifiés en dix ans sont classés F ou G, dont 18 % en G.",
+      "bg": "img/wallonie.jpg",
+      "kicker": "WALLONIE · 2016-2025",
+      "big": "30 %",
+      "sub": "en F ou G, dont 18 % en G"
+    },
+    {
+      "text": "Le conseil : avant d'acheter, regarde la consommation en kWh/m², pas seulement la lettre. Et 7 logements sur 10 n'ont même pas de certificat récent.",
+      "bg": "img/gent.jpg",
+      "kicker": "LE BON RÉFLEXE",
+      "big": "kWh/m²",
+      "sub": "compare la consommation, pas la lettre"
+    },
+    {
+      "text": "Et toi, ton logement a quelle lettre ? Dis-le en commentaire, et abonne-toi pour ne rien rater !",
+      "bg": "img/antwerpen.jpg",
+      "cta": "Ta lettre PEB ?"
+    }
+  ],
+  "credits": "Photos : Celuici (CC BY-SA 4.0) ; Stratoswift (CC BY 4.0) ; Julian Lupyan (CC0) ; TheGoodEndedHappily (CC BY 4.0) ; Fred Romero (CC BY 2.0) – Wikimedia Commons"
+}
