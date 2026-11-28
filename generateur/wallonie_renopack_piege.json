@@ -1,0 +1,54 @@
+{
+  "slug": "wallonie-renopack-renopret-ne-commence-pas-tes-travaux",
+  "voice": "fr-FR-VivienneMultilingualNeural",
+  "rate": "+5%",
+  "source": "Source : SWCS – Nouveau régime d'aides à la rénovation (consulté le 28/11/2026)",
+  "scenes": [
+    {
+      "text": "Wallonie : jusqu'à 75.000 € à 0 % pour rénover… mais un seul acompte versé trop tôt peut tout faire rater !",
+      "bg": "img/wallonie.jpg",
+      "kicker": "WALLONIE · RÉNOPACK & RÉNOPRÊT",
+      "big": "75.000 €",
+      "sub": "à 0 % pour une maison"
+    },
+    {
+      "text": "Depuis le 1er octobre, les prêts rénovation visent les passoires énergétiques : un PEB F ou G doit atteindre au moins D, et un PEB E au moins C.",
+      "bg": "img/gent.jpg",
+      "kicker": "LA CONDITION PEB",
+      "items": [
+        {"label": "PEB F ou G", "value": "→ D minimum", "pct": 100},
+        {"label": "PEB E", "value": "→ C minimum", "pct": 80}
+      ]
+    },
+    {
+      "text": "Avec le Rénopack, à 0 %, une partie du prêt est effacée selon tes revenus : 45 %, 35 % ou 10 %, et 5 % de plus avec des écomatériaux.",
+      "bg": "img/bxl_panorama.jpg",
+      "kicker": "PART NON REMBOURSÉE",
+      "items": [
+        {"label": "Revenus jusqu'à 28.900 €", "value": "45 %", "pct": 100},
+        {"label": "Jusqu'à 41.100 €", "value": "35 %", "pct": 78},
+        {"label": "Jusqu'à 67.100 €", "value": "10 %", "pct": 22}
+      ]
+    },
+    {
+      "text": "Au-delà, jusqu'à 122.800 €, c'est le Rénoprêt, à taux préférentiel. Plafond : 75.000 € pour une maison, 60.000 € pour un appartement.",
+      "bg": "img/ixelles_artnouveau.jpg",
+      "kicker": "LE RÉNOPRÊT",
+      "big": "60.000 €",
+      "sub": "maximum pour un appartement"
+    },
+    {
+      "text": "Le piège : aucun travail ni acompte avant la signature du crédit. Et il te faut un audit logement de moins d'un an. Selon la SWCS, le dispositif devrait être pleinement opérationnel début 2027.",
+      "bg": "img/bxl_grandplace.jpg",
+      "kicker": "LE PIÈGE",
+      "big": "0 acompte",
+      "sub": "avant la signature du crédit"
+    },
+    {
+      "text": "Tu as des travaux prévus en Wallonie ? Dis-le en commentaire, et abonne-toi pour ne rater aucune aide !",
+      "bg": "img/antwerpen.jpg",
+      "cta": "Des travaux prévus ?"
+    }
+  ],
+  "credits": "Photos : Stratoswift (CC BY 4.0) ; TheGoodEndedHappily (CC BY 4.0) ; Celuici (CC BY-SA 4.0) ; Jean-Pol Grandmont (CC BY 2.5) ; Julian Lupyan (CC0) ; Fred Romero (CC BY 2.0) – Wikimedia Commons"
+}
